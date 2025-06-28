@@ -23,9 +23,9 @@ Repository içeriği, konulara göre düzenli bir şekilde ayrılmıştır. Her 
 ├── 01-Makine Öğrenimi için Matematik
 
 3 sorumluluğumuz olacak.
-1-Yol haritasını takip: https://github.com/erencice/AI-Data-Science-Roadmap
-2-Haftalık takvimi takip: https://github.com/users/erencice/projects/4/views/1
-3-Eğitimde aldığınız notları fork etme -> https://github.com/erencice/veri-bilimi-calisma-notlari
+- Yol haritasını takip: https://github.com/erencice/AI-Data-Science-Roadmap
+- Haftalık takvimi takip: https://github.com/users/erencice/projects/4/views/1
+- Eğitimde aldığınız notları fork etme -> https://github.com/erencice/veri-bilimi-calisma-notlari
 
 İlerlenecek Kurslar: 
 Google Advanced Data Analytics Certificate (Coursera) -
