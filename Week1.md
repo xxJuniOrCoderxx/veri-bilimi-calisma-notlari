@@ -1,4 +1,4 @@
-**Veri Bilimi ve Veri Analitiği**
+<h1>Veri Bilimi ve Veri Analitiği</h1>
 
 Bu iki kavram temelde birbirinden farklı anlamlara gelir fakat sektörde uzmanlaşmış kişiler tarafından birbirlerinin yerine de kullanılabilmektedir. (Ayrıca şirket içi hiyerarşiye ve şirketin büyüklüğüne göre bu tip veri odaklı meslekler, birbirlerinin işlerini yapmak durumunda da olabilir.) 
 
