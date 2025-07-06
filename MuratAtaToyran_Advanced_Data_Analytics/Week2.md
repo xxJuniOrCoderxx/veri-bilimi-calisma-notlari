@@ -1,25 +1,18 @@
-<h1>Veri Bilimi ve Veri Analitiği</h1>
+# VERİ PROFESYONELLERİ
 
-Bu iki kavram temelde birbirinden farklı anlamlara gelir fakat sektörde uzmanlaşmış kişiler tarafından birbirlerinin yerine de kullanılabilmektedir. (Ayrıca şirket içi hiyerarşiye ve şirketin büyüklüğüne göre bu tip veri odaklı meslekler, birbirlerinin işlerini yapmak durumunda da olabilir.) 
+Endüstriler tarafından çeşitlendirilen sayısız farklı veri odaklı roller, sorumluluklar ve projeler vardır. Bunları iki başlık altında sınıflandırabiliriz: teknik ve stratejik. Teknik roldeki veri analistleri ham veriyi karar verme sürecinde faydalı olması için dönüştürür. Stratejik veri analitiği profesyonelleri ise çalıştığı işletmeye rehberlik etmesi için bilgiyi maksimize etmek üzerine odaklanır. 
 
-<ins>***Veri Bilimi:***</ins> Veriyi daha anlamlı ve faydalı hale getirme amacı olan kapsamlı bir alandır. Bir veri bilimci, ham verileri kullanarak veriyi modellemek ve bilinmeyeni anlamanın yeni yöntemlerini geliştirir. Bunun için de sıklıkla bilgisayar bilimleri, tahminsel analitik, istatistik ve makine öğrenmesi kullanır. Veri bilimcilerinin üzerinde çalıştığı bilgi koleksiyonları oldukça büyük olabilir ve bunları düzenlemek ve yönetmek için bu işte iyice uzmanlaşmak gerekebilir. 
+## Veri Profesyoneli Rolleri
 
-<ins>***Veri Analitiği:***</ins> Veri biliminin alt dalıdır. Güncel sorunlara yönelik uygulanabilir içgörüler ortaya çıkarmak için veriyi toplama, işleme ve organize etmeye yönelik metodlar oluşturmayı amaçlar. Analistler varolan veri setindeki depolanmış bilgileri işlemeye ve bu veriyi en iyi şekilde sunmaya odaklanmıştır. Veri analistleri, problemleri çözmek için istatistiğe ve veri modellemesine güvenirler ve anlık gelişme sağlayabilecek önerilerde bulunurlar. 
+### 1. Veri Bilimci ve Veri Analisti
 
-------------------------------------------------------------------------------------------------------------
-| **Veri Bilimi (Data Science)** | **Veri Analitiği (Data Analytics)** |
-|-------------------------------|--------------------------------------|
-| Verilerle ilgili hangi soruların sorulması gerektiğine odaklanan geniş kapsamlı içgörüler üretir. | Sorulan sorulara yanıt bulmaya odaklanır. |
-| Gelecekle ilgili tahminler yapmak için gelişmiş teknikler kullanarak bilinmeyenle yüzleşir. | Mevcut sorulara dayanarak hemen uygulanabilir içgörüler belirler. |
-| “Ne olacak?” ve “X olayını nasıl gerçekleştirebiliriz?” gibi soruları yanıtlamayı hedefler. | “Ne oldu?” ve “Neden oldu?” gibi soruları yanıtlamayı hedefler. |
+Doğrudan veri ile çalışırlar. Paydaşlara verilerden yola çıkarak içgörüler sunmak için veriyi toplar, temizler ve analiz ederler. Bu süreçte de veri modellemesi ve istatistik kullanırlar. Bir sürü işletmenin veri profesyoneli araması sayesinde ilgi alanınıza göre bir iş bulmanız kaçınılmaz. Data scientist, marketing analyst, data analyst, AI analyst ve business analyst gibi job title'lar örnek gösterilebilir.
 
-------------------------------------------------------------------------------------------------------------
-<h2>Veri Bilimi ve Veri Analitiği Arasındaki İlişkiler</h2>
+### 2. Veri Yönetimi ve Altyapı
 
-İkisi de temelde işletmelerin büyümesine katkı sağlaması için kullanılacak olan içgörüleri keşfetmeyi amaçlar. Veri projeleri karmaşıklaşmaya başladıkça işletmeler veri ekibi kurmak, veri bilimcilerle veri analistlerini bir araya getirme konusunda çalışmalara başladılar. Benzer araçları ve teknikleri kullansalar da veri bilimciler ve veri analistlerinin işletme içerisindeki sorumlulukları; şirket kaynakları, bütçe kısıtlamaları, işletme içi hiyerarşi gibi birçok etkenden etkilenebilir. Veri bilimi ve veri analitiği arasındaki ortak noktalar bu iki kavramın birbiri yerine kullanılmasını da açıklar nitelikte olup bu durum iş ilanlarına da yansımıştır.
+Bu rolde çalışan veri profesyonelleri, öncelikli olarak verinin dağıtımı ve entegrasyonu ile ilgili sistemlerden sorumludurlar. Veri analitiği profesyonellerine yardım amacıyla onlarla birlikte de çalışabilmektedirler ama asıl sorumlulukları; altyapıyı oluşturup uyumluluğunu sağlamak, altyapıyla ilgili herhangi bir sorun olup olmadığını tespit edip varsa düzeltmek, veri sistemlerinin işlevselliğini sağlamak ve veri etiği ve güvenliği ile ilgili yasal düzenlemelere uyumlu hale getirmektir. Data engineer, technology engineer, data manager, data steward ve IT architect gibi job title'lar örnek gösterilebilir.
 
-<h2>Veri Odaklı Kariyerde Veri Profesyonelleri (Data Professionals)</h2>
+### 3. İş Zekası (Business Intelligence)
 
-Genelde toplu olarak hem veri bilimcilerden hem de veri analistlerinden bahsetmek istediğimizde direkt **veri profesyonelleri (data professionals)** terimini kullanırız. **Veri analitiği profesyoneli (data analytics professional)** kavramı, görevlerin çoğunluğunun veri analitiği süreçlerine odaklandığı pozisyonları vurgulamak için kullanılır. **Veri kariyeri alanı (data career space)** kavramı, veri bilimi ve ilgili alanlardaki iş ve kariyer yelpazesine atıfta bulunan kapsayıcı bir terim olarak kullanılır. 
+Veri analitiği ve iş zekasının bir sürü ortak noktası vardır. İkisi de alınan kararlar ile ilgili içgörü oluşturmayla uğraşır. İkisi arasındaki temel fark ise iş zekasının ilgili veriyi dönüştüren süreçleri ve bilgi kanallarını oluşturmaya daha fazla odaklanmış olmasıdır. İş zekası profesyonelleri ***(uzmanları)*** tablo, rapor ve dashboard oluştururlar. Veri bilimi/analitiği uzmanlarının tamamlayıcısı olarak görülürler. BI architect, BI analyst, BI solution developer, BI software engineer ve data viz gibi job title'lar örnek gösterilebilir.
 
-Veri profesyonelleri için kariyer fırsatları fazla ve çeşitlidir. Ayrıca aynı *job title*'a sahip iki kişinin farklı işletmelerde farklı rollere sahip olması muhtemeldir. 
