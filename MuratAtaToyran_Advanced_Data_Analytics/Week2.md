@@ -1,6 +1,6 @@
 # VERİ UZMANLARI
 
-Endüstriler tarafından çeşitlendirilen sayısız farklı veri odaklı roller, sorumluluklar ve projeler vardır. Bunları iki başlık altında sınıflandırabiliriz: teknik ve stratejik. Teknik roldeki veri analistleri ham veriyi karar verme sürecinde faydalı olması için dönüştürür. Stratejik veri analitiği uzmanları ise çalıştığı işletmeye rehberlik etmesi için bilgiyi maksimize etmek üzerine odaklanır. 
+Veri uzmanlığı kariyerinde birbirinden farklı bir sürü veri odaklı roller, sorumluluklar ve projeler vardır. Bunları iki başlık altında sınıflandırabiliriz: teknik ve stratejik. Teknik roldeki veri analistleri ham veriyi karar verme sürecinde faydalı olması için dönüştürür. Stratejik veri analitiği uzmanları ise çalıştığı işletmeye rehberlik etmesi için bilgiyi maksimize etmek üzerine odaklanır. 
 
 ## Veri Uzmanı Rolleri
 
