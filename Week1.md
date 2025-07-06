@@ -14,3 +14,12 @@ Bu iki kavram temelde birbirinden farklı anlamlara gelir fakat sektörde uzmanl
 | “Ne olacak?” ve “X olayını nasıl gerçekleştirebiliriz?” gibi soruları yanıtlamayı hedefler. | “Ne oldu?” ve “Neden oldu?” gibi soruları yanıtlamayı hedefler. |
 
 ------------------------------------------------------------------------------------------------------------
+<h2>Veri Bilimi ve Veri Analitiği Arasındaki İlişkiler</h2>
+
+İkisi de temelde işletmelerin büyümesine katkı sağlaması için kullanılacak olan içgörüleri keşfetmeyi amaçlar. Veri projeleri karmaşıklaşmaya başladıkça işletmeler veri ekibi kurmak, veri bilimcilerle veri analistlerini bir araya getirme konusunda çalışmalara başladılar. Benzer araçları ve teknikleri kullansalar da veri bilimciler ve veri analistlerinin işletme içerisindeki sorumlulukları; şirket kaynakları, bütçe kısıtlamaları, işletme içi hiyerarşi gibi birçok etkenden etkilenebilir. Veri bilimi ve veri analitiği arasındaki ortak noktalar bu iki kavramın birbiri yerine kullanılmasını da açıklar nitelikte olup bu durum iş ilanlarına da yansımıştır.
+
+<h2>Veri Odaklı Kariyerde Veri Profesyonelleri (Data Professionals)</h2>
+
+Genelde toplu olarak hem veri bilimcilerden hem de veri analistlerinden bahsetmek istediğimizde direkt **veri profesyonelleri (data professionals)** terimini kullanırız. **Veri analitiği profesyoneli (data analytics professional)** kavramı, görevlerin çoğunluğunun veri analitiği süreçlerine odaklandığı pozisyonları vurgulamak için kullanılır. **Veri kariyeri alanı (data career space)** kavramı, veri bilimi ve ilgili alanlardaki iş ve kariyer yelpazesine atıfta bulunan kapsayıcı bir terim olarak kullanılır. 
+
+Veri profesyonelleri için kariyer fırsatları fazla ve çeşitlidir. Ayrıca aynı *job title*'a sahip iki kişinin farklı işletmelerde farklı rollere sahip olması muhtemeldir. 
