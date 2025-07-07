@@ -22,4 +22,4 @@ Bu iki kavram temelde birbirinden farklı anlamlara gelir fakat sektörde uzmanl
 
 Genelde toplu olarak hem veri bilimcilerden hem de veri analistlerinden bahsetmek istediğimizde direkt **veri uzmanları (data professionals)** terimini kullanırız. **Veri analitiği uzmanları (data analytics professional)** kavramı, görevlerin çoğunluğunun veri analitiği süreçlerine odaklandığı pozisyonları vurgulamak için kullanılır. **Veri kariyeri alanı (data career space)** kavramı, veri bilimi ve ilgili alanlardaki iş ve kariyer yelpazesine atıfta bulunan kapsayıcı bir terim olarak kullanılır. 
 
-Veri uzmanları için kariyer fırsatları fazla ve çeşitlidir. Ayrıca aynı *job title*'a sahip iki kişinin farklı işletmelerde farklı rollere sahip olması muhtemeldir. 
+Veri uzmanları için kariyer fırsatları fazla ve çeşitlidir. Ayrıca aynı *job title*'a sahip iki kişinin farklı işletmelerde farklı rollere sahip olması muhtemeldir. Bunun sebebi olarak da şirket içi hiyerarşi, şirketin büyüklüğü ve kullanılan veriler örnek olarak gösterilebilir.
