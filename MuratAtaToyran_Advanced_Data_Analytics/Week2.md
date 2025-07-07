@@ -117,10 +117,15 @@ Hesap verebilirliği artırmanın yollarından biri, iş akışınız boyunca il
 
 ....
 
-## Bugün Kullandığımız ve Gelecekte Kullanacağımız Araçlar
+## Günümüzde Kullandığımız ve Gelecekte Kullanacağımız Araçlar
 
 __Tablo__
 
 Eş-zamanlı içgörüleri sunmak ve fazla zaman harcayan veri temizleme gibi süreçleri otomatize etmek için kullanılan yapay zekayı ve veriler arasındaki desenleri ortaya çıkarmak için kullanılan makine öğrenmesini birlikte kullanarak gelecekte otomasyon ve içgörü oluşturma süreçlerini önemli ölçüde hızlandırabiliriz. 
 
 Şuna da değinmek gerekir ki yapay zeka her ne kadar işleri hızlandırsa da henüz veri uzmanlarının yerini dolduracak kadar iyi değil. Çünkü yapay zeka sadece sahip olduğu veriler üzerinden çalıştığı için sezgisel kararlar alamıyor, iyi tanımlanmamış sorunları çözmede yetersiz, insanlar kadar iyi iletişim kuramaz, yaratıcılık ve eleştirel düşünmeden yoksundur, liderlik edemez ve bazen gerçek dışı çıktılar verebilirler. Bu yüzden yapay zekayı kullanırken dikkatli olmalıyız. Ayrıca yapay zeka kullanırken talimatlarınız açık ve net olsun, kesin olun, "veri bilimci olduğunu düşün" gibi roller tanımlayın, bağlamı anlamasını sağlayın ve çoklu promptlar kullanın. 
+
+![image](https://github.com/user-attachments/assets/124baaf3-30d6-40ea-9397-1f4923a6f152)
+
+![image](https://github.com/user-attachments/assets/37b98af3-be4d-4ffa-b93a-130b6217f538)
+
