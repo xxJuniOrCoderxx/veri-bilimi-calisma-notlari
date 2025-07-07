@@ -80,3 +80,47 @@ Bir veri analitiği uzmanı olarak çalışacağınız süreçler ve teknolojile
 Farklı sektörlerin farklı standartları vardır. Bir veri analitiği uzmanı olarak, çalıştığınız sektörlerin gerektirdiği standartların farkında olmanız gerekir. Her sektör, kendi gelenekleri ve uygulamaları doğrultusunda belirlenmiş standartlara sahiptir.
 
 Ulaştırma sektöründe etkili olan uygulamalar, sağlık sektörü için aynı önceliğe sahip olmayabilir. Örneğin, ulaştırma alanında veriler, trafik modellerine göre en iyi rotayı tahmin etmek için kullanılırken; sağlık sektöründe veriler, tıbbi görüntüleme, genetik faktörlerin öngörülmesi ve tedavi geliştirme süreçlerinin hızlandırılması gibi alanlarda analiz edilir.
+
+## Mükemmel Veri Ekibini Oluşturmak
+
+Veri miktarı arttıkça ve işletmeler büyüdükçe veriyle ilgili yeni teknolojiler ve teknikler ortaya çıktı ve veri uzmanlığı ile ilgili bir sürü meslek tanımı oluşmaya başladı. Genelleştirilmiş olarak veri bilimci, veri analisti, veri mühendisi, analitik ekip yöneticisi ve BI mühendisi olarak sınıflandırılabilir. Çoğu işveren bir veri uzmanından fazlasını arıyor (proje paydaşı, bağımlı ekip üyesi, harika iş ortağı).
+
+Özellikle büyük işetmelerde işletmenin ihtiyaçlarına göre belli alanlarda yetkin uzmanlardan oluşan bir ekip oluşturulmalıdır. Bir veri ekibine katıldıktan sonra bile, veri odaklı bir organizasyon kurmanın zorlukları devam eder. Şirket içindeki veri ekiplerinin yapısı ne olursa olsun, herhangi bir işletmenin veri analizi zorluklarıyla karşılaştığında daha etkili hale gelmesine rehberlik edebilecek beş ilke şunlardır:
+
+### 1. Uyumluluk
+
+Veri platformları, ağlar ve depolama çözümleri esnek olmalıdır; çünkü her veri uzmanının analiz yaklaşımı ve tercih ettiği araçlar farklı olabilir. Uzaktan ya da ofiste çalışan herkesin verilere erişebilmesi ve en verimli bulduğu iletişim araçlarını kullanabilmesi önemlidir. Kuruluşlar, tüm kullanıcılar için açık kaynaklara erişim sağlayan esnek veri platformları sunmalıdır. Belirli yazılımları zorunlu kılmak yerine, kişilerin en rahat ve deneyimli oldukları araçları entegre etmelerine izin vermek, daha geniş bir yetenek havuzuna ulaşmayı ve veri ekiplerine farklı bakış açıları kazandırmayı sağlar. Nasıl ki kuruluşlar değişime uyum sağlamalıysa, veri alanında çalışmak isteyen profesyoneller de sürekli öğrenmeye ve yeni teknolojilere açık olmalıdır. Veri dünyası hızla değişmektedir ve bir veri analitiği uzmanı olarak siz de yeni teknolojiler ve düzenlemeler doğrultusunda gelişmeye devam edeceksiniz. Yeni durumların getirdiği zorlukları birer fırsat olarak görüp, mesleki gelişiminiz için heyecan duymanız önemlidir.
+
+### 2. Kurum İçi Veri Kültürü Oluşturmak
+
+Veri analizi sonuçlarına erişim, veri analisti gibi uzmanlık bilgisi olan kişilerin desteğini gerektirir; çünkü bu beceriler genellikle diğer çalışanların yetkinlik alanının dışındadır. Kuruluşların veri okuryazarlığını artırması için günlük iş rutinlerine veri odaklı alışkanlıkları entegre etmesi, panolar ve kullanıcı dostu arayüzlerle veri kullanımını yaygınlaştırması gerekir. Bu dönüşümde çalışanların iletişim becerileri ve veri uzmanlarının ekip içi rehberliği, iş birliğini ve anlayışı güçlendirerek kurumsal katkıyı artırır.
+
+### 3. Standardizasyon
+
+Bir kurum, veri uygulamaları ve süreçleri için belirli standartlar oluşturmalıdır. Standardizasyon, en iyi uygulamaların yaygınlaşmasını ve ekipler arasında bilgi paylaşımını kolaylaştırır. Kullanıcılar optimize edilmiş kod ve varlıkları paylaşabildiğinde geliştirme süresi kısalır, projeler daha verimli ilerler. İş birliği kültürü oluşturan kurumlar, en iyi uygulamaları çalışma alışkanlıklarına entegre eder. Veri analizinin ötesinde yeteneklere sahip adayları belirlemek, bu kültürün gelişimi için kritik önemdedir.
+
+### 4. İş Üzerindeki Etki
+
+Birçok veri projesi, iş üzerindeki etkisinin öngörülememesi nedeniyle ilerleyemez. Planlama aşamasında tüm veri analitiği çözümleri dikkate alınmadığında fırsatlar kaçırılır. Kurumlar, planlama sürecinde daha geniş bir bakış açısıyla düşünmelidir. Bu süreçte entegrasyon zorlukları, kaynak kullanımı ve zamanlama gibi unsurlar da hesaba katılmalıdır. Veri ekipleri güvenilir içgörüler sunarak, karar alma süreçlerinde etkili rol oynayabilir.
+
+### 5. Hesap Verebilirlik
+
+Veri analizi, karmaşık ve dinamik bir süreçtir ve yüksek düzeyde hesap verebilirlik gerektirir. Kurumların, sorumluluğu teşvik etmek için sürecin tamamının incelenmesine imkân tanıyan bir “iz kayıt” (paper trail) sistemi oluşturması gerekir.
+
+Hesap verebilirlik; şeffaflık, açıklanabilirlik ve güvenlik sağlar. Aynı zamanda organizasyon içindeki katmanları sadeleştirir, iş hedefleriyle müşteri değerlerinin uyumunu artırır. İş akışındaki şeffaflık, kurumların veri analiz süreciyle ilgili belirli soruları yanıtlayabilmesini mümkün kılar. Veri analitiği uzmanları, tahmin modellerindeki belirli unsurları incelemek ve açıklamak için proje metaverilerini kullanabilir; bu da veri ekiplerinin iş birliği içinde daha hassas ayarlamalar yapmasını sağlar.
+
+Hesap verebilirliği artırmanın yollarından biri, iş akışınız boyunca iletişim becerinizi geliştirmektir. Veri analiz projelerinde fikir alışverişi yalnızca birebir iletişimle sınırlı değildir. Proje notları, proje kayıtları ve metaveri içindeki doğru etiketleme de bu iletişimin bir parçasıdır. Bireysel süreçler ve fikirler, en iyi uygulamaların temelini oluşturur ve bu fikirlerin etkili biçimde iletilmesi, kurumsal hesap verebilirliği güçlendirir. 
+
+*Sunacağımız bilginin diğerleri için değerli olup olmadığını belirledikten sonra sunmalıyız.*
+
+## RACI
+
+....
+
+## Bugün Kullandığımız ve Gelecekte Kullanacağımız Araçlar
+
+__Tablo__
+
+Eş-zamanlı içgörüleri sunmak ve fazla zaman harcayan veri temizleme gibi süreçleri otomatize etmek için kullanılan yapay zekayı ve veriler arasındaki desenleri ortaya çıkarmak için kullanılan makine öğrenmesini birlikte kullanarak gelecekte otomasyon ve içgörü oluşturma süreçlerini önemli ölçüde hızlandırabiliriz. 
+
+Şuna da değinmek gerekir ki yapay zeka her ne kadar işleri hızlandırsa da henüz veri uzmanlarının yerini dolduracak kadar iyi değil. Çünkü yapay zeka sadece sahip olduğu veriler üzerinden çalıştığı için sezgisel kararlar alamıyor, iyi tanımlanmamış sorunları çözmede yetersiz, insanlar kadar iyi iletişim kuramaz, yaratıcılık ve eleştirel düşünmeden yoksundur, liderlik edemez ve bazen gerçek dışı çıktılar verebilirler. Bu yüzden yapay zekayı kullanırken dikkatli olmalıyız. Ayrıca yapay zeka kullanırken talimatlarınız açık ve net olsun, kesin olun, "veri bilimci olduğunu düşün" gibi roller tanımlayın, bağlamı anlamasını sağlayın ve çoklu promptlar kullanın. 
