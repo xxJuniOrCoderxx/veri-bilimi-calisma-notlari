@@ -129,3 +129,18 @@ Eş-zamanlı içgörüleri sunmak ve fazla zaman harcayan veri temizleme gibi s�
 
 ![image](https://github.com/user-attachments/assets/37b98af3-be4d-4ffa-b93a-130b6217f538)
 
+# İş Akışı Modeli (Workflow Structure)
+
+Veri uzmanları, veri analizi projelerinde rehberlik etmesi için iş akışı modellerine güvenmektedirler. Özellikle yüksek hacimli projelerde çok fazla yapılması gereken iş olacağı için projeyi yönetmek daha zorlu ve karmaşık olabilmektedir. Projeleri daha etkin bir şekilde yönetebilmek ve projenin gidişatını negatif yönde etkileyen unsurlardan kaçınmak için iş akışı modellerine ihtiyaç duyarız. 
+
+Google'da çalışan veri uzmanları PACE isminde esnek bir model geliştirdiler. PACE modeli sayesinde iş akışını kesintiye uğratmadan her aşamayı tekrardan gözden geçirebilirsiniz. Yani PACE, veri uzmanlarına projenin her aşaması için özelleştirilebilir bir yapı sunuyor. İş akışı sürecinde iletişimin önemi göz ardı edilemeyecek derecede yüksek. Resimde de görülebileceği gibi PACE modeli, birbirleriyle iletişim ile bağlanmış aşamalardan oluşan bir elektrik devresi olarak düşünülebilir.
+
+![image](https://github.com/user-attachments/assets/a14e8047-79b7-49a2-a431-e7d088d9ad3a)
+
+***Planlama(Plan):*** Projenin kapsamını tanımlayıp sürecin nasıl ilerleyeceğini adım adım detaylıca geliştirdiğimiz aşamadır. İşletmeyle ilgili verileri araştırmak _*iş verilerini araştırmak*_, iş akışı geliştirmek ve proje ve(ya) paydaş ihtiyaçlarını tespit etmek bu aşamanın içindedir.
+
+***Analiz(Analyze):*** Veriyle etkileşimde olduğumuz ilk aşamadır. Bazı veri setleri işletmenin içinde halihazırda vardır, bazılarını ikincil kaynaktan toplamak gerekir, bazıları da açık kaynaktır. Veritabanı formatlama, proje için gerekli olan verileri temizleme, yeniden organize etme ve analiz etme süreçlerini içerir. Keşifsel veri analizi (EDA) de bu aşamada yapılır. 
+
+***Oluşturma(Construct):*** Yeni modeller oluşturacağımız ve bu modellerin performansını değerlendireceğimiz aşamadır. Bazı veri setleri arasındaki ilişkileri ortaya çıkarmak için makine öğrenmesi gerekmesi, bu aşamayı gerekli kılar.
+
+***Yürütme(Execute):*** Önceki aşamaların sonrasında elde ettiğimiz bulguların sonuçlarını paydaşlarla paylaşırız, paydaşlar da belli geri bildirimlerde bulunurlar. Modelin esnekliği sayesinde gerektiğinde doğrudan analiz aşamasına geri dönülüp sonrasında oluşturma aşamasını atlayarak yürütme aşamasına geçmek de mümkün. 
