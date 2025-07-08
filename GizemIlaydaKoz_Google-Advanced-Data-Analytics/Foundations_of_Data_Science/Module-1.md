@@ -12,7 +12,7 @@ Veri Bilimi ve Veri Analitiği şirketlere fayda sağlayacak içgörüler üretm
 
 ## VERİ UZMANLARI
 
-![Açıklama buraya gelecek](Resim1.png)
+![Veri Uzmanı](resim1.png)
 
 "Veri uzmanı" hem veri bilimcisini hem de analisti kapsayan genel bir terim olarak kullanılmaktadır. "Veri analitiği uzmanı" daha çok analiz odaklı işlerde çalışanları belirtmek için kullanılıyor. "Veri kariyeri alanı" ise tüm bu meslekleri kapsayan şemsiye bir ifade olarak karşımıza çıkmaktadır. Bu terimlerin amacı, veriyle ilgili iş unvanlarını mümkün olduğunca kapsayıcı ve düzenli bir şekilde sınıflandırmayı sağlamaktır.
 Veri uzmanları, farklı sektörlerde çeşitli sorumluluklar üstlenebilir. Aynı unvana sahip kişiler farklı kurumlarda farklı görevler yapabilir. Bu nedenle, "veri kariyeri alanı", veri bilimi becerilerine sahip kişilere sunulan tüm kariyer ve iş fırsatlarını kapsayan genel bir terim olarak kullanılır.
