@@ -144,3 +144,72 @@ Google'da çalışan veri uzmanları PACE isminde esnek bir model geliştirdiler
 ***Oluşturma(Construct):*** Yeni modeller oluşturacağımız ve bu modellerin performansını değerlendireceğimiz aşamadır. Bazı veri setleri arasındaki ilişkileri ortaya çıkarmak için makine öğrenmesi gerekmesi, bu aşamayı gerekli kılar.
 
 ***Yürütme(Execute):*** Önceki aşamaların sonrasında elde ettiğimiz bulguların sonuçlarını (verilerin anlatmış olduğu hikayeyi) paydaşlarla paylaşırız, paydaşlar da belli geri bildirimlerde bulunurlar. Modelin esnekliği sayesinde gerektiğinde doğrudan analiz aşamasına geri dönülüp sonrasında oluşturma aşamasını atlayarak yürütme aşamasına geçmek de mümkün. 
+
+## Veri Uzmanları İçin Etkili İletişim
+
+![image](https://github.com/user-attachments/assets/b72f8b9e-658b-4c46-8dad-8995f489eec9)
+
+Bir veri uzmanı olarak sektörde tutunabilmek için iletişim becerisi ve teknik bilgi konusunda ustalaşmak gerekir. PACE aşamaları arasında da iletişimin önemi büyüktür. Güçlü iletişim kurma konusunda yardımcı olması için aşağıdaki adımları uygulayabilirsiniz:
+
+### 1. Dinleyiciye Göre Konuşun
+
+Dinleyicilerinizi iyi analiz edin ve bildikleri, bilmeleri gereken ve bilmelerine gerek olmayan şeylere iyi karar verin. Karşınızdaki kişi ile neden etkileşim içinde olduğunuzu, proje içindeki rolünü ve teknik bilgisini göz önünde bulundurarak etkileşimde bulunun. Dinleyicilerinizin teknik bilgisi eğer yetersizse olabildiğince basit bir dil kullanın ve jargonlardan kaçının. "Karşımdaki kişi neden benimle etkileşim içinde?", "Benimle iletişim kurarak ne hedefliyorlar?" gibi soruları yanıtlamak ve ona göre etkileşimde bulunmak gerekir. Ayrıca paydaşları süreçlerin işleyişi hakkında güncel tutmak gerekir.
+
+### 2. Geri Bildirim ve Soru Almaktan Çekinmeyin
+
+Geri bildirimler ilerlemenizi görme açısından bir reçete olmakla birlikte kendinizi bir üst seviyeye taşımanız için de yol göstericidir. Ama geri bildirimleri analiz etmeye dikkat edin. Belki geri bildirim veren kişi süreçler veya proje hedefi ile ilgili herhangi bir aşamayı tam anlayamamış olabilir. Eğer öyleyse o kısımlara açıklık getirin. 
+
+### 3. Veri ile Paydaşlar Arasındaki Köprü Olun
+
+Amacınız paydaşların veri sürecini anlamasını sağlamak ve ihtiyaçlarıyla nasıl bir ilişkisi olduğunu göstermektir. Verilerin anlattığı hikayeyi ilgi çekici şekilde anlatmak da sizin sorumluluğunuzda. Paydaşların veri sürecini anladıklarından emin olmak için onları soru sormaya teşvik edebilirsiniz. 
+
+### 4. Görselleştirme Yoluyla Anlatılan Hikayenin Anlaşılmasını Sağlayın
+
+Verileri okumak, özellikle büyük veriyle uğraşırken, uzman olmayan kişiler için zor ve yorucu olabilmektedir. Görselleştirmeler, iletişimin daha net kurulmasına ve fikirlerin daha net aktarılıp anlaşılmasına yardımcı olur. Görselleştirmenizi basit tutmaya ve anlatılan hikayeye odaklanmasına özen gösterin, abartı görselleştirmeden kaçının. 
+
+### 5. Pozitif İlişkiler İnşa Edin
+
+Başkalarının sorumluluklarını ve bakış açılarını göz önünde bulundurmanız iletişiminize de yansıyacaktır. Bu da işyerinde güvenilirlik ve etki oluşturacağı gibi kariyer anlamında büyümenin de önünü açacaktır. Dinleyicilerinizin neyi önemsediklerine odaklanın. Geri bildirim ve tartışmaya açık olun. İşyerinde morali yükseltmek ve iş ilişkilerini güçlendirmek için pozitif etkileşimleri sıklaştırın. 
+
+### 6. Veri İle İlgili Varsayımları Tespit Edin
+
+Bir veri analitiği uzmanı olarak önyargıların (varsayımların) fark edilmemesi durumunda sonuçlar üzerinde güçlü bir negatif etki yaratabileceğini bilmek gerekir. Bilgi eksikliğinde bu boşlukları genellikle varsayımlarla doldurma eğiliminde oluruz. Varsayımların etkisini azaltmanın en etkili yolları, aktif dinleme pratiği yapmak ve etkili sorular sormaktır. "Burada neyi olduğu gibi (dogma) kabul ediyorum?", "Burada varsaymamam gereken ama varsaydığım bir şey var mı?", "Bu varsayımın doğru olup olmadığını belirleyebilir miyim?" gibi sorular sorabiliriz. 
+
+### 7. Veri Sınırlamalarını Tespit Edin
+
+Veri uzmanı olarak veri analizlerinizi engelleyebilecek veri sınırlamalarıyla karşılaşacaksınız. Bu sınırlamaların öncesinden tespit edilmesi gerekir. "Veri tam mı? Eksik değer var mı?", "Veri seti doğru formatlanmış mı?", "Bu örneklem, tüm popülasyon hakkında genelleme yapabilmem için yeterli mi?" gibi sorular sorabilirsiniz. Ayrıca Bu sınırlamalar hakkında konuşmadan önce paydaşların da bu veri sınırlamalarının sonuçlar üzerindeki etkilerini bildiklerinden emin olun. 
+
+-----------------------------------------------------------------------------------------------------------------------------
+_İletişimde bazı ekstra şeylere de dikkat etmemiz gerekir:_
+
+### "Neden"i Anlamak
+
+Göz önünde bulundurmak gereken ilk şey neden iletişim kurduğumuzdur. İletişim kurarken dinleyicilerin ana fikri kavrayıp ona göre geri bildirim verebilmeleri için "neden" soruları sormaya özen gösterin. İletişimden elde etmek istedikleriniz, iletişim kurmakta olduğunuz projenin hedefleri ve dinleyicilerimin yapmasını ve anlamasını istediğim şeyler ile ilgili kafanızda bir taslak oluşturun. Bunları iletişim kurmadan önce uygulamak, düşüncelerinizi toparlamanıza ve daha etkili iletişim kurmanıza yardımcı olur. 
+
+### Ortamı Hazırlamak
+
+Etkili iletişim geliştirirken sadece neden iletişim kurduğunuzu değil, nerede iletişim kurduğunuzu da göz önünde bulundurmanız gerekir. İletişimin gerçekleştiği ortam, mesajınızın nasıl iletileceğini ve nasıl şekilleneceğini doğrudan etkiler. İletişime hazırlanırken, içinde bulunacağınız ortama en uygun iletişim yöntemini düşünmelisiniz.
+
+İş hayatında, farklı ortamlarda iletişim kurmanız gerekebilir. Ne tür bilgi paylaşacağınız, bunu nasıl yapacağınız ve nasıl geri dönüş alacağınız, iletişimin bağlamına göre değişir. Örneğin:
+
+++Öğle yemeğinde bir iş arkadaşınızdan yaşadığınız bir sorunla ilgili tavsiye isteyebilirsiniz
+
+++Tüm paydaşlara önemli bir projeyle ilgili güncellemeleri e-posta ile gönderebilirsiniz
+
+++Haftalık ekip toplantısında ekibinize ilerleme raporu sunabilirsiniz
+
+++Yöneticilerden oluşan bir kurulda analiz sonuçlarını sunabilirsiniz
+
+Bu ortamlardan her biri, nasıl iletişim kurmanız gerektiğini, bu dinleyici kitlesinin neye ihtiyaç duyduğunu ve sizin onlardan ne beklediğinizi düşünmenizi gerektirir. Ayrıca küçük gruplarla çalışırken diğerlerinin takvimine uyumlu olun ve sorular sorarak orta yolu bulup bulmadığınızı tespit edin.
+
+### Vakit Nakittir
+
+Vakti verimli kullanmak için anlatmak istediğiniz şeyin anlaşılır olması ve dinleyicinin bunu hızlıca kavraması gerekir. Bunun için de doğrudan anlatım kullanmak, kelimeleri minimize etmek, gereksiz detaylardan kaçınmak, uygun gramer ve noktalama kullanmak ve jargondan olabildiğince uzak durmak gerekir. Bu sayede anlatmak istediğin karşıdaki tarafından hızlıca anlaşılıp vakit tasarrufunu sağlayacak. 
+
+### Aktif Dinleme
+
+Veri uzmanı olarak sürekli toplantı halinde olacağız ve toplantıda farklı departmanlardan insanlar da olacak. Bu esnada paylaşılan bilgiler çok kıymetlidir. Çünkü farklı kişilerin bakış açılarından bakmaya olanak sağlıyor. Aktif dinleme sayesinde güvenilirliği arttırır, diğerleri ile empati yapar ve iş arkadaşlarıyla güçlü ilişkiler kurarsın. 
+
+### Soru Sormak
+
+Çözüm geliştirebilmek için doğru soruları sormak gerekir. Doğru sorular, öngörülemeyen tuzakları ve tehlikeleri ortaya çıkararak iş risklerinin azaltılmasına yardımcı olabilir. Daha önce sorulmamış soruları sormak, büyük resmi gösteren sorular sormak, bilgi toplayan veya ekibin halihazırda elinde olan bilgiyi ilerleten sorular sormak ve anlaşılmayan yerleri açıklığa kavuşturan sorular sormak doğru sorular sormada yardımcı olur. 
