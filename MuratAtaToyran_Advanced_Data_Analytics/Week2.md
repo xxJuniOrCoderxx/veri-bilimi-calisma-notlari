@@ -143,4 +143,4 @@ Google'da çalışan veri uzmanları PACE isminde esnek bir model geliştirdiler
 
 ***Oluşturma(Construct):*** Yeni modeller oluşturacağımız ve bu modellerin performansını değerlendireceğimiz aşamadır. Bazı veri setleri arasındaki ilişkileri ortaya çıkarmak için makine öğrenmesi gerekmesi, bu aşamayı gerekli kılar.
 
-***Yürütme(Execute):*** Önceki aşamaların sonrasında elde ettiğimiz bulguların sonuçlarını paydaşlarla paylaşırız, paydaşlar da belli geri bildirimlerde bulunurlar. Modelin esnekliği sayesinde gerektiğinde doğrudan analiz aşamasına geri dönülüp sonrasında oluşturma aşamasını atlayarak yürütme aşamasına geçmek de mümkün. 
+***Yürütme(Execute):*** Önceki aşamaların sonrasında elde ettiğimiz bulguların sonuçlarını (verilerin anlatmış olduğu hikayeyi) paydaşlarla paylaşırız, paydaşlar da belli geri bildirimlerde bulunurlar. Modelin esnekliği sayesinde gerektiğinde doğrudan analiz aşamasına geri dönülüp sonrasında oluşturma aşamasını atlayarak yürütme aşamasına geçmek de mümkün. 
