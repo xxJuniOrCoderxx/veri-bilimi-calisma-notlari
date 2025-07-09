@@ -38,7 +38,10 @@ a & b \\
 c & d \\
 \end{array}
 \right|
-&= \det \begin{pmatrix} a & b \\ c & d \end{pmatrix}
+&= \det\begin{pmatrix} 
+a & b \\
+c & d
+\end{pmatrix}
 = (a \cdot d) - (b \cdot c)
 \end{align*}
 $$
