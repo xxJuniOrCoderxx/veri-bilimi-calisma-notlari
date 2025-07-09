@@ -62,5 +62,6 @@ A - \lambda \cdot I
 \end{pmatrix} 
 =0 
 \end{align*}
-eşitliğini sağlayan \lambda değerlerine **eigenvalue** denir.
 $$
+
+eşitliğini sağlayan \lambda değerlerine **eigenvalue** denir.
