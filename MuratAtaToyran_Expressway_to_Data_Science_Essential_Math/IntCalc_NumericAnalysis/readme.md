@@ -58,3 +58,5 @@ a^k & 0 & 0\\
 0 & 0 & c^k
 \end{bmatrix}
 $$
+
+Diyagonalizasyon nedir, nasıl yapılır peki? Bir A matrisimiz olsun. Bu A matrisi için belli bir P matrisi ve belli bir diyagonal D matrisi vardır ki $A = P \cdot D \cdot P^{-1}$ eşitliğini sağlar ve A matrisini bu formatta yazabiliriz. Bunun bize sağladığı asıl kolaylık, A matrisinin kuvvetini $(A^k)$ almak istediğimizde eşitliği $A = P \cdot D^k \cdot P^{-1}$ formatında düzenleyip A'nın kuvvetini kolayca alabilmemizdir.
