@@ -131,7 +131,7 @@ $$
 
 Burada ilginç bir şey var ki üstteki örnekte baktığımız özvektörü oluşturmak için 7 özdeğerini kullandık ama bu denklemde eşitliği -4 özdeğeri sağlıyor. Aynısını diğer vektörle deneseydik bu denklemde bu sefer 7 özdeğerini kullanmış olacaktık. Değinmek istedim. Ayrıca konuyla ilgilenenler [şu videoya](https://www.youtube.com/watch?v=1sDBruay100) da göz atabilir.
 
-Bu arada aşağıdaki yöntemi de inceleyebilirsiniz:
+Ayrıca aşağıdaki yöntemi de inceleyebilirsiniz:
 ![image](https://github.com/user-attachments/assets/4927bbec-3aba-4726-8147-b4f895c8923d)
 
 ## Transpoz ve İç çarpım(Inner Product/Dot Product)
@@ -256,3 +256,15 @@ $$
 &arasındaki&uzaklık& \sqrt{(-1)^2 + 4^2} =\sqrt{17} & olur.
 \end{align*}
 $$
+
+## Dik Vektörler(Orthogonal Vectors)
+
+1. Eğer u ve v vektörleri dikse iç çarpımları 0 olur.
+2. Eğer u ve v vektörleri dikse $$norm(u+v)^2=norm(u)^2+norm(v)^2$$ olur.
+3. 2 ve 3 boyutlu uzayda u ve v vektörlerinin iç çarpımları, vektörlerin normlarının çarpımının aralarındaki açının kosinüsüyle çarpımıdır.
+
+## Dik Yansıtmalar(Orthogonal Projections)
+
+y vektörünün u vektörü üzerine yansıtılması örneğini aşağıda görebilirsiniz:
+
+![IMG_1899](https://github.com/user-attachments/assets/d10b2a54-b46a-4321-847e-ead8893a5069)
