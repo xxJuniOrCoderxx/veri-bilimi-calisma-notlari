@@ -11,6 +11,6 @@ Fonksiyonun altında kalan alanı N tane eşit aralıklı dikdörtgen parçaya b
 1. F(x) fonksiyonunun türevi f(x) olsun (dolayısıyla F(x) fonksiyonu, f(x) fonksiyonunun anti-türevi olmuş olur). $\int f(x) \ dx$ = F(x) + c olur (c sabit sayı).
 2. $$\int_{a}^{b} f(x) \ dx$$ = F(b) - F(a) olur.
 
+-----------------------
+**Aşağıdaki örnekte a'dan b'ye integral alırsanız bulacağınız sonuç $A_1 - A_2$ olur.**
 ![image](https://github.com/user-attachments/assets/c939fb35-25e9-4625-b572-abfe31123709)
-
-Yukarıdaki örnekte a'dan b'ye integral alırsanız bulacağınız sonuç $A_1 - A_2$ olur.
