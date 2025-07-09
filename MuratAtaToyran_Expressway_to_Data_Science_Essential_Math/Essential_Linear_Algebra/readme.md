@@ -80,13 +80,13 @@ matrisi için özdeğerler _7_ ve _-4_ olur. Fark edileceği üzere $$ A - \lamb
 $$
 \begin{align*}
 \begin{bmatrix}
-1 & 6 \\
-5 & 2
+-6 & 6 \\
+5 & -5
 \end{bmatrix}
 &&&ve&&&
 \begin{bmatrix}
-1 & 6 \\
-5 & 2
+5 & 6 \\
+5 & 6
 \end{bmatrix}
 \end{align*}
 $$
