@@ -79,13 +79,12 @@ matrisi için özdeğerler _7_ ve _-4_ olur. Fark edileceği üzere $$ A - \lamb
 
 $$
 \begin{align*}
+\left|
 \begin{bmatrix}
 1 & 6 \\
 5 & 2
 \end{bmatrix}
-
-ve
-
+\right|
 \begin{bmatrix}
 1 & 6 \\
 5 & 2
