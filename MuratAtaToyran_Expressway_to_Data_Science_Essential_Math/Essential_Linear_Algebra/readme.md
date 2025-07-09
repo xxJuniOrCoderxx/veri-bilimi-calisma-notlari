@@ -174,3 +174,23 @@ $$
 = 40 &yapar :)
 \end{align*}
 $$
+
+İç çarpımı ilk vektörün transpozu ile ikinci vektörün çarpımı şeklinde de düşünebiliriz. Yani:
+
+$$
+\begin{align*}
+\begin{bmatrix}
+1 &
+6 &
+3 
+\end{bmatrix}
+\cdot
+\begin{bmatrix}
+4 \\
+5 \\
+2 
+\end{bmatrix}
+= 1 \cdot 4 + 6 \cdot 5 + 3 \cdot 2
+= 40 &yapar :D
+\end{align*}
+$$
