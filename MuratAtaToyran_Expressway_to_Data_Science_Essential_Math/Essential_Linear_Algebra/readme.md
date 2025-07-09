@@ -80,8 +80,8 @@ matrisi için özdeğerler _7_ ve _-4_ olur. Fark edileceği üzere $$A - \lambd
 $$
 \begin{align*}
 \begin{bmatrix}
-\phantom{-}6 & 6 \\
-5 & \phantom{-}5
+-6 & 6 \\
+5 & -5
 \end{bmatrix}
 &&&ve&&&
 \begin{bmatrix}
@@ -96,7 +96,7 @@ Buradan da özvektörler aşağıdaki gibi olur:
 $$
 \begin{align*}
 \begin{bmatrix}
-\phantom{-}6  \\
+-6  \\
 5 
 \end{bmatrix}
 &&&ve&&&
