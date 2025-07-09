@@ -133,3 +133,24 @@ Burada ilginç bir şey var ki üstteki örnekte baktığımız özvektörü olu
 
 Bu arada aşağıdaki yöntemi de inceleyebilirsiniz:
 ![image](https://github.com/user-attachments/assets/4927bbec-3aba-4726-8147-b4f895c8923d)
+
+## Transpoz ve İç çarpım(Inner Product)
+
+Aşağıdaki A matrisine göz atalım:
+
+$$
+\begin{bmatrix}
+1 & 6 & 3\\
+5 & 2 & 4
+\end{bmatrix}
+$$
+
+Bu matrisi transpoze etmek için satırları sütun, sütunları satır gibi yazarız. Diğer bir deyişle sol üst köşe sabit olacak şekilde matrisi ters yüz ederiz. Yani yukarıdaki matrisin transpozu aşağıdaki gibi olur ve $A^T$ diye gösterilir.
+
+$$
+\begin{bmatrix}
+1 & 5\\
+6 & 2 \\
+3 & 4
+\end{bmatrix}
+$$
