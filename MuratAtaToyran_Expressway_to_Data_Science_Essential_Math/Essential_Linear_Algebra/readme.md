@@ -134,7 +134,7 @@ Burada ilginç bir şey var ki üstteki örnekte baktığımız özvektörü olu
 Bu arada aşağıdaki yöntemi de inceleyebilirsiniz:
 ![image](https://github.com/user-attachments/assets/4927bbec-3aba-4726-8147-b4f895c8923d)
 
-## Transpoz ve İç çarpım(Inner Product)
+## Transpoz ve İç çarpım(Inner Product/Dot Product)
 
 Aşağıdaki A matrisine göz atalım:
 
@@ -153,4 +153,24 @@ $$
 6 & 2 \\
 3 & 4
 \end{bmatrix}
+$$
+
+İç çaprım da iki vektörün aynı değerlerinin çarpım-toplamının yapıldığı işlemdir. Yani:
+
+$$
+\begin{align*}
+\begin{bmatrix}
+1 \\
+6 \\
+3 
+\end{bmatrix}
+\cdot
+\begin{bmatrix}
+4 \\
+5 \\
+2 
+\end{bmatrix}
+= 1 \cdot 4 + 6 \cdot 5 + 3 \cdot 2
+= 40 &yapar :)
+\end{align*}
 $$
