@@ -216,4 +216,5 @@ Veri uzmanı olarak sürekli toplantı halinde olacağız ve toplantıda farklı
 
 ----------------------------------------
 _her kurs sonunda yetkinliklerimizi ölçmek amacıyla kurs sonu projesi verilecekmiş, bize yardımcı olması için de PACE strateji dokümanı paylaşılacakmış._
+
 ----------------------------------------
