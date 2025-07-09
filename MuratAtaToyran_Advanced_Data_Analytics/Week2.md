@@ -218,3 +218,42 @@ Veri uzmanı olarak sürekli toplantı halinde olacağız ve toplantıda farklı
 _her kurs sonunda yetkinliklerimizi ölçmek amacıyla kurs sonu projesi verilecekmiş, bize yardımcı olması için de PACE strateji dokümanı paylaşılacakmış._
 
 ----------------------------------------
+
+## Proje Önerisi (Project Proposal)
+
+Etkili iletişim ve iş birliği, tüm veri projeleri için olmazsa olmazdır. **Proje önerisi**, görevleri takip etmede gerekli olan yapıyı ve iletişimi sağlar. Ayrıca yüksek derecede esneklik gerektiren zorluklarla yüzleşirken de faydalıdır. Proje önerisi, proje ile ilgili çalışmaya başlamadan önce göz önünde bulundurulması gereken önemli bilgileri içerir. Proje önerisi formatı değişkenlik gösterse de aşağıdaki temel özelliklere sahip olmalı:
+
+**Proje Başlığı:** Genellikle belgenin en üstünde olur. Etkili başlıklar kısa ve amaca yönelik olur. Zaman içinde projenin ilerleyişine ve bağlama göre değiştirilebilir.
+
+**Proje Hedefi:** 1 ila 3 cümle arasında olan, projenin ulaşmaya çalıştığı hedefin açıklandığı kısımdır.
+
+**Kilometretaşı:** Projeyi daha küçük, yönetilebilir amaçlar şeklinde böldüğümüz kısımdır. Projenin daha verimli şekilde işleyişini sağlar.
+
+**Görevler:** Bir kilometretaşı içerisinde yapılacak olan çalışmaları detaylandırır.
+
+**Sonuçlar:** Bir projenin devam etmesini sağlayan tamamlanmış aksiyonlar ve sonuçlardır.
+
+**Teslimatlar (Deliverables):** Teslimatlar, ekip üyeleriyle veya paydaşlarla paylaşılabilen öğelerdir. Bunlar, bir proje kapsamında yürütülen çalışmaların nihai çıktılarıdır.
+
+**Paydaşlar:** Projenin başarısı ile ilgilenen ve projeye dahil olan kişi ve gruplardır. Paydaşlardan gelen girdiler, proje boyunca karar alma sürecinde temel oluşturabilir. Paydaşlar değiştikçe paydaşları da güncellemeyi unutmamalıyız.
+
+**Tahmini Süre:** Kilometretaşını tamamlamak için gereken sürenin tahminidir. Proje geliştikçe ve ilerledikçe bu sürenin güncellenmesi gerekir. 
+
+[ProjectProposal.pptx](https://github.com/user-attachments/files/21138886/ProjectProposal.pptx)
+
+
+## Yönetici Özeti (Executive Summary)
+
+Proje içi görevlere doğrudan dahil olmayan karar oluşturucuları güncel tutmak için kullanılır. Yeni ekip üyelerinin hızlıca projeye aşina olmaları için de kullanılabilir. Yönetici özeti formatı değişkenlik gösterse de aşağıdaki temel özelliklere sahip olmalı:
+
+**Proje Başlığı:** Projenin konusu başlığa dahil edilir.
+
+**Problem:** Projenin çözmeye çalıştığı problemin anlatıldığı kısımdır. Sorun, hemen giderilmesi gereken bir gereksinim veya veri analizi yoluyla kanıtlamaya çalıştığınız bir hipotez de olabilmektedir. 
+
+**Çözüm:** Projenin temel amacının açıklandığı kısım. Problem kısmında açıklanan sorun(lar)a atıfta bulunulur.
+
+**Detaylar/Anahtar İçgörüler:** Hedef kitlenin projenin amacını anlamasına yardımcı olmak için eklenen ekstra detayları içerir. 
+
+**Sonraki Adımlar/Öneriler:** Ekibin almayı planladığı aksiyonları ve içgörüler sonucunda karar vericilere yönelik önerileri içeren kısımdır.
+
+[ExecutiveSummary.pptx](https://github.com/user-attachments/files/21138890/ExecutiveSummary.pptx)
