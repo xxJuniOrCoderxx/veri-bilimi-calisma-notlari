@@ -84,6 +84,7 @@ $$
 1 & 6 \\
 5 & 2
 \end{bmatrix}
+ve
 \right|
 \begin{bmatrix}
 1 & 6 \\
