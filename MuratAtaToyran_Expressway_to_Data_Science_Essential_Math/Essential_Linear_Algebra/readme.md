@@ -75,7 +75,7 @@ $$
 \end{bmatrix}
 $$
 
-matrisi için özdeğerler _7_ ve _-4_ olur. Fark edileceği üzere $$A - \lambda \cdot I$$ matrisinde özdeğerlerden birini yerine koyduğumuzda iki sütun da birbirinin katı olur. ~~Yani sütunları vektör olarak ele alırsak vektörlerin doğrultuları aynı olur. Bu sütunlardan birisini birinci özvektör olarak düşünebiliriz. Diğeri özdeğer için de aynısını yaptığımızda diğer özvektörü bulmuş oluruz.~~ ([Ekleme](https://github.com/xxJuniOrCoderxx/veri-bilimi-calisma-notlari/edit/main/MuratAtaToyran_Expressway_to_Data_Science_Essential_Math/Essential_Linear_Algebra/readme.md?plain=1#L111) kısmına bakın) Bu $\lambda$ değerlerini koyduktan sonra bulacağımız iki matris aşağıdaki gibidir:
+matrisi için özdeğerler _7_ ve _-4_ olur. Fark edileceği üzere $$A - \lambda \cdot I$$ matrisinde özdeğerlerden birini yerine koyduğumuzda iki sütun da birbirinin katı olur. ~~Yani sütunları vektör olarak ele alırsak vektörlerin doğrultuları aynı olur. Bu sütunlardan birisini birinci özvektör olarak düşünebiliriz. Diğeri özdeğer için de aynısını yaptığımızda diğer özvektörü bulmuş oluruz.~~ ([Ekleme](https://github.com/xxJuniOrCoderxx/veri-bilimi-calisma-notlari/blob/main/MuratAtaToyran_Expressway_to_Data_Science_Essential_Math/Essential_Linear_Algebra/readme.md?plain=1#L111) kısmına bakın) Bu $\lambda$ değerlerini koyduktan sonra bulacağımız iki matris aşağıdaki gibidir:
 
 $$
 \begin{align*}
