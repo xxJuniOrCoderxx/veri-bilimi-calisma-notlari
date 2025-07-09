@@ -14,23 +14,6 @@ $$
 Bu matrisin determinantını şu şekilde hesaplayabiliriz:
 
 $$
-\begin{vmatrix}
-a & b \\
-c & d
-\end{vmatrix}
-$$
-
-$$
-\det\begin{pmatrix}
-a & b \\
-c & d
-\end{pmatrix}
-$$
-
-$(a \cdot d) - (b \cdot c)$
-
-
-$$
 \begin{align*}
 \left|
 \begin{array}{cc}
@@ -38,6 +21,20 @@ a & b \\
 c & d \\
 \end{array}
 \right|
+&= \det\begin{pmatrix} 
+a & b \\
+c & d
+\end{pmatrix}
+= (a \cdot d) - (b \cdot c)
+\end{align*}
+$$
+
+$$
+\begin{align*}
+\begin{array}{cc}
+a & b \\
+c & d \\
+\end{array}
 &= \det\begin{pmatrix} 
 a & b \\
 c & d
