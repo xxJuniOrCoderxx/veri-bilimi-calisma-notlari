@@ -15,9 +15,11 @@ $$
 a & b \\
 c & d
 \end{vmatrix}
-$$ = $$
+$$
+$$
 \det\begin{pmatrix}
 a & b \\
 c & d
 \end{pmatrix}
-$$ = (a \cdot d)-(b \cdot c)
+$$ 
+(a \cdot d)-(b \cdot c)
