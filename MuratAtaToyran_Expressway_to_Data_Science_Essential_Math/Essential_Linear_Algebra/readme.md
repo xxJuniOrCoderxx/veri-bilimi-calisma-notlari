@@ -175,7 +175,7 @@ $$
 \end{align*}
 $$
 
-İç çarpımı ilk vektörün transpozu ile ikinci vektörün çarpımı şeklinde de düşünebiliriz. Yani:
+İç çarpımı ilk vektörün transpozu ile ikinci vektörün matris çarpımı şeklinde de düşünebiliriz. Yani:
 
 $$
 \begin{align*}
