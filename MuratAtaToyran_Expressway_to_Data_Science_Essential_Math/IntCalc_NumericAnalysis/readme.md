@@ -67,8 +67,8 @@ $$
 \begin{align*}
 P=
 \begin{bmatrix}
-v_1 \\
-v_2 \\
+v_1 &
+v_2 &
 v_3
 \end{bmatrix}
 &&&&&&
