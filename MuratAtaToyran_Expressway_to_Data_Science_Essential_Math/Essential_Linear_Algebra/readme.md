@@ -64,4 +64,4 @@ A - \lambda \cdot I
 \end{align*}
 $$
 
-eşitliğini sağlayan \lambda değerlerine **eigenvalue** denir.
+eşitliğini sağlayan $\lambda$ değerlerine **eigenvalue** denir.
