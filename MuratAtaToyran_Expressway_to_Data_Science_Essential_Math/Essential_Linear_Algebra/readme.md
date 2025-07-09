@@ -25,5 +25,6 @@ $$
 a & b \\
 c & d
 \end{pmatrix}
-$$ 
+$$
+
 (a \cdot d)-(b \cdot c)
