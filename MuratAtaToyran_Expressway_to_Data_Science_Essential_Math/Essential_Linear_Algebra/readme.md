@@ -28,3 +28,17 @@ c & d
 $$
 
 $(a \cdot d) - (b \cdot c)$
+
+
+$$
+\begin{align*}
+\left|
+\begin{array}{cc}
+a & b \\
+c & d \\
+\end{array}
+\right|
+&= \det \begin{pmatrix} a & b \\ c & d \end{pmatrix}
+= (a \cdot d) - (b \cdot c)
+\end{align*}
+$$
