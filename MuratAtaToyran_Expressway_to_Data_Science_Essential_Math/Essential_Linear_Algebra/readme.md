@@ -109,4 +109,4 @@ $$
 
 Bir matris için verilen vektörün özvektör olup olmadığını şu şekilde de hesaplayabiliriz:
 
-$$A \cdot v \eq \lambda \cdot v$$
+$$A \cdot v = \lambda \cdot v$$
