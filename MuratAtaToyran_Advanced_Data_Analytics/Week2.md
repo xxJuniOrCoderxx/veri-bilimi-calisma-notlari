@@ -239,7 +239,7 @@ Etkili iletişim ve iş birliği, tüm veri projeleri için olmazsa olmazdır. *
 
 **Tahmini Süre:** Kilometretaşını tamamlamak için gereken sürenin tahminidir. Proje geliştikçe ve ilerledikçe bu sürenin güncellenmesi gerekir. 
 
-[ProjectProposal.pptx](https://github.com/user-attachments/files/21138886/ProjectProposal.pptx)
+*Proje önerisi örneği için [tıklayınız](https://github.com/user-attachments/files/21138886/ProjectProposal.pptx)*
 
 
 ## Yönetici Özeti (Executive Summary)
@@ -256,4 +256,4 @@ Proje içi görevlere doğrudan dahil olmayan karar oluşturucuları güncel tut
 
 **Sonraki Adımlar/Öneriler:** Ekibin almayı planladığı aksiyonları ve içgörüler sonucunda karar vericilere yönelik önerileri içeren kısımdır.
 
-[ExecutiveSummary.pptx](https://github.com/user-attachments/files/21138890/ExecutiveSummary.pptx)
+*Yönetici özeti örneği için [tıklayınız](https://github.com/user-attachments/files/21138890/ExecutiveSummary.pptx)*
