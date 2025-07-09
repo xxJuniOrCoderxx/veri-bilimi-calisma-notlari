@@ -108,7 +108,8 @@ $$
 $$
 
 ------------------------------
-***Ekleme:*** Ama bu yapı 3x3 matrislerde sağlanmıyor. Aşağıdaki örneğe bakın:
+##### ***Ekleme:*** 
+Ama bu yapı 3x3 matrislerde sağlanmıyor. Aşağıdaki örneğe bakın:
 
 $$
 \begin{bmatrix}
