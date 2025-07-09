@@ -219,10 +219,23 @@ A
 \end{align*}
 $$
 
-**Not:** Vektörle aynı doğrultuda birim vektör oluşturmak için vektörün kendisini vektörün uzunluğuna böleriz. Yani: 
+***Not:*** Vektörle aynı doğrultuda birim vektör oluşturmak için vektörün kendisini vektörün uzunluğuna böleriz. Yani: 
 
 $$\frac{A}{\begin{Vmatrix}
 A
 \end{Vmatrix}}$$ 
 
 şeklinde birim vektör olmuş olur.
+
+## İki Vektör Arasındaki Uzaklık
+
+İki vektör arasındaki uzaklığı bulmak için iki vektörün farkının normunu alırız. Yani:
+
+$$
+\begin{align*}
+dist(u, v) =
+\begin{Vmatrix}
+u-v
+\end{Vmatrix}
+\end{align*}
+$$
