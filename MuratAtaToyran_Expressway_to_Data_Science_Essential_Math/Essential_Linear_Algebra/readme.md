@@ -75,19 +75,19 @@ $$
 \end{bmatrix}
 $$
 
-matrisi için özdeğerler _7_ ve _-4_ olur. Fark edileceği üzere $$A - \lambda \cdot I$$ matrisinde özdeğerlerden birini yerine koyduğumuzda iki sütun da birbirinin katı olur. ~~Yani sütunları vektör olarak ele alırsak vektörlerin doğrultuları aynı olur. Bu sütunlardan birisini birinci özvektör olarak düşünebiliriz. Diğeri özdeğer için de aynısını yaptığımızda diğer özvektörü bulmuş oluruz.~~ Bu değerleri koyduktan sonra bulacağımız iki matris aşağıdaki gibidir:
+matrisi için özdeğerler _7_ ve _-4_ olur. Fark edileceği üzere $$A - \lambda \cdot I$$ matrisinde özdeğerlerden birini yerine koyduğumuzda iki sütun da birbirinin katı olur. ~~Yani sütunları vektör olarak ele alırsak vektörlerin doğrultuları aynı olur. Bu sütunlardan birisini birinci özvektör olarak düşünebiliriz. Diğeri özdeğer için de aynısını yaptığımızda diğer özvektörü bulmuş oluruz.~~ Bu $\lambda$ değerlerini koyduktan sonra bulacağımız iki matris aşağıdaki gibidir:
 
 $$
 \begin{align*}
 \begin{bmatrix}
-~~-6 & 6 \\
-5 & -5~~
+-6 & 6 \\
+5 & -5
 \end{bmatrix}
 &&&ve&&&
-~~\begin{bmatrix}
+\begin{bmatrix}
 5 & 6 \\
 5 & 6
-\end{bmatrix}~~
+\end{bmatrix}
 \end{align*}
 $$
 
@@ -107,6 +107,42 @@ $$
 \end{align*}
 $$
 
+------------------------------
+***Ekleme:*** Ama bu yapı 3x3 matrislerde sağlanmıyor. Aşağıdaki örneğe bakın:
+
+$$
+\begin{bmatrix}
+12 & -8 & 3 \\
+20 & -4 & 0 \\
+34 & -12 & 3
+\end{bmatrix}
+$$
+
+Bunlar için özdeğerler 1, 4 ve 6 olur. Ama yerine koyduğumuzda özvektörleri elde edemiyoruz ve sütunlar birbirinin katı olmuyor. Özvektörler aşağıdaki gibidir:
+
+$$
+\begin{align*}
+\begin{bmatrix}
+3  \\
+6  \\
+10
+\end{bmatrix}
+&&&ve&&&
+\begin{bmatrix}
+2  \\
+5  \\
+8
+\end{bmatrix}
+&&&ve&&&
+\begin{bmatrix}
+1  \\
+4  \\
+7
+\end{bmatrix}
+\end{align*}
+$$
+
+-------------------------------------
 Bir matris için verilen vektörün özvektör olup olmadığını $$A \cdot v = \lambda \cdot v$$ formülüyle de hesaplayabiliriz. Örneğimize bakarsak:
 
 $$
