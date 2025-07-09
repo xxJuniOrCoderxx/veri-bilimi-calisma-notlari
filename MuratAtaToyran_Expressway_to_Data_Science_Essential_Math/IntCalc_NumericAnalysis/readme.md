@@ -42,9 +42,19 @@ Köke yaklaşmada en güçlü ve en hızlı metod budur ama dikkat etmemiz gerek
 D matrisi, $D_ii$ değerleri dışında 0 ise diyagonal matristir. Yani aşağıdaki gibidir:
 
 $$
-\begin{matrix}
+\begin{bmatrix}
 a & 0 & 0\\
 0 & b & 0\\
 0 & 0 & c
-\end{matrix}
+\end{bmatrix}
+$$
+
+Bu matrisin kuvvetini $(D^k)$ aldığımızda aşağıdaki gibi olur:
+
+$$
+\begin{bmatrix}
+a^k & 0 & 0\\
+0 & b^k & 0\\
+0 & 0 & c^k
+\end{bmatrix}
 $$
