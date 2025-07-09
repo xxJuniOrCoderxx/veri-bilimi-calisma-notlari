@@ -8,18 +8,14 @@ Bir fonksiyonun grafiğini çizerken **türevini** kullanarak:
 - Kritik noktaları nasıl belirleyeceğini öğreniyoruz.
 
 ---
+# 📘 İkinci Türev ve Fonksiyonun Eğriliği
 
-## 🔍 Örnek Fonksiyon
+## 🔁 Türev Bir Fonksiyondur
 
-> **f(x) = x³ − 3x² + 2**
+İlk türev olan **f′(x)** bir fonksiyondur. Bu fonksiyonun da türevini alabiliriz.
 
-### 1️⃣ Türevini Al
+---
+🧭 Grafiksel Yorumu
+f ''(x) > 0: Fonksiyon içbükey yukarı (∪) yani “su tutar”
 
-```math
-f '(x) = 3x² − 6x = 3x(x − 2)
-f '(x) = 0 ⇒ x = 0 ve x = 2
-| x değeri aralığı | 3x işareti | (x−2) işareti | f '(x) işareti | f(x) davranışı |
-| ---------------- | ---------- | ------------- | -------------- | -------------- |
-| x < 0            | -          | -             | **+**          | Artıyor (↑)    |
-| 0 < x < 2        | +          | -             | **−**          | Azalıyor (↓)   |
-| x > 2            | +          | +             | **+**          | Artıyor (↑)    |
+f ''(x) < 0: Fonksiyon içbükey aşağı (∩) yani “su akıtır”
