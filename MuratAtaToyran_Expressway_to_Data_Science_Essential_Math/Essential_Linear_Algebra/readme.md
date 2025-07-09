@@ -55,9 +55,11 @@ $$
 
 ## Özdeğer ve Özvektör (Eigenvalue/Eigenvector)
 
+$$
 \begin{align*}
 \det\begin{pmatrix} 
 A - \lambda \cdot I
 \end{pmatrix} 
 =0 eşitliğini sağlayan \lambda değerlerine **eigenvalue** denir.
 \end{align*}
+$$
