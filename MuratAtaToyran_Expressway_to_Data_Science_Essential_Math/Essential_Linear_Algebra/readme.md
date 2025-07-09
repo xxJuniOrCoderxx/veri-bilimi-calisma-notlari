@@ -120,7 +120,7 @@ $$
 -6  \\
 5 
 \end{bmatrix}
-=
+'='
 \lambda
 \cdot
 \begin{bmatrix}
