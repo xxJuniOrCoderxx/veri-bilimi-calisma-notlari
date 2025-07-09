@@ -107,6 +107,25 @@ $$
 \end{align*}
 $$
 
-Bir matris için verilen vektörün özvektör olup olmadığını $$A \cdot v = \lambda \cdot v$$ şu şekilde de hesaplayabiliriz:
+Bir matris için verilen vektörün özvektör olup olmadığını $$A \cdot v = \lambda \cdot v$$ formülüyle de hesaplayabiliriz. Örneğimize bakarsak:
 
-
+$$
+\begin{align*}
+\begin{bmatrix}
+1 & 6 \\
+5 & 2
+\end{bmatrix}
+\cdot
+\begin{bmatrix}
+-6  \\
+5 
+\end{bmatrix}
+=
+\lambda
+\cdot
+\begin{bmatrix}
+-6  \\
+5 
+\end{bmatrix}
+\end{align*}
+$$
