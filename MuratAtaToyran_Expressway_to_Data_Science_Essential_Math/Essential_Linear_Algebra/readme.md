@@ -246,13 +246,13 @@ $$
 \begin{align*}
 \begin{bmatrix}
 6  \\
-5 
+9 
 \end{bmatrix}
 &ve&
 \begin{bmatrix}
 7  \\
-9 
+5 
 \end{bmatrix}
-&arasındaki&uzaklık& \sqrt{46} & olur.
+&arasındaki&uzaklık& \sqrt{(-1)^2 + 4^2} =\sqrt{17} & olur.
 \end{align*}
 $$
