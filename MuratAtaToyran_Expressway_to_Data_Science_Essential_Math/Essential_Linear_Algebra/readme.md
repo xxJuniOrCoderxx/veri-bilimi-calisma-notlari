@@ -26,3 +26,16 @@ c & d
 = (a \cdot d) - (b \cdot c)
 \end{align*}
 $$
+
+Örnek:
+
+$$
+\begin{align*}
+\begin{vmatrix}
+1 & 2 \\
+3 & 4 \\
+\end{vmatrix}
+= (1 \cdot 4) - (2 \cdot 3)
+= -2
+\end{align*}
+$$
