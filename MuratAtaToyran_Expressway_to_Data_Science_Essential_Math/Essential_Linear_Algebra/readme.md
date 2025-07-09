@@ -123,9 +123,9 @@ Bunlar için özdeğerler 1, 4 ve 6 olur. Ama yerine koyduğumuzda özvektörler
 $$
 \begin{align*}
 \begin{bmatrix}
-3  \\
-6  \\
-10
+1  \\
+4  \\
+7
 \end{bmatrix}
 &&&ve&&&
 \begin{bmatrix}
@@ -135,9 +135,9 @@ $$
 \end{bmatrix}
 &&&ve&&&
 \begin{bmatrix}
-1  \\
-4  \\
-7
+3  \\
+6  \\
+10
 \end{bmatrix}
 \end{align*}
 $$
