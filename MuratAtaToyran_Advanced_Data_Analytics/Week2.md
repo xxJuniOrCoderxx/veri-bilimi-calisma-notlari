@@ -213,3 +213,7 @@ Veri uzmanı olarak sürekli toplantı halinde olacağız ve toplantıda farklı
 ### Soru Sormak
 
 Çözüm geliştirebilmek için doğru soruları sormak gerekir. Doğru sorular, öngörülemeyen tuzakları ve tehlikeleri ortaya çıkararak iş risklerinin azaltılmasına yardımcı olabilir. Daha önce sorulmamış soruları sormak, büyük resmi gösteren sorular sormak, bilgi toplayan veya ekibin halihazırda elinde olan bilgiyi ilerleten sorular sormak ve anlaşılmayan yerleri açıklığa kavuşturan sorular sormak doğru sorular sormada yardımcı olur. 
+
+----------------------------------------
+_her kurs sonunda yetkinliklerimizi ölçmek amacıyla kurs sonu projesi verilecekmiş, bize yardımcı olması için de PACE strateji dokümanı paylaşılacakmış._
+----------------------------------------
