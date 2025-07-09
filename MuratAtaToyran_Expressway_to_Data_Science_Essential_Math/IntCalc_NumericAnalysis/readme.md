@@ -59,7 +59,7 @@ a^k & 0 & 0\\
 \end{bmatrix}
 $$
 
-***Diyagonalizasyon nedir, nasıl yapılır peki?*** Bir A matrisimiz olsun. Bu A matrisi için öyle bir P matrisi ve öyle bir diyagonal D matrisi vardır ki $A = P \cdot D \cdot P^{-1}$ eşitliğini sağlar ve A matrisini bu formatta yazabiliriz. Bunun bize sağladığı asıl kolaylık, A matrisinin kuvvetini $(A^k)$ almak istediğimizde eşitliği $A = P \cdot D^k \cdot P^{-1}$ formatında düzenleyip A'nın kuvvetini kolayca alabilmemizdir.
+***Diyagonalizasyon nedir, nasıl yapılır peki?*** Bir A matrisimiz olsun. Bu A matrisi için öyle bir P matrisi ve öyle bir diyagonal D matrisi vardır ki $A = P \cdot D \cdot P^{-1}$ eşitliğini sağlar ve A matrisini bu formatta yazabiliriz. Bunun bize sağladığı asıl kolaylık, A matrisinin kuvvetini $(A^k)$ almak istediğimizde eşitliği $A^k = P \cdot D^k \cdot P^{-1}$ formatında düzenleyip A'nın kuvvetini kolayca alabilmemizdir.
 
 ***Peki P ve D matrislerini nasıl buluruz?*** Bunun için özdeğer ve özvektörlerden yararlanırız. Her $\lambda_i$ özdeğeri için belli bir $v_i$ özvektörü vardır. P ve D matrisleri de aşağıdaki şekilde oluşur:
 
