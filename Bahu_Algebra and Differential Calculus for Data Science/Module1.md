@@ -73,3 +73,26 @@ f(x) =
 - Fonksiyon kutusu, **girdi değerine göre hangi işlem uygulanacağına karar verir**.
 - Aynı fonksiyon, farklı girdiler için **farklı matematiksel ifadeler** kullanabilir.
 
+# 📊 Logaritmalar (Logarithms)
+
+## 🔍 Tanım
+Bir logaritma, "bir sayıyı elde etmek için tabanı kaçıncı kuvvete yükseltmeliyim?" sorusunun cevabıdır.
+
+### Örnekler:
+- `2³ = 8` ise  
+  `log₂(8) = 3`
+  
+- `log₂(1) = 0` çünkü `2⁰ = 1`
+
+- `log_b(b) = 1`  
+- `log_b(b^k) = k`
+
+---
+
+## 🧮 Logaritma Kuralları
+
+### 1. **Çarpım kuralı**:
+```math
+log_b(M × N) = log_b(M) + log_b(N)
+
+
