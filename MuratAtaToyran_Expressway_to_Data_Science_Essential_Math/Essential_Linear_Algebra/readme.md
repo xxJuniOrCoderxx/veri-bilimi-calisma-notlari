@@ -194,3 +194,27 @@ $$
 = 40 &yapar :D
 \end{align*}
 $$
+
+## Vektörün Normu(Uzunluğu)
+
+Vektörün uzunluğu, vektörün kendisiyle iç çarpımının kareköküdür. Mesela A matrisi aşağıdaki gibi olsun:
+
+$$
+\begin{bmatrix}
+1 \\
+6 \\
+3
+\end{bmatrix}
+$$
+
+Bunun uzunluğu aşağıdaki gibi olur:
+
+$$
+\begin{align*}
+\begin{Vmatrix}
+A
+\end{Vmatrix}
+= \sqrt{1^2 + 6^2 + 3^2}
+= \sqrt{46}
+\end{align*}
+$$
