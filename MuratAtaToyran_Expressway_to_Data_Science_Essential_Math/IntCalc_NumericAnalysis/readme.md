@@ -8,4 +8,4 @@ Fonksiyonun altında kalan alanı N tane eşit aralıklı dikdörtgen parçaya b
 
 İntegral hesaplarken temel kuralları bilmemiz gerekir:
 
-$$\int x^2 \, dx$$
+$\int x^2 \ dx$
