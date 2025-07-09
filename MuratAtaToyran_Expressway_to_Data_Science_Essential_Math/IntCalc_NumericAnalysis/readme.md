@@ -63,4 +63,20 @@ $$
 
 ***Peki P ve D matrislerini nasıl buluruz?*** Bunun için özdeğer ve özvektörlerden yararlanırız. Her $\lambda_i$ özdeğeri için belli bir $v_i$ özvektörü vardır. P ve D matrisleri de aşağıdaki şekilde oluşur:
 
-
+$$
+\begin{align*}
+P=
+\begin{bmatrix}
+v_1 \\
+v_2 \\
+v_3
+\end{bmatrix}
+&&&&&&
+D=
+\begin{bmatrix}
+\lambda_1 & 0 & 0\\
+0 & \lambda_2 & 0\\
+0 & 0 & \lambda_3
+\end{bmatrix}
+\end{align*}
+$$
