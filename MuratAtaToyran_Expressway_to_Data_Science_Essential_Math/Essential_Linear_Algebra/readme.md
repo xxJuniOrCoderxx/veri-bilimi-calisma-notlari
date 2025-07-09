@@ -31,10 +31,10 @@ $$
 
 $$
 \begin{align*}
-\begin{array}{cc}
+\begin{vmatrix}
 a & b \\
 c & d \\
-\end{array}
+\end{vmatrix}
 &= \det\begin{pmatrix} 
 a & b \\
 c & d
