@@ -19,6 +19,7 @@ a & b \\
 c & d
 \end{vmatrix}
 $$
+
 $$
 \det\begin{pmatrix}
 a & b \\
