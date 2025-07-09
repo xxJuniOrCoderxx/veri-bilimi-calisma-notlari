@@ -75,19 +75,19 @@ $$
 \end{bmatrix}
 $$
 
-matrisi için özdeğerler _7_ ve _-4_ olur. Fark edileceği üzere $$A - \lambda \cdot I$$ matrisinde özdeğerlerden birini yerine koyduğumuzda iki sütun da birbirinin katı olur. Yani sütunları vektör olarak ele alırsak vektörlerin doğrultuları aynı olur. Bu sütunlardan birisini birinci özvektör olarak düşünebiliriz. Diğeri özdeğer için de aynısını yaptığımızda diğer özvektörü bulmuş oluruz. Bu değerleri koyduktan sonra bulacağımız iki matris aşağıdaki gibidir:
+matrisi için özdeğerler _7_ ve _-4_ olur. Fark edileceği üzere $$A - \lambda \cdot I$$ matrisinde özdeğerlerden birini yerine koyduğumuzda iki sütun da birbirinin katı olur. ~~Yani sütunları vektör olarak ele alırsak vektörlerin doğrultuları aynı olur. Bu sütunlardan birisini birinci özvektör olarak düşünebiliriz. Diğeri özdeğer için de aynısını yaptığımızda diğer özvektörü bulmuş oluruz.~~ Bu değerleri koyduktan sonra bulacağımız iki matris aşağıdaki gibidir:
 
 $$
 \begin{align*}
 \begin{bmatrix}
--6 & 6 \\
-5 & -5
+~~-6 & 6 \\
+5 & -5~~
 \end{bmatrix}
 &&&ve&&&
-\begin{bmatrix}
+~~\begin{bmatrix}
 5 & 6 \\
 5 & 6
-\end{bmatrix}
+\end{bmatrix}~~
 \end{align*}
 $$
 
