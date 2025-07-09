@@ -19,5 +19,5 @@ Fonksiyonun altında kalan alanı N tane eşit aralıklı dikdörtgen parçaya b
 **Not:** Karmaşık integralleri hesaplamak için parçalı integral metodunu kullanırız. Parçalı integral ispatı türevden gelir:
 
 $$(u \cdot v)' = u \cdot v' + v \cdot u' $$
-$$\int (u \cdot v)' \  = \int u \cdot v' \ + \int v \cdot u' \ $$
+$$\int (u \cdot v)' \  = u \cdot v = \int u \cdot v' \ + \int v \cdot u' \ $$
 $$\int u \cdot v' \  = u \cdot v - \int v \cdot u' \ $$
