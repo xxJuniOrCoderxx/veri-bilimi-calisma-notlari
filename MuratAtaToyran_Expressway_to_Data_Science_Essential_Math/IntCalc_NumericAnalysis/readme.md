@@ -21,3 +21,18 @@ Fonksiyonun altında kalan alanı N tane eşit aralıklı dikdörtgen parçaya b
 $$(u \cdot v)' = u \cdot v' + v \cdot u' $$
 $$\int (u \cdot v)' \  = u \cdot v = \int u \cdot v' \ + \int v \cdot u' \ $$
 $$\int u \cdot v' \  = u \cdot v - \int v \cdot u' \ $$
+
+# Nümerik Analiz
+
+### İkiye Bölme Metodu
+$$f(a) \cdot f(b) < 0$$ olmak üzere a ve b noktaları seçeriz. Bu iki noktanın ortasını alırız (c). f(c) değeri bu ikisinden hangisi ile çarpıldığında negatif olursa ona göre aralığı belirleriz. Örneğin f(a) ile çarpıldığında negatif değer verirse a ile c aralığı için ayısını yaparız ve bu şekilde sonsuza kadar giderek köke yaklaşırız. Bu metod en yavaş metoddur. Ayrıca fonksiyon sürekli pozitif veya sürekli negatif değerler aldığında bu metod işe yaramaz.
+
+### Newton-Raphson Metodu
+
+Seçilen bir başlangıç noktasından teğet çekerek o teğetin x eksenini kestiği noktayı bulup o x değerine de başlangıç noktasına yaptıklarımızı tekrarlı şekilde yaptığımız bir köke yaklaşma metodudur.
+
+▶️ Önce bir başlangıç noktası seçeriz. $(x_0)$
+▶️ Sonraki yeni x değeri $$(x_0) - \frac{f(x_0)}{f'(x_0)} olur.
+▶️ Daha sonra bulduğumuz yeni x değerini formülde $(x_0)$ yerine koyup sonraki x değerini buluruz ve bu şekilde köke yaklaşırız.
+
+Köke yaklaşmada en güçlü ve en hızlı metod budur ama dikkat etmemiz gereken bir şey var. Başlangıç noktasını çözüme olabildiğince yakın seçmeliyiz. Eğer başlangıç noktasını çözümden uzak seçersek kökten uzaklaşabilir ve çözümü bulamayabilir.
