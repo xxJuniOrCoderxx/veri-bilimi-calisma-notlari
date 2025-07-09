@@ -248,7 +248,7 @@ $$
 6  \\
 5 
 \end{bmatrix}
-&&&ve&&&
+&ve&
 \begin{bmatrix}
 7  \\
 9 
