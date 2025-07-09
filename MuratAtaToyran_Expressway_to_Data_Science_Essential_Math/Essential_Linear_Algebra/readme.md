@@ -224,4 +224,5 @@ $$
 $$\frac{A}{\begin{Vmatrix}
 A
 \end{Vmatrix}}$$ 
+
 şeklinde birim vektör olmuş olur.
