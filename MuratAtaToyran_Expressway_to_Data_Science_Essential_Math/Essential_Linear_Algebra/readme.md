@@ -91,3 +91,16 @@ $$
 \end{align*}
 $$
 
+Buradan da özvektörler aşağıdaki gibi olur:
+
+$$
+\begin{align*}
+\begin{bmatrix}
+-6 & 5
+\end{bmatrix}
+&&&ve&&&
+\begin{bmatrix}
+1 & 1
+\end{bmatrix}
+\end{align*}
+$$
