@@ -35,7 +35,7 @@ $$
 a & b \\
 c & d \\
 \end{vmatrix}
-&= \det\begin{pmatrix} 
+= \det\begin{pmatrix} 
 a & b \\
 c & d
 \end{pmatrix}
