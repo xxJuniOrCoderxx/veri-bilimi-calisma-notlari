@@ -64,4 +64,34 @@ A - \lambda \cdot I
 \end{align*}
 $$
 
-eşitliğini sağlayan $\lambda$ değerlerine **eigenvalue** denir.
+eşitliğini sağlayan $\lambda$ değerlerine **özdeğer** denir.
+
+Örneğin:
+
+$$
+\begin{bmatrix}
+1 & 6 \\
+5 & 2
+\end{bmatrix}
+$$
+
+matrisi için özdeğerler _7_ ve _-4_ olur. Fark edileceği üzere $$ A - \lambda \cdot I $$ matrisinde özdeğerlerden birini yerine koyduğumuzda iki sütun da birbirinin katı olur. Yani sütunları vektör olarak ele alırsak vektörlerin doğrultuları aynı olur. Bu sütunlardan birisini birinci özvektör olarak düşünebiliriz. Diğeri özdeğer için de aynısını yaptığımızda diğer özvektörü bulmuş oluruz. Bu değerleri koyduktan sonra bulacağımız iki matris aşağıdaki gibidir:
+
+$$
+\begin{align*}
+\begin{bmatrix}
+1 & 6 \\
+5 & 2
+\end{bmatrix}
+
+ve
+
+\begin{bmatrix}
+1 & 6 \\
+5 & 2
+\end{bmatrix}
+
+\end{align*}
+$$
+
+olur.
