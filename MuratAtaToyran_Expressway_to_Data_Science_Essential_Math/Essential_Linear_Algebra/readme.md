@@ -2,7 +2,8 @@
 
 Matrisin karakteristiği hakkında çok fazla şey söyleyen, belli hesaplamalar sonucu bulunan sayıdır.
 
-**2x2 matris için determinant hesaplama:** Aşağıdaki gibi bir matris verilsin:
+### 2x2 matris için determinant hesaplama
+Aşağıdaki gibi bir matris verilsin:
 
 $$
 \begin{bmatrix}
