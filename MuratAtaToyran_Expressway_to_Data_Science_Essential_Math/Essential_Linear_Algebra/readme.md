@@ -46,10 +46,18 @@ $$
 2x2'ye benzer ama biraz daha karmaşık. 
 1. adım: Satırlardan veya sütunlardan bir tanesini seçin. determinantını hesaplayacağımız 3x3 matrisin adı X olsun.
 2. adım: Seçtiğiniz bu satır (veya sütun) üzerindeki değerlerin her biri için bulunduğu satır ve sütundaki değerleri çıkararak yeni 2x2'lik matris oluşturup determinantını alın. i satırının j sütunu için oluşturulan bu yeni matrise $A_{ij}$ diyelim.
-3. adım: Seçtiğimiz satırdaki tüm değerler için  **$$(-1)^{i+j} \cdot det(A_{ij}) \cdot X_{ij}$$** hesaplayıp bu değerleri topladığımızda 3x3 matrisiçin determinantı elde etmiş oluruz.
+3. adım: Seçtiğimiz satırdaki tüm değerler için  $$(-1)^{i+j} \cdot det(A_{ij}) \cdot X_{ij}$$ hesaplayıp bu değerleri topladığımızda 3x3 matrisiçin determinantı elde etmiş oluruz.
 
 Örnek:
 
 
 ..........
 
+## Özdeğer ve Özvektör (Eigenvalue/Eigenvector)
+
+\begin{align*}
+\det\begin{pmatrix} 
+A - \lambda \cdot I
+\end{pmatrix} 
+=0 eşitliğini sağlayan \lambda değerlerine **eigenvalue** denir.
+\end{align*}
