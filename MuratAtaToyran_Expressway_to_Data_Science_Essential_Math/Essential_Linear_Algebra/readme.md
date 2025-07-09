@@ -218,3 +218,7 @@ A
 = \sqrt{46}
 \end{align*}
 $$
+
+**Not:** Vektörle aynı doğrultuda birim vektör oluşturmak için vektörün kendisini vektörün uzunluğuna böleriz. Yani:
+
+$$\frac{A}{||A||}$$
