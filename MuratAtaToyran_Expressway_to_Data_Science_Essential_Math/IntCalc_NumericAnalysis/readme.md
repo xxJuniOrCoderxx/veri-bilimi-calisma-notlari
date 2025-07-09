@@ -39,12 +39,12 @@ Köke yaklaşmada en güçlü ve en hızlı metod budur ama dikkat etmemiz gerek
 
 ## Diyagonalizasyon
 
-D matrisi, $D_ii$ değerleri dışında 0 ise diyagonal matristir.
+D matrisi, $D_ii$ değerleri dışında 0 ise diyagonal matristir. Yani aşağıdaki gibidir:
 
-$
+$$
 \begin{matrix}
 a & 0 & 0\\
 0 & b & 0\\
 0 & 0 & c
 \end{matrix}
-$
+$$
