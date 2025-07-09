@@ -75,7 +75,7 @@ $$
 \end{bmatrix}
 $$
 
-matrisi için özdeğerler _7_ ve _-4_ olur. Fark edileceği üzere $$A - \lambda \cdot I$$ matrisinde özdeğerlerden birini yerine koyduğumuzda iki sütun da birbirinin katı olur. ~~Yani sütunları vektör olarak ele alırsak vektörlerin doğrultuları aynı olur. Bu sütunlardan birisini birinci özvektör olarak düşünebiliriz. Diğeri özdeğer için de aynısını yaptığımızda diğer özvektörü bulmuş oluruz.~~ (Hemen alttaki 'Ekleme' kısmına bakın) Bu $\lambda$ değerlerini koyduktan sonra bulacağımız iki matris aşağıdaki gibidir:
+matrisi için özdeğerler _7_ ve _-4_ olur. Fark edileceği üzere $$A - \lambda \cdot I$$ matrisinde özdeğerlerden birini yerine koyduğumuzda iki sütun da birbirinin katı olur. ~~Yani sütunları vektör olarak ele alırsak vektörlerin doğrultuları aynı olur. Bu sütunlardan birisini birinci özvektör olarak düşünebiliriz. Diğeri özdeğer için de aynısını yaptığımızda diğer özvektörü bulmuş oluruz.~~ _(Hemen alttaki 'Ekleme' kısmına bakın)_ Bu $\lambda$ değerlerini koyduktan sonra bulacağımız iki matris aşağıdaki gibidir:
 
 $$
 \begin{align*}
@@ -168,7 +168,7 @@ $$
 Özdeğeri bilinen bir matrisin özvektörünü bulmak için $$[A - \lambda \cdot I] \cdot v = 0$$ eşitliğini sağlayan vektörü lineer denklemlerin matrislerle çözümü sayesinde bulabiliriz.
 
 
-Burada ilginç bir şey var ki üstteki örnekte baktığımız özvektörü oluşturmak için 7 özdeğerini kullandık ama bu denklemde eşitliği -4 özdeğeri sağlıyor. Aynısını diğer vektörle deneseydik bu denklemde bu sefer 7 özdeğerini kullanmış olacaktık. Değinmek istedim ($$A \cdot v = \lambda \cdot v$$ kısmından bahsediyorum ama işlerin biraz farklı olduğunu yine üstte eklemiş olduğum 'Ekleme' kısmında anlattım). Ayrıca konuyla ilgilenenler [şu videoya](https://www.youtube.com/watch?v=1sDBruay100) da göz atabilir.
+Burada ilginç bir şey var ki üstteki örnekte baktığımız özvektörü oluşturmak için 7 özdeğerini kullandık ama bu denklemde eşitliği -4 özdeğeri sağlıyor. Aynısını diğer vektörle deneseydik bu denklemde bu sefer 7 özdeğerini kullanmış olacaktık. Değinmek istedim _($$A \cdot v = \lambda \cdot v$$ kısmından bahsediyorum ama işlerin biraz farklı olduğunu yine üstte eklemiş olduğum 'Ekleme' kısmında anlattım)_. Ayrıca konuyla ilgilenenler [şu videoya](https://www.youtube.com/watch?v=1sDBruay100) da göz atabilir.
 
 Ayrıca aşağıdaki yöntemi de inceleyebilirsiniz:
 ![image](https://github.com/user-attachments/assets/4927bbec-3aba-4726-8147-b4f895c8923d)
