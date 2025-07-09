@@ -35,7 +35,7 @@ Seçilen bir başlangıç noktasından teğet çekerek o teğetin x eksenini kes
 ▶️ Sonraki yeni x değeri $$(x_0) - \frac{f(x_0)}{f'(x_0)} olur.
 ▶️ Daha sonra bulduğumuz yeni x değerini formülde $(x_0)$ yerine koyup sonraki x değerini buluruz ve bu şekilde köke yaklaşırız.
 
-Köke yaklaşmada en güçlü ve en hızlı metod budur ama dikkat etmemiz gereken bir şey var. Başlangıç noktasını çözüme olabildiğince yakın seçmeliyiz. Eğer başlangıç noktasını çözümden uzak seçersek kökten uzaklaşabilir ve çözümü bulamayabilir.
+Köke yaklaşmada en güçlü ve en hızlı metod budur ama dikkat etmemiz gereken bir şey var. Başlangıç noktasını çözüme olabildiğince yakın seçmeliyiz. Eğer başlangıç noktasını çözümden uzak seçersek kökten uzaklaşabilir ve çözümü bulamayabilir. [Bu videoya](https://www.youtube.com/watch?v=d4TtDbC0zEo) da göz atabilirsiniz.
 
 ## Diyagonalizasyon
 
