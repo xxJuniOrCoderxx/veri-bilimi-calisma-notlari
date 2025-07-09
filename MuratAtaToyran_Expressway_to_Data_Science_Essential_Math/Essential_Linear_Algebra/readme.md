@@ -239,3 +239,20 @@ u-v
 \end{Vmatrix}
 \end{align*}
 $$
+
+Örnek:
+
+$$
+\begin{align*}
+\begin{bmatrix}
+6  \\
+5 
+\end{bmatrix}
+&&&ve&&&
+\begin{bmatrix}
+7  \\
+9 
+\end{bmatrix}
+&arasındaki&uzaklık& \sqrt{46} & olur.
+\end{align*}
+$$
