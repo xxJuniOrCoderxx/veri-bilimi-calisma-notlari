@@ -165,6 +165,9 @@ $$
 \end{align*}
 $$
 
+Özdeğeri bilinen bir matrisin özvektörünü bulmak için $$[A - \lambda \cdot I] \cdot v = 0$$ eşitliğini sağlayan vektörü lineer denklemlerin matrislerle çözümü sayesinde bulabiliriz.
+
+
 Burada ilginç bir şey var ki üstteki örnekte baktığımız özvektörü oluşturmak için 7 özdeğerini kullandık ama bu denklemde eşitliği -4 özdeğeri sağlıyor. Aynısını diğer vektörle deneseydik bu denklemde bu sefer 7 özdeğerini kullanmış olacaktık. Değinmek istedim. Ayrıca konuyla ilgilenenler [şu videoya](https://www.youtube.com/watch?v=1sDBruay100) da göz atabilir.
 
 Ayrıca aşağıdaki yöntemi de inceleyebilirsiniz:
