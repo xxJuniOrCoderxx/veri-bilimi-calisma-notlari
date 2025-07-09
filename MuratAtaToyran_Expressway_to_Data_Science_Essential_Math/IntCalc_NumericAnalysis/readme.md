@@ -13,4 +13,5 @@ Fonksiyonun altında kalan alanı N tane eşit aralıklı dikdörtgen parçaya b
 
 -----------------------
 **Aşağıdaki örnekte a'dan b'ye integral alırsanız $$\int_{a}^{b} f(x) \ dx$$ bulacağınız sonuç $A_1 - A_2$ olur.**
+
 ![image](https://github.com/user-attachments/assets/c939fb35-25e9-4625-b572-abfe31123709)
