@@ -36,3 +36,15 @@ Seçilen bir başlangıç noktasından teğet çekerek o teğetin x eksenini kes
 ▶️ Daha sonra bulduğumuz yeni x değerini formülde $(x_0)$ yerine koyup sonraki x değerini buluruz ve bu şekilde köke yaklaşırız.
 
 Köke yaklaşmada en güçlü ve en hızlı metod budur ama dikkat etmemiz gereken bir şey var. Başlangıç noktasını çözüme olabildiğince yakın seçmeliyiz. Eğer başlangıç noktasını çözümden uzak seçersek kökten uzaklaşabilir ve çözümü bulamayabilir.
+
+## Diyagonalizasyon
+
+D matrisi, $D_ii$ değerleri dışında 0 ise diyagonal matristir.
+
+$
+\begin{matrix}
+a & 0 & 0\\
+0 & b & 0\\
+0 & 0 & c
+\end{matrix}
+$
