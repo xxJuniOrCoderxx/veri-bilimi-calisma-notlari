@@ -265,6 +265,6 @@ $$
 
 ## Dik Yansıtmalar(Orthogonal Projections)
 
-y vektörünün u vektörü üzerine yansıtılması örneğini aşağıda görebilirsiniz:
+_y vektörünün u vektörü üzerine yansıtılması örneğini aşağıda görebilirsiniz:_
 
 ![IMG_1899](https://github.com/user-attachments/assets/d10b2a54-b46a-4321-847e-ead8893a5069)
