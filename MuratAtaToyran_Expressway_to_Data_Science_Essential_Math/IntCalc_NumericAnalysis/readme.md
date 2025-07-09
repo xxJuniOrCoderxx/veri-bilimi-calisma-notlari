@@ -80,3 +80,7 @@ D=
 \end{bmatrix}
 \end{align*}
 $$
+
+***Aşağıdaki örneğe göz atın:***
+
+![image](https://github.com/user-attachments/assets/e36dbb73-40fd-42b4-8710-baa6e42cec11)
