@@ -89,8 +89,6 @@ $$
 1 & 6 \\
 5 & 2
 \end{bmatrix}
-
 \end{align*}
 $$
 
-olur.
