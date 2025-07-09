@@ -219,6 +219,9 @@ A
 \end{align*}
 $$
 
-**Not:** Vektörle aynı doğrultuda birim vektör oluşturmak için vektörün kendisini vektörün uzunluğuna böleriz. Yani: $$\frac{A}{\begin{Vmatrix}
+**Not:** Vektörle aynı doğrultuda birim vektör oluşturmak için vektörün kendisini vektörün uzunluğuna böleriz. Yani: 
+
+$$\frac{A}{\begin{Vmatrix}
 A
-\end{Vmatrix}}$$ olmuş olur.
+\end{Vmatrix}}$$ 
+şeklinde birim vektör olmuş olur.
