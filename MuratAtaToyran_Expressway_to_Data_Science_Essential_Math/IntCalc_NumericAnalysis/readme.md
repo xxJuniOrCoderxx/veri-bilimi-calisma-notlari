@@ -9,4 +9,4 @@ Fonksiyonun altında kalan alanı N tane eşit aralıklı dikdörtgen parçaya b
 İntegral hesaplarken temel kuralları bilmemiz gerekir:
 
 1. F(x) fonksiyonunun türevi f(x) olsun (dolayısıyla F(x) fonksiyonu, f(x) fonksiyonunun anti-türevi olmuş olur). $\int f(x) \ dx$ = F(x) + c olur (c sabit sayı).
-2. $$\int_{a}^{b} f(x) \, dx$$ = F(b) - F(a) olur.
+2. $$\int_{a}^{b} f(x) \ dx$$ = F(b) - F(a) olur.
