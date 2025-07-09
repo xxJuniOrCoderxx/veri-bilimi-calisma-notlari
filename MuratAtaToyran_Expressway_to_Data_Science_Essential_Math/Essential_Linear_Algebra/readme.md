@@ -12,6 +12,7 @@ c & d
 $$
 
 Bu matrisin determinantını şu şekilde hesaplayabiliriz:
+
 $$
 \begin{vmatrix}
 a & b \\
