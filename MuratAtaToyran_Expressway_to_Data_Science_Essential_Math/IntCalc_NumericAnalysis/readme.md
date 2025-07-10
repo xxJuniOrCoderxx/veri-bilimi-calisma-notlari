@@ -22,6 +22,16 @@ $$(u \cdot v)' = u \cdot v' + v \cdot u' $$
 $$\int (u \cdot v)' \  = u \cdot v = \int u \cdot v' \ + \int v \cdot u' \ $$
 $$\int u \cdot v' \  = u \cdot v - \int v \cdot u' \ $$
 
+# İleri Analiz
+
+### Kısmi Türev
+
+Çok değişkenli $f(x, y)$ fonksiyonunun belli bir değişkenine göre türev alınması işlemidir. Fonksiyonun x'e göre türevi $f_x(x, y)=f_x=\frac{\partial f}{\partial x}=z_x=frac{\partial z}{\partial x}=D_xf$
+
+<img width="660" height="468" alt="image" src="https://github.com/user-attachments/assets/6748ca9a-052c-49ed-9d3b-fdb8bc5a4872" />
+
+
+
 # Nümerik Analiz
 
 ### İkiye Bölme Metodu
