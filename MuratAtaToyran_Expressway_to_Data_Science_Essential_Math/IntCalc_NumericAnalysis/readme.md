@@ -34,7 +34,7 @@ $$\int u \cdot v' \  = u \cdot v - \int v \cdot u' \ $$
 
 (x, y, z) noktasının v vektörü boyunca yönlü türevi $u \cdot ▽f(x, y, z)$ olur. Burada $▽f(x, y, z)$, f fonksiyonunun (x, y, z) noktasında gradyanı olur ve bu da $<f_x(x, y, z), f_y(x, y, z), f_z(x, y, z)>$ vektörüne eşittir; u da v vektörünün birim vektör haline getirilmiş versiyonudur.
 
-Mesela $y^4 + 2xy^3 + x^2y^2$ fonksiyonun (0, 1) noktasında <1, 2> vektörü boyunca türevini bulmak istersek önce $f_x = 2y^3 + 2xy^2$ ve f_y = 4y^3 + 6xy^2$ + 2x^2y$ değerlerini bulup (0, 1) noktasını yerine koyarak $▽f(0, 1) = <2, 4>$ olarak buluruz. Daha sonra u vektörü $<1 / \sqrt{5}, 2 / \sqrt{5}>$ şeklinde bulunur. Daha sonra iç çarpım yaparak $2 \sqrt{5}$ sonucunu buluruz.
+Mesela $y^4 + 2xy^3 + x^2y^2$ fonksiyonun (0, 1) noktasında <1, 2> vektörü boyunca türevini bulmak istersek önce $f_x = 2y^3 + 2xy^2$ ve f_y = 4y^3 + 6xy^2 + 2x^2y$ değerlerini bulup (0, 1) noktasını yerine koyarak $▽f(0, 1) = <2, 4>$ olarak buluruz. Daha sonra u vektörü $<1 / \sqrt{5}, 2 / \sqrt{5}>$ şeklinde bulunur. Daha sonra iç çarpım yaparak $2 \sqrt{5}$ sonucunu buluruz.
 
 # Nümerik Analiz
 
