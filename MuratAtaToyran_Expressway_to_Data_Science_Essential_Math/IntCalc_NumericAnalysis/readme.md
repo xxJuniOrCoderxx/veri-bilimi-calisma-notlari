@@ -106,7 +106,7 @@ v_2 &
 v_3
 \end{bmatrix}
 &&&&&&
-$\Sigma$=
+\Sigma=
 \begin{bmatrix}
 \sigma_1 & 0 & 0\\
 0 & \sigma_2 & 0
