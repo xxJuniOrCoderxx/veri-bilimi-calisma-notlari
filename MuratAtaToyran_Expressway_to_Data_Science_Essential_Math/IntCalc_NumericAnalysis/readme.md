@@ -37,7 +37,7 @@ Köke yaklaşmada en güçlü ve en hızlı metod budur ama dikkat etmemiz gerek
 
 ## Diyagonalizasyon
 
-D matrisi, $D_{ii}$ değerleri dışında 0 ise diyagonal matristir. Yani aşağıdaki gibidir:
+D matrisi içindeki değerler, $D_{ii}$ değerleri dışında 0 ise D matrisi diyagonal matristir. Yani aşağıdaki gibidir:
 
 $$
 \begin{bmatrix}
@@ -83,6 +83,10 @@ $$
 
 ![image](https://github.com/user-attachments/assets/e36dbb73-40fd-42b4-8710-baa6e42cec11)
 
-***Simetrik matrisler***, transpozu kendisine eşit olan matrislerdir $(A^T=A)$, yani tanım gereği kare matris olmaları gerekir. Simetrik matrislere diyagonalizasyon uyguladığımızda P matrisi ile ilgili ilginç bir şey gözlemleriz, P matrisinin bütün sütunları birbirine dik, yani P matrisi ortagonal bir matris, yani A matrisinin özvektörleri birbirine dik. Daha da ilginç ve işlerimizi kolaylaştıran bir şey daha var, A matrisinin tüm özvektörlerini birim vektör haline getirirsek *(ki buna ortanormal hale getirmek denir)*, yani vektörleri normlarına bölersek ve P matrisini bu şekilde oluşturursak P matrisinin tersi transpozuna eşit olmuş olur $(P^T=P^{-1})$.
+***Simetrik matrisler***, transpozu kendisine eşit olan matrislerdir $(A^T=A)$, yani tanım gereği kare matris olmaları gerekir. Simetrik matrislere diyagonalizasyon uyguladığımızda P matrisi ile ilgili ilginç bir şey gözlemleriz, P matrisinin bütün sütunları birbirine dik, yani P matrisi ortagonal bir matris, yani A matrisinin özvektörleri birbirine dik. Daha da ilginç ve işlerimizi kolaylaştıran bir şey daha var, A matrisinin tüm özvektörlerini birim vektör haline getirirsek *(ki buna ortanormal hale getirmek denir)*, yani vektörleri normlarına bölersek ve bu vektörlerle P matrisini  oluşturursak P matrisinin tersi transpozuna eşit olmuş olur $(P^T=P^{-1})$.
 
 ![image](https://github.com/user-attachments/assets/f2374716-0393-452f-8715-60168dc06a97)
+
+## Tekil Değer Ayrışımı
+
+Bir A matrisimiz olsun. Bu A matrisi için öyle bir U matrisi, öyle bir V matrisi ve öyle bir diyagonal(?) $\Sigma$ matrisi vardır ki $A = U \cdot \Sigma \cdot V^T$ eşitliğini sağlar ve A matrisini bu formatta yazabiliriz.
