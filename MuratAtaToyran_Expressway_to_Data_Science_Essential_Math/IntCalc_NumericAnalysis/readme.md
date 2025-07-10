@@ -83,6 +83,8 @@ $$
 
 ![image](https://github.com/user-attachments/assets/e36dbb73-40fd-42b4-8710-baa6e42cec11)
 
+🥇 _Not:_ Şunu bilmemiz gerekir ki A matrisinin kare matris olmaması veya diyagonalize edilemeyecek kadar az özvektöre sahip olması gibi durumlar, diyagonalizasyonun çalışmadığı durumlardır.
+
 ***Simetrik matrisler***, transpozu kendisine eşit olan matrislerdir $(A^T=A)$, yani tanım gereği kare matris olmaları gerekir. Simetrik matrislere diyagonalizasyon uyguladığımızda P matrisi ile ilgili ilginç bir şey gözlemleriz, P matrisinin bütün sütunları birbirine dik, yani P matrisi ortagonal bir matris, yani A matrisinin özvektörleri birbirine dik. Daha da ilginç ve işlerimizi kolaylaştıran bir şey daha var, A matrisinin tüm özvektörlerini birim vektör haline getirirsek *(ki buna ortanormal hale getirmek denir)*, yani vektörleri normlarına bölersek ve bu vektörlerle P matrisini  oluşturursak P matrisinin tersi transpozuna eşit olmuş olur $(P^T=P^{-1})$.
 
 ![image](https://github.com/user-attachments/assets/f2374716-0393-452f-8715-60168dc06a97)
