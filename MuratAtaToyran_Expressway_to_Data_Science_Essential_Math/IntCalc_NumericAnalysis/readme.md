@@ -31,9 +31,9 @@ $$f(a) \cdot f(b) < 0$$ olmak üzere a ve b noktaları seçeriz. Bu iki noktanı
 
 Seçilen bir başlangıç noktasından teğet çekerek o teğetin x eksenini kestiği noktayı bulup o x değerine de başlangıç noktasına yaptıklarımızı tekrarlı şekilde yaptığımız bir köke yaklaşma metodudur.
 
-▶️ Önce bir başlangıç noktası seçeriz. $(x_0)$
-▶️ Sonraki yeni x değeri $$(x_0) - \frac{f(x_0)}{f'(x_0)}$$ olur.
-▶️ Daha sonra bulduğumuz yeni x değerini formülde $(x_0)$ yerine koyup sonraki x değerini buluruz ve bu şekilde köke yaklaşırız.
+▶ Önce bir başlangıç noktası seçeriz. $(x_0)$
+▶ Sonraki yeni x değeri $$x_0 - \frac{f(x_0)}{f'(x_0)}$$ olur.
+▶ Daha sonra bulduğumuz yeni x değerini formülde $(x_0)$ yerine koyup sonraki x değerini buluruz ve bu şekilde köke yaklaşırız.
 
 Köke yaklaşmada en güçlü ve en hızlı metod budur ama dikkat etmemiz gereken bir şey var. Başlangıç noktasını çözüme olabildiğince yakın seçmeliyiz. Eğer başlangıç noktasını çözümden uzak seçersek kökten uzaklaşabilir ve çözümü bulamayabilir. [Bu videoya](https://www.youtube.com/watch?v=d4TtDbC0zEo) da göz atabilirsiniz.
 
