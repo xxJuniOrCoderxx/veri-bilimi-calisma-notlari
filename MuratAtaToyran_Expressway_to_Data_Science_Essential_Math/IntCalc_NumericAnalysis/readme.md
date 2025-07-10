@@ -28,7 +28,7 @@ $$\int u \cdot v' \  = u \cdot v - \int v \cdot u' \ $$
 
 Çok değişkenli $f(x, y)$ fonksiyonunun belli bir değişkenine göre türev alınması işlemidir. Fonksiyonun x'e göre türevi $f_x(x, y)=f_x=\frac{\partial f}{\partial x}=z_x=\frac{\partial z}{\partial x}=D_xf$ olarak altı farklı şekilde gösterilebilir.
 
-<img width="1318" height="1204" alt="image" src="https://github.com/user-attachments/assets/abe6bea0-c45e-4522-8c2f-a43f9618ee21" />
+<img width="659" height="602" alt="image" src="https://github.com/user-attachments/assets/abe6bea0-c45e-4522-8c2f-a43f9618ee21" />
 
 ### Yönlü Türev ve Gradyan
 
