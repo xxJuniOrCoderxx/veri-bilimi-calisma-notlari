@@ -36,6 +36,8 @@ $$\int u \cdot v' \  = u \cdot v - \int v \cdot u' \ $$
 
 Mesela $y^4 + 2xy^3 + x^2y^2$ fonksiyonun (0, 1) noktasında <1, 2> vektörü boyunca türevini bulmak istersek önce $f_x = 2y^3 + 2xy^2$ ve $f_y = 4y^3 + 6xy^2 + 2x^2y$ değerlerini bulup (0, 1) noktasını yerine koyarak $▽f(0, 1) = <2, 4>$ olarak buluruz. Daha sonra u vektörü $<1 / \sqrt{5}, 2 / \sqrt{5}>$ şeklinde bulunur. Daha sonra iç çarpım yaparak $2 \sqrt{5}$ sonucunu buluruz.
 
+***Not:*** Bir fonksiyonun bir noktada en hızlı arttığı yön $▽f$ ve artış hızı da normuna eşit olur. Bu yönün tam tersi de en hızlı azaldığı yön olur ve azalma hızı da eksili olur.
+
 # Nümerik Analiz
 
 ### İkiye Bölme Metodu
