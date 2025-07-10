@@ -89,9 +89,13 @@ $$
 
 ![image](https://github.com/user-attachments/assets/f2374716-0393-452f-8715-60168dc06a97)
 
-## Tekil Değer Ayrışımı
+## Tekil Değer Ayrışımı(SVD)
 
-Bir $A_{n \times p}$ matrisimiz olsun. Bu $A_{n \times p}$ matrisi için öyle bir $U_{n \times n}$ matrisi, öyle bir $V_{p \times p}$ matrisi ve öyle bir diyagonal(?) $\Sigma_{n \times p}$ matrisi vardır ki $A = U \cdot \Sigma \cdot V^T$ eşitliğini sağlar ve A matrisini bu formatta yazabiliriz.
+Her A matrisine diyagonalizasyon yapamadığımız için tekli değer ayrışımı gibi ek ayrışımlara ihtiyaç duyarız.
+
+***Peki  nasıl çalışır?*** Bir $A_{n \times p}$ matrisimiz olsun. Bu $A_{n \times p}$ matrisi için öyle bir $U_{n \times n}$ matrisi, öyle bir $V_{p \times p}$ matrisi ve öyle bir diyagonal(?) $\Sigma_{n \times p}$ matrisi vardır ki $A = U \cdot \Sigma \cdot V^T$ eşitliğini sağlar ve A matrisini bu formatta yazabiliriz.
+
+***Peki U, V ve $\Sigma$ matrislerini nasıl buluruz?*** Önce $A \cdot A^T$ matrisini bulalım (dikkat ederseniz bu matrisin simetrik olduğunu görebilirsiniz). Bulduğumuz matrisin özdeğer ve özvektörlerini bulalım. Matrisimiz simetrik olduğundan özvektörler ortagonal olacaktır, bunları ortanormal hale getirelim. Her $\lambda_i$ özdeğeri için belli bir $v_i$ özvektörü olduğuna da dikkat ederek sütunlar halinde V matrisini oluşturalım. Sonrasında özdeğerlerin köklerini $(\sigma_i = \sqrt{\lambda_i})$ hesaplayıp özvektörlerin sırasına dikkat ederek $\Sigma$ matrisinde yerine koyalım. En son $u$ vektörlerini bulmak için $u_i = A \cdot \frac{v_i}{\sigma_i}$ formülünü uygulayıp U matrisinde yerine koyalım. Bu adımlar sonrasında matrisler aşağıdaki gibi olur:
 
 
 
