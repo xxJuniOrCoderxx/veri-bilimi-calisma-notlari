@@ -92,3 +92,14 @@ $$
 ## Tekil Değer Ayrışımı
 
 Bir $A_{n \times p}$ matrisimiz olsun. Bu $A_{n \times p}$ matrisi için öyle bir $U_{n \times n}$ matrisi, öyle bir $V_{p \times p}$ matrisi ve öyle bir diyagonal(?) $\Sigma_{n \times p}$ matrisi vardır ki $A = U \cdot \Sigma \cdot V^T$ eşitliğini sağlar ve A matrisini bu formatta yazabiliriz.
+
+
+
+
+| Durum                                       | Diyagonalizasyon | SVD   |
+| ------------------------------------------- | ---------------- | ----- |
+| Kare olmayan matrisler                      | ❌                | ✅     |
+| Defektif matrisler                          | ❌                | ✅     |
+| Sayısal kararlılık (nümerik analiz)         | Zayıf            | Güçlü |
+| Gürültülü verilerle çalışmak (PCA, LSA vb.) | ❌                | ✅     |
+| Her matris için çalışır mı?                 | ❌                | ✅     |
