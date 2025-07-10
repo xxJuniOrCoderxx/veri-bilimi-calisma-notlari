@@ -95,9 +95,30 @@ Her A matrisine diyagonalizasyon yapamadığımız için tekli değer ayrışım
 
 ***Peki  nasıl çalışır?*** Bir $A_{n \times p}$ matrisimiz olsun. Bu $A_{n \times p}$ matrisi için öyle bir $U_{n \times n}$ matrisi, öyle bir $V_{p \times p}$ matrisi ve öyle bir diyagonal(?) $\Sigma_{n \times p}$ matrisi vardır ki $A = U \cdot \Sigma \cdot V^T$ eşitliğini sağlar ve A matrisini bu formatta yazabiliriz.
 
-***Peki U, V ve $$\Sigma$$ matrislerini nasıl buluruz?*** Önce $A \cdot A^T$ matrisini bulalım (dikkat ederseniz bu matrisin simetrik olduğunu görebilirsiniz). Bulduğumuz matrisin özdeğer ve özvektörlerini bulalım. Matrisimiz simetrik olduğundan özvektörler ortagonal olacaktır, bunları ortanormal hale getirelim. Her $\lambda_i$ özdeğeri için belli bir $v_i$ özvektörü olduğuna da dikkat ederek sütunlar halinde V matrisini oluşturalım. Sonrasında özdeğerlerin köklerini $(\sigma_i = \sqrt{\lambda_i})$ hesaplayıp özvektörlerin sırasına dikkat ederek $\Sigma$ matrisinde yerine koyalım. En son $u$ vektörlerini bulmak için $u_i = A \cdot \frac{v_i}{\sigma_i}$ formülünü uygulayıp U matrisinde yerine koyalım. Bu adımlar sonrasında matrisler aşağıdaki gibi olur:
+***Peki U, V ve $$\Sigma$$ matrislerini nasıl buluruz?*** Önce $A \cdot A^T$ matrisini bulalım (dikkat ederseniz bu matrisin simetrik olduğunu görebilirsiniz). Bulduğumuz matrisin özdeğer ve özvektörlerini bulalım. Matrisimiz simetrik olduğundan özvektörler ortagonal olacaktır, bunları ortanormal hale getirelim. Her $\lambda_i$ özdeğeri için belli bir $v_i$ özvektörü olduğuna da dikkat ederek sütunlar halinde V matrisini oluşturalım. Sonrasında özdeğerlerin köklerini $(\sigma_i = \sqrt{\lambda_i})$ hesaplayıp özvektörlerin sırasına dikkat ederek $\Sigma$ matrisinde yerine koyalım. En son $u$ vektörlerini bulmak için $u_i = A \cdot \frac{v_i}{\sigma_i}$ formülünü uygulayıp U matrisinde yerine koyalım. Bu adımlar sonrasında $A_{2 \times 3} matrisinin tekil değer ayrıştırması için oluşturulacak matrisler aşağıdaki gibi olur:
 
-
+$$
+\begin{align*}
+V=
+\begin{bmatrix}
+v_1 &
+v_2 &
+v_3
+\end{bmatrix}
+&&&&&&
+$\Sigma$=
+\begin{bmatrix}
+\sigma_1 & 0 & 0\\
+0 & \sigma_2 & 0
+\end{bmatrix}
+&&&&&&
+U=
+\begin{bmatrix}
+u_1\\
+u_2
+\end{bmatrix}
+\end{align*}
+$$
 
 
 | Durum                                       | Diyagonalizasyon | SVD   |
