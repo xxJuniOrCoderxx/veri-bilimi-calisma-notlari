@@ -89,4 +89,4 @@ $$
 
 ## Tekil Değer Ayrışımı
 
-Bir A matrisimiz olsun. Bu A matrisi için öyle bir U matrisi, öyle bir V matrisi ve öyle bir diyagonal(?) $\Sigma$ matrisi vardır ki $A = U \cdot \Sigma \cdot V^T$ eşitliğini sağlar ve A matrisini bu formatta yazabiliriz.
+Bir $A_{n \times p}$ matrisimiz olsun. Bu $A_{n \times p}$ matrisi için öyle bir $U_{n \times n}$ matrisi, öyle bir $V_{p \times p}$ matrisi ve öyle bir diyagonal(?) $\Sigma_{n \times p}$ matrisi vardır ki $A = U \cdot \Sigma \cdot V^T$ eşitliğini sağlar ve A matrisini bu formatta yazabiliriz.
