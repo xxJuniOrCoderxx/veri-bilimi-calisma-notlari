@@ -120,6 +120,13 @@ u_2
 \end{align*}
 $$
 
+***Örnek:***
+
+![IMG_1900](https://github.com/user-attachments/assets/efeff73c-fa00-44a2-9907-946b27faca07)
+
+🥇 _Not:_ Bu örnekte de görebileceğimiz gibi özdeğerler bazen 0 olabiliyor. Peki size satır sayısı sütun sayısından fazla olan matrislerde tekil değer ayrıştırması yaptığımızda özdeğerlerden bir tanesinin 0 olacağını ve ?(eğer satır sayısı ve sütun sayısı arasındaki fark 1 ise)? diğer özdeğerlerin de o matrisin transpozuna tekil değer ayrıştırması uyguladıktan sonra bulacağımız özdeğerlere eşit olacağını söylesem? Evet, isterseniz bunu deneyebilirsiniz.
+
+### Diyagonalizasyon vs. SVD
 
 | Durum                                       | Diyagonalizasyon | SVD   |
 | ------------------------------------------- | ---------------- | ----- |
