@@ -1,6 +1,6 @@
 ## Matris Toplama
 
-Toplama yapılacak iki matrisin $m \times n$ boyutlarında olması gerekir. Karşılıklı gelen $x_{ij}$ değerleri toplanır. 
+Toplama yapılacak iki matrisin de aynı $m \times n$ boyutlarında olması gerekir. Karşılıklı gelen $x_{ij}$ değerleri toplanır. 
 
 ## Determinant
 
