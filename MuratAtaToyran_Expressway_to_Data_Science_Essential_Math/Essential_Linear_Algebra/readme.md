@@ -10,11 +10,11 @@
 
 ## Lineer Denklemlerin Matris Çözümü
 
-...
+...coming soon...
 
 ## Modül 3
 
-...
+...coming soon...
 
 ## Determinant
 
@@ -329,4 +329,4 @@ _y vektörünün u vektörü üzerine yansıtılması örneğini aşağıda gör
 
 ## En Küçük Kareler Metodu
 
-...
+...coming soon...
