@@ -8,6 +8,10 @@
 
 **Birim Matris:** $I_{ii}$ değerleri 1, diğerleri 0 olan matris.
 
+## Lineer Denklemlerin Matris Çözümü
+
+...
+
 ## Determinant
 
 Matrisin karakteristiği hakkında çok fazla şey söyleyen, belli hesaplamalar sonucu bulunan sayıdır.
