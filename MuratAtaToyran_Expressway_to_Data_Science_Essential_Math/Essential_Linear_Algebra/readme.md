@@ -1,12 +1,12 @@
-## Matris İşlemleri
+## Matris Temelleri
 
-### Matris Toplama
+**Matris Toplama:** Toplama yapılacak iki matrisin de aynı $m \times n$ boyutlarında olması gerekir. Karşılıklı gelen $x_{ij}$ değerleri toplanır. 
 
-Toplama yapılacak iki matrisin de aynı $m \times n$ boyutlarında olması gerekir. Karşılıklı gelen $x_{ij}$ değerleri toplanır. 
+**Matris Skalerle Çarpma (Scale):** Matrisin tüm değerleri skalerle çarpılır.
 
-### Matris Skalerle Çarpma (Scale)
+**Matris Çarpımı:** $A_{m \times n}$ ve $B_{n \times p}$ matrislerinin çarpımı için A matrisinin satırı ile B matrisinin sütunlarını çarpım-toplam yaparız.
 
-Matrisin tüm değerleri skalerle çarpılır.
+**Birim Matris:** $I_{ii}$ değerleri 1, diğerleri 0 olan matris.
 
 ## Determinant
 
