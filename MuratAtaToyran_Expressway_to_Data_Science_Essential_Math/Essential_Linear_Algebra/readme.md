@@ -51,6 +51,7 @@ $$
 $$
 
 Bu matrise satırları değiştirme, satırı sıfır olmayan bir sabitle çarpma ve satırlardan birinin katını diğer satıra ekleme gibi işlemler yaptıktan sonra $a_{ii}$ değerleri dışındaki değerleri 0 yapmaya çalışırız. Örneğimizin cevabının x=1, y=1, z=1 olduğunu rahatlıkla görebilirsiniz. 
+
 **Not:** Lineer denklem sistemlerinin ya hiç çözümü yok, ya bir çözümü var ya da sonsuz çözümü vardır. 
 
 ## Modül 3
