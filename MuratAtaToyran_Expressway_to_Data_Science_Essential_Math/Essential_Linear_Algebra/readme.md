@@ -1,3 +1,7 @@
+## Matris Toplama
+
+Toplama yapılacak iki matrisin $m \times n$ boyutlarında olması gerekir. Karşılıklı gelen $x_{ij}$ değerleri toplanır. 
+
 ## Determinant
 
 Matrisin karakteristiği hakkında çok fazla şey söyleyen, belli hesaplamalar sonucu bulunan sayıdır.
