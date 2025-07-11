@@ -10,7 +10,35 @@
 
 ## Lineer Denklemlerin Matris Çözümü
 
-...coming soon...
+```
+1x + 2y - 3z = 0
+4x + 5y - 7z = 2
+6x + 8y - 9z = 5
+```
+Yukarıdaki lineer denklem sisteminin matris formunda ifade edilmiş versiyonu aşağıdaki gibi $A \cdot X = B$ formatında olur:
+
+$$
+\begin{align*}
+\begin{bmatrix}
+1 & 2 & -3 \\
+4 & 5 & -7 \\
+6 & 8 & -9
+\end{bmatrix}
+\cdot 
+\begin{bmatrix} 
+x \\
+y \\
+z
+\end{bmatrix}
+= \begin{bmatrix} 
+0 \\
+2 \\
+5
+\end{bmatrix}
+\end{align*}
+$$
+
+### Peki Bunu Nasıl Çözeriz?
 
 ## Modül 3
 
