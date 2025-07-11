@@ -15,7 +15,7 @@
 4x + 5y - 7z = 2
 6x + 8y - 9z = 5
 ```
-Yukarıdaki lineer denklem sisteminin matris formunda ifade edilmiş versiyonu aşağıdaki gibi $A \cdot X = B$ formatında olur:
+Yukarıdaki lineer denklem sisteminin matris formunda ifade edilmiş versiyonu aşağıdaki gibi $A \cdot x = b$ formatında olur:
 
 $$
 \begin{align*}
