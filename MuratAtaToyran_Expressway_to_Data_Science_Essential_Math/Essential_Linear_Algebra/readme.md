@@ -371,4 +371,9 @@ _y vektörünün u vektörü üzerine yansıtılması örneğini aşağıda gör
 
 ## En Küçük Kareler Metodu
 
-...coming soon...
+$A \cdot x = b$ lineer denklem sisteminde çözümü bulunmayan matrisler için en küçük kareler metodunu kullanırız. Mantığı eşitliğin her iki tarafını sol taraftan önce $A^T$ ile daha sonra $(A^T \cdot A)^{-1}$ ile çarpma sonucunda $x = (A^T \cdot A)^{-1} \cdot A^T \cdot b$ eşitliğini elde etmemize dayanır. Bu, yaklaşık bir çözüm verecektir.
+
+_Örnek:_
+
+<img width="1402" height="856" alt="image" src="https://github.com/user-attachments/assets/17b11d80-92c1-4ca3-aa4b-ba76011fd1fa" />
+
