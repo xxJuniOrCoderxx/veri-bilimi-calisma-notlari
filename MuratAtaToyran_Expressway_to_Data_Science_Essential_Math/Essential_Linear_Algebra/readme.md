@@ -38,8 +38,19 @@ z
 \end{align*}
 $$
 
-### Peki Bunu Nasıl Çözeriz?
+### Peki Bu Eşitliği Nasıl Çözeriz?
 
+Burada arttırılmış matris (augmented matrix) formatına getirmeliyiz. Örneğimiz için aşağıdaki gibi olur:
+
+$$
+\begin{bmatrix}
+1 & 2 & -3 & | & 0 \\
+4 & 5 & -7 & | & 2 \\
+6 & 8 & -9 & | & 5
+\end{bmatrix}
+$$
+
+Bu matrise 'satırları değiştirme', 'satırı sıfır olmayan bir sabitle çarpma' ve satırlardan birinin katını diğer satıra ekleme gibi işlemler yaptıktan sonra $a_{ii}$ değerleri dışındaki değerleri 0 yapmaya çalışırız. 
 ## Modül 3
 
 ...coming soon...
