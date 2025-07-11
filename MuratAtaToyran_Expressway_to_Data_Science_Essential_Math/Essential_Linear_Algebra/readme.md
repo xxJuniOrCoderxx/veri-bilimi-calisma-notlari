@@ -12,6 +12,10 @@
 
 ...
 
+## Modül 3
+
+...
+
 ## Determinant
 
 Matrisin karakteristiği hakkında çok fazla şey söyleyen, belli hesaplamalar sonucu bulunan sayıdır.
@@ -322,3 +326,7 @@ $$
 _y vektörünün u vektörü üzerine yansıtılması örneğini aşağıda görebilirsiniz:_
 
 ![IMG_1899](https://github.com/user-attachments/assets/d10b2a54-b46a-4321-847e-ead8893a5069)
+
+## En Küçük Kareler Metodu
+
+...
