@@ -1,6 +1,12 @@
-## Matris Toplama
+## Matris İşlemleri
+
+### Matris Toplama
 
 Toplama yapılacak iki matrisin de aynı $m \times n$ boyutlarında olması gerekir. Karşılıklı gelen $x_{ij}$ değerleri toplanır. 
+
+### Matris Skalerle Çarpma (Scale)
+
+Matrisin tüm değerleri skalerle çarpılır.
 
 ## Determinant
 
