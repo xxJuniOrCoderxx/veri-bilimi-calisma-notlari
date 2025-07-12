@@ -1,4 +1,10 @@
-# Veri Kariyerlerinin Geleceği
+# 📈 Modül 3: Elektronik Tablolarla Çalışma ve Veri Kariyerlerinin Geleceği
+
+Bu modülde elektronik tablolarla veri analizi yapmayı, veri kariyerlerinin gelecek trendlerini ve yapay zeka ile makine öğrenmesinin veri alanındaki rolünü öğreneceksiniz.
+
+---
+
+## 🚀 Veri Kariyerlerinin Geleceği
 
 Dünya her yıl daha fazla veri üretmekte. Veri analizine dayalı kariyerlere olan talep sürekli artıyor. En hızlı büyüyen alanlardan biri: Yapay Zeka (AI) ve Makine Öğrenmesi.
 

@@ -1,4 +1,10 @@
-## VERİ BİLİMİ - VERİ ANALİTİĞİ
+# 📊 Modül 1: Veri Bilimi ve Veri Analitiği Dünyasına Giriş
+
+Bu modülde veri bilimi ve veri analitiği alanlarının temellerini, farklılıklarını ve ortak noktalarını öğreneceksiniz. Veri kariyer alanında hangi fırsatların bulunduğunu ve bu alanda nasıl uzmanlaşabileceğinizi keşfedeceksiniz.
+
+---
+
+## 🔍 Veri Bilimi vs. Veri Analitiği
 
 | VERİ BİLİMİ                                                                                    | VERİ ANALİTİĞİ                                                                                |
 | ---------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |

@@ -1,4 +1,10 @@
-# Portfolyonun Önemi
+# 📊 Modül 5: Görselleştirme ve Portföy Geliştirme
+
+Bu modülde veri görselleştirme tekniklerini, etkili sunum yöntemlerini ve profesyonel portföy geliştirme stratejilerini öğreneceksiniz.
+
+---
+
+## 🎯 Portföyün Önemi
 
 **Deneyimsel öğrenme (Experiential learning):** Öğrenilen bilgiyi uygulayarak pekiştirmektir.
 

@@ -1,4 +1,10 @@
-# PACE (Plan - Analyze - Construct - Execute)
+# 🗄️ Modül 4: SQL Temelleri ve PACE Framework
+
+Bu modülde SQL ile veri sorgulama temellerini ve PACE (Plan-Analyze-Construct-Execute) framework'ünü kullanarak projelerinizi nasıl yapılandıracağınızı öğreneceksiniz.
+
+---
+
+## 🔄 PACE (Plan - Analyze - Construct - Execute)
 
 Veri analitiği süreci genellikle aşağıdaki altı temel aşamadan oluşan bir iş akışı çerçevesiyle yürütülür:
 

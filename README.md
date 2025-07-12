@@ -14,22 +14,70 @@ Amacımız, veri bilimi alanındaki bilgi birikimimizi artırmak ve topluluk ola
 
 ---
 
-## İçerik
+## 📁 İçerik Yapısı
 
 Repository içeriği, konulara göre düzenli bir şekilde ayrılmıştır. Her klasörde ilgili konuya ait ders notları, örnek kodlar ve referans kaynaklar bulunur.
-Çalışmalar [AI-Data-Science-Roadmap](https://github.com/erencice/AI-Data-Science-Roadmap/) repository'si kaynaklarıyla gerçekleştirilir. Aşağıdaki içerikler çalışma grubunun gidişatına göre güncellenecektir. 
 
-/
-├── 01-Makine Öğrenimi için Matematik
+```
+📁 veri-bilimi-calisma-notlari/
+├── 📚 01-ileri-veri-analitigi/
+│   ├── 📖 module-01.md → Veri Bilimi ve Veri Analitiği Dünyasına Giriş
+│   ├── 📖 module-02.md → Veri Analisti Olarak Düşünmek
+│   ├── 📖 module-03.md → Elektronik Tablolarla Çalışma ve Veri Kariyerlerinin Geleceği
+│   ├── 📖 module-04.md → SQL Temelleri ve PACE Framework
+│   ├── 📖 module-05.md → Görselleştirme ve Portföy Geliştirme
+│   └── 📁 assets/images/ → Görsel destekler
+│
+├── 📚 01-makine-ogrenimi-icin-matematik/
+│   ├── 📖 module-01.md → Lineer Cebir Temelleri
+│   ├── 📖 module-02.md → Kalkülüs ve Türev
+│   ├── 📖 module-03.md → İstatistik ve Olasılık
+│   ├── 📖 module-04.md → Optimizasyon Yöntemleri
+│   ├── 📖 module-05.md → Matris Ayrıştırma
+│   ├── 📖 module-06.md → İleri Matematik
+│   ├── 📁 calculus-and-linear-algebra/
+│   │   ├── 📖 module-01.md → Fonksiyonlar ve Limitler
+│   │   ├── 📖 module-02.md → Türev Uygulamaları
+│   │   ├── 📖 module-03.md → İntegral Hesabı
+│   │   ├── 📖 module-04.md → Lineer Cebir Detayları
+│   │   └── 📖 module-05.md → Matris İşlemleri
+│   └── 📁 assets/images/ → Matematiksel görseller
+│
+└── 📋 Proje yönetim dosyaları (README, LICENSE, vb.)
+```
 
-3 sorumluluğumuz olacak.
-- Yol haritasını takip: https://github.com/erencice/AI-Data-Science-Roadmap
-- Haftalık takvimi takip: https://github.com/users/erencice/projects/4/views/1
-- Eğitimde aldığınız notları fork etme -> https://github.com/erencice/veri-bilimi-calisma-notlari
+---
 
-İlerlenecek Kurslar: 
-Google Advanced Data Analytics Certificate (Coursera) -
-Expressway to Data Science: Essential Math (Coursera) 
+## 🎯 Öğrenme Yolu
+
+**Önerilen çalışma sırası:**
+
+1. **🔢 Matematik Temelleri** → `01-makine-ogrenimi-icin-matematik/`
+   - Temel modüllerle başlayın
+   - Calculus ve Linear Algebra detaylarına geçin
+
+2. **📊 Veri Analitiği** → `01-ileri-veri-analitigi/`
+   - Foundations of Data Science ile başlayın
+   - İleri seviye modülleri takip edin
+
+---
+
+## 📚 Kaynak Kurslar
+
+Bu çalışma notları aşağıdaki kaynaklardan derlenmiştir:
+
+- **[Google Advanced Data Analytics Certificate](https://www.coursera.org/professional-certificates/google-advanced-data-analytics)** (Coursera)
+- **[Expressway to Data Science: Essential Math](https://www.coursera.org/learn/expressway-to-data-science-essential-math)** (Coursera)
+- **[AI-Data-Science-Roadmap](https://github.com/erencice/AI-Data-Science-Roadmap)** - Kapsamlı yol haritası
+
+---
+
+## 🎯 Takip Edilecek Kaynaklar
+
+**3 Ana Sorumluluğumuz:**
+1. **📍 Yol Haritası:** [AI-Data-Science-Roadmap](https://github.com/erencice/AI-Data-Science-Roadmap)
+2. **📅 Haftalık Takvim:** [Proje Takvimi](https://github.com/users/erencice/projects/4/views/1)
+3. **📝 Not Paylaşımı:** Bu repository'yi fork ederek katkıda bulunma 
 ---
 
 ## Katkı Süreci

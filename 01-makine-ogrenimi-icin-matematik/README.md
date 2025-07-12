@@ -4,7 +4,28 @@ Bu klasör, **Makine Öğrenimi** algoritmalarını derinlemesine anlamak ve etk
 
 ---
 
-## Amaç
+## 📊 İçerik Yapısı
+
+### Temel Modüller
+- **module-01.md** - Lineer Cebir Temelleri
+- **module-02.md** - Kalkülüs ve Türev Uygulamaları
+- **module-03.md** - İstatistik ve Olasılık
+- **module-04.md** - Optimizasyon Yöntemleri
+- **module-05.md** - Matris Ayrıştırma ve PCA
+- **module-06.md** - İleri Matematik Uygulamaları
+
+### Özel Bölümler
+- **calculus-and-linear-algebra/** - Detaylı matematik içerikleri
+  - Diferansiyel hesap uygulamaları
+  - Lineer cebir detayları
+  - Görsel matematik açıklamaları
+
+### Destek Materyalleri
+- **assets/images/** - Matematiksel görseller ve grafikler
+
+---
+
+## 🎯 Amaç
 
 Bu bölümün temel amacı, makine öğrenimi yolculuğunuzda size sağlam bir matematiksel temel sunmaktır:
 

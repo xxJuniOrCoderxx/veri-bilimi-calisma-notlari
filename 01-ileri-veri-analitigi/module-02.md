@@ -1,4 +1,10 @@
-## Veri Neden Değerlidir?
+# 💼 Modül 2: Veri Analisti Olarak Düşünmek
+
+Bu modülde veri analisti perspektifini geliştirmeyi, farklı veri rollerini anlamayı ve veri ekiplerinin nasıl çalıştığını öğreneceksiniz. Ayrıca verinin neden değerli olduğunu ve farklı sektörlerdeki uygulamalarını keşfedeceksiniz.
+
+---
+
+## 💎 Veri Neden Değerlidir?
 
 Şirketler, hangi verilerin sorunlara yol açabileceği ya da fırsat sunabileceğine karar verirler. Bu verileri kullanarak geleceğe yönelik temel hedefler belirler ve şirket süreçlerini iyileştirirler.
 
