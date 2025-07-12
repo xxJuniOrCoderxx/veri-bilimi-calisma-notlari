@@ -1,98 +1,197 @@
-# 📊 Math for Data Science – Course 1: Functions & Rates of Change
+# 📐 Modül 1: Fonksiyonlar ve Limitler
 
-## ✅ What is a Function?
-
-- A **function** is like a box: it takes **one input** and gives **one output**.
-- Example: `f(x) = x² + 1`
-  - `f(0) = 1`, `f(-1) = 2`, `f(1) = 2`
-- Each input has **only one output**, but multiple inputs can yield the **same output**.
-
-## 📈 Graph of a Function
-
-- x-axis: input  
-- y-axis: output  
-- Example: Graph of `f(x) = x² + 1` is a **parabola** opening upwards.
-- Still a function even if `f(-1) = f(1)` — because input → one output.
-
-## ❌ Not a Function (Visually)
-
-- If one x-value maps to **multiple y-values**, it's **not a function**.
-- Use the **Vertical Line Test**: If a vertical line hits the graph more than once → not a function.
-- Eğer bir girdi (x) için birden fazla çıktı (y) varsa, bu bir fonksiyon değil, sadece bir ilişkidir.
-
-## 🧠 Key Rule
-
-> A function assigns **exactly one output** for **each input**.
-
-# 📘 Domain and Range of a Function
-
-## 🔹 What is Domain?
-- The **domain** is the set of **all possible valid inputs** (x-values) for a function.
-- A value is **excluded** from the domain if it:
-  - Causes division by zero → e.g. `f(x) = 1/x`, domain: `x ≠ 0`
-  - Results in a non-real number → e.g. `f(x) = √(x + 1)`, domain: `x ≥ -1`
-
-## 🔹 What is Range?
-- The **range** is the set of **all possible outputs** (y-values) the function can produce.
-- Example:
-  - `f(x) = 1/x` → Range: `y ≠ 0`
-  - `g(x) = √(x + 1)` → Range: `y ≥ 0`
-
-## 🔹 Key Ideas:
-- Domain → “What goes **into** the function?”
-- Range → “What comes **out of** the function?”
-
-## 🔸 Graphical Tip:
-- **Domain**: Check horizontal extent (x-axis)
-- **Range**: Check vertical extent (y-axis)
+Bu modülde matematiksel fonksiyonların temellerini, tanım ve değer kümelerini, parçalı fonksiyonları ve temel matematiksel işlemleri öğreneceksiniz.
 
 ---
-# 📘 Piecewise Functions (Parçalı Fonksiyonlar)
 
-## 🔹 Nedir?
-- **Piecewise function (parçalı fonksiyon)**: Girdi değerine göre **farklı işlemler** uygulayan fonksiyon türüdür.
-- Fonksiyon farklı aralıklar için farklı kurallar tanımlar.
+## 🔢 Fonksiyon Nedir?
 
-## 🔹 Örnek:
-f(x) =  
-  x² + 1  if x > 0  
-  x - 1  if x ≤ 0  
+Fonksiyon (f), bir girdiyi (x) alır ve bir çıkış (y) üretir.
 
-### Örnek Hesaplamalar:
+- Her x için **yalnızca bir y değeri** vardır → bu bir fonksiyondur.
+- Aynı y değerini farklı x'lerde almak sorun değildir.  
+   Ancak **aynı x için birden çok y varsa** → **Fonksiyon değildir.**
+  Örneğin aşağıdaki eğri bir **fonksiyon değildir:**
+  ![no-function](assets/images/no-function.png)yon Nedir?
+
+Fonksiyon (f), bir girdiyi (x) alır ve bir çıkış (y) üretir.
+
+- Her x için **yalnızca bir y değeri** vardır → bu bir fonksiyondur.
+- Aynı y değerini farklı x’lerde almak sorun değildir.  
+   Ancak **aynı x için birden çok y varsa** → **Fonksiyon değildir.**
+  Örneğin aşağıdaki eğri bir **fonksiyon değildir:**
+  ![no-function](assets/images/no-function.png)
+
+Bir fonksiyonun temel tanımı:
+
+Girdi alır → İşlem yapar → Tek bir çıktı üretir.
+
+Örneğin:  
+ f(x) = x² + 1
+
+Bu fonksiyon bir paraboldür.
+
+- f(0) = 0² + 1 = 1
 - f(1) = 1² + 1 = 2
-- f(0) = 0 - 1 = -1
-- f(-3) = -3 - 1 = -4
-- f(4) = 4² + 1 = 17
+- f(-1) = (-1)² + 1 = 2
+- f(2) = 2² + 1 = 5
 
-## 🔹 Grafiksel Özellik:
-- Her parçanın kendi **grafiksel tanımı** olur.
-- Aralıklar açık veya kapalı olabilir (örneğin x > 0 → açık daire).
-- **Süreksizlik (discontinuity)** oluşabilir, yani grafik "atlayabilir".
+![function](assets/images/function.png)
 
-## 🔸 Ana Fikir:
-- Fonksiyon kutusu, **girdi değerine göre hangi işlem uygulanacağına karar verir**.
-- Aynı fonksiyon, farklı girdiler için **farklı matematiksel ifadeler** kullanabilir.
+## Tanım Kümesi (Domain) ve Değer Kümesi (Range)
 
-# 📊 Logaritmalar (Logarithms)
+### Domain (Tanım Kümesi):
 
-## 🔍 Tanım
-Bir logaritma, "bir sayıyı elde etmek için tabanı kaçıncı kuvvete yükseltmeliyim?" sorusunun cevabıdır.
+Fonksiyonda x yerine yazılmasına izin verilen tüm değerler tanım kümesini oluşturur.
 
-### Örnekler:
-- `2³ = 8` ise  
-  `log₂(8) = 3`
-  
-- `log₂(1) = 0` çünkü `2⁰ = 1`
+### Range (Değer Kümesi):
 
-- `log_b(b) = 1`  
-- `log_b(b^k) = k`
+Fonksiyon kutusundan çıkabilecek tüm olası sonuçlar değer kümesini oluşturur.
 
----
+### f(x) = 1 / x fonksiyonunun tanım ve değer kümesini inceleyelim.
 
-## 🧮 Logaritma Kuralları
+| Özellik                   | Açıklama                                                                    |
+| ------------------------- | --------------------------------------------------------------------------- |
+| **Tanım Kümesi (Domain)** | x = 0 yazılamaz çünkü payda sıfır olur ve tanımsızdır. <br>**x ∈ ℝ, x ≠ 0** |
+| **Değer Kümesi (Range)**  | 1 hiçbir reel sayıya bölündüğünde sonuç 0 olamaz. <br>**y ∈ ℝ, y ≠ 0**      |
 
-### 1. **Çarpım kuralı**:
-```math
-log_b(M × N) = log_b(M) + log_b(N)
+### g(x) = √(x + 1) Fonksiyonunun Tanım ve Değer Kümesi
 
+| Özellik                   | Açıklama                                                                     |
+| ------------------------- | ---------------------------------------------------------------------------- |
+| **Tanım Kümesi (Domain)** | Karekök içinde negatif sayı gerçek sayı değildir. <br>**x + 1 ≥ 0 → x ≥ -1** |
+| **Değer Kümesi (Range)**  | Karekök fonksiyonunun sonucu negatif olamaz. <br>**y ≥ 0**                   |
 
+## Parçalı Fonksiyonlar (Piecewise Functions)
+
+Bazen bir fonksiyon, farklı x değerleri için **farklı kurallara göre tanımlanır**. Bu tür fonksiyonlara **parçalı (piecewise) fonksiyonlar** denir.
+
+f(x) = {
+
+        x² + 1    if x > 0  ,
+
+        x - 1     if x <= 0
+
+}
+
+Bu fonksiyonun grafiğini çizersek:
+![Piecewise-function](assets/images/Piecewise-Functions.png)
+
+x² + 1 kısmı yalnızca x > 0 için geçerlidir. Bu yüzden 0 noktasında açık daire ile başlar.
+
+x − 1 kısmı x ≤ 0 için geçerlidir. Bu yüzden 0 noktasında kapalı daire ile başlar.
+
+Bu fonksiyon **süreksizdir** çünkü iki parça x = 0 noktasında birleşmez.
+
+## Bir Matematiksel İfadeye Neler Yapabiliriz?
+
+| İşlem                                 | Amaç                                     | Örnek                     |
+| ------------------------------------- | ---------------------------------------- | ------------------------- |
+| **1 ile çarpmak**                     | Biçimi değiştirmek ama değeri korumak    | 1/2 \* 3/3                |
+| **0 eklemek**                         | Değeri değiştirmeden denklemi düzenlemek | x - 2 + 2 = 6 + 2 → x = 8 |
+| **Aynı şeyi iki tarafa da uygulamak** | Eşitliği koruyarak çözüm yapmak          | 3x = 6 ise x = 6 / 3 = 2  |
+
+## İki Terimli İfadeleri (Binomları) Çarpma
+
+(x+2)(x+2)=
+
+- x \* x = x^2
+- x \* 2 = 2x
+- 2 \* x = 2x
+- 2 \* 2 = 4
+
+Toplayalım:
+
+x^2 + 2x + 2x + 4 = x^2 + 4x + 4
+
+## Üç Terimli ile Binom Çarpımı
+
+(x + y)^3 =
+
+(x + y)^3 = (x + y)(x + y)(x + y)
+
+(x^2 + 2xy + y^2)(x + y)
+
+- x^2 \* x = x^3
+- x^2 \* y = x^2y
+- 2xy \* x = 2x^2y
+- 2xy \* y = 2xy^2
+- y^2 \* x = xy^2
+- y^2 \* y = y^3
+
+Hepsini toplayalım:
+
+x^3 + x^2y + 2x^2y + 2xy^2 + xy^2 + y^3
+
+Benzer terimleri gruplayalım:
+
+x^3 + 3x^2y + 3xy^2 + y^3
+
+## Pascal Üçgeni ile Hızlı Açılım
+
+- ilk terimi ikinci parantezdeki her şeyle çarp
+- sonra diğer terimi çarp
+  Buna **FOIL** denir: First, Outer, Inner, Last (İlk, Dış, İç, Son).
+- Çıkan sonuçları topla:
+
+| Üs (n) | Açılım Katsayıları |
+| ------ | ------------------ |
+| 0      | 1                  |
+| 1      | 1 1                |
+| 2      | 1 2 1              |
+| 3      | 1 3 3 1            |
+| 4      | 1 4 6 4 1          |
+
+örnek: (x + y)^4 = x^4 + 4x^3*y + 6x^2*y^2 + 4x\*y^3 + y^4
+
+## Paydayı Rasyonelleştirme
+
+### Paydada Kökten Kurtulma
+
+| Aşama           | Açıklama                                                             |
+| --------------- | -------------------------------------------------------------------- |
+| 1. Amaç         | Paydadaki karekökten kurtulmak (irrasyonel ifadeyi rasyonelleştirme) |
+| 2. Örnek İfade  | (x - 2) / √(x + 3)                                                   |
+| 3. Tanım Kümesi | √(x + 3) ≥ 0 ve payda ≠ 0 → x + 3 > 0 → x > -3                       |
+| 4. Genişletme   | Pay ve paydayı √(x + 3) ile çarp:                                    |
+|                 | (x - 2)/√(x + 3) × √(x + 3)/√(x + 3)                                 |
+| 5. Sonuç        | ((x - 2) \* √(x + 3)) / (x + 3)                                      |
+| 6. Not          | x - 2 ifadesinin tamamı çarpılmalı. Sadece -2 çarpılırsa hata olur.  |
+| 7. Basit Örnek  | 2 / √2 × √2 / √2 = (2 \* √2) / 2 = √2                                |
+| 8. Özet         | Aynı kökle çarpılır, tanım kümesi pozitiftir, değer değişmez.        |
+
+## Üs Kuralları (Exponent Rules)
+
+Aynı sayı ya da değişken birden fazla kez çarpılıyorsa, üs kullanılır. `x · x · x = x³`
+
+Tabanlar aynıysa, çarpımda üsler toplanır. `x² · x³ = x⁵` → Çünkü `x · x · x · x · x`
+
+Bir üslü ifade tekrar üslendirilirse üsler çarpılır. `(x²)³ = x⁶`
+
+Her sayının sıfırıncı kuvveti 1’dir (x ≠ 0). `x⁰ = 1`
+
+Negatif üs, kesirli hale getirir. `x⁻² = 1 / x²`
+
+Tabanlar aynıysa, bölmede üsler çıkarılır. `x³ / x = x²`
+
+Kök ifadeleri üslü olarak yazılabilir. `√x = x^(1/2)` <br> `∛x = x^(1/3)` <br> `√(x⁴) = x²`
+
+## Logaritma Nedir?
+
+Bir sayının üssünü bulmak için kullanılan matematiksel ifadedir.
+
+### Temel Logaritma Kuralları
+
+![Logaritma](assets/images/logarithm.png)
+
+## Logaritmaların Uygulamaları
+
+### Sürekli Nüfus Artışı (Population Growth)
+
+| Uygulama Alanı     | Açıklama                  | Logaritma Nerede Kullanılır?      |
+| ------------------ | ------------------------- | --------------------------------- |
+| Nüfus Artışı       | Exponential büyüme        | Büyüme oranı **k** bulunurken     |
+| Yatırım ve Faiz    | Sürekli faiz artışı       | Faiz oranı ve süre hesaplamasında |
+| Radyoaktif Bozunma | Maddenin zamanla azalması | Azalma oranı **k** bulunurken     |
+
+![Logaritma uygulamaları](assets/images/Applications_of_Logarithms.png)

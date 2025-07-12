@@ -1,73 +1,66 @@
-## 📌 11. Türev Nedir?
+# 📈 Modül 3: Türev ve Diferansiyel Hesap
 
-### 🎯 Türev (Derivative) Tanımı:
-- Türev, bir fonksiyonun **bir noktadaki değişim oranını (eğimini)** bulma yöntemidir.
-- Geometrik olarak, bir eğrinin bir noktasındaki **teğet doğrunun eğimi** anlamına gelir.
-- Bu eğimi bulmak için iki nokta alınır:  
-  - Birisi `x`, diğeri `x + h`.  
-  - Bu iki noktadan geçen doğrunun eğimi:  
-    ```
-    [f(x + h) - f(x)] / h
-    ```
-
-### ➗ Limit Yaklaşımı:
-- Bu orana, `h` değeri sıfıra **yaklaştırıldığında** (limit alınarak) elde edilen değer:  
-  - **Türev** budur.
-  - Yani:  
-    ```
-    f'(x) = lim(h→0) [f(x + h) - f(x)] / h
-    ```
-
-### 📐 Grafiksel Anlamı:
-- `x` noktasındaki teğet eğimi, `x + h` noktasına gittikçe daha da yaklaşan **sekant doğruların** eğimiyle yaklaşık bulunur.
-- `h → 0` oldukça sekant doğrusu, teğet doğrusuna dönüşür.
-
-### 📘 Notasyonlar:
-- `f'(x)` → "f'in türevi"
-- "f'nin x noktasındaki anlık değişim hızı" veya "teğet eğimi"
+Bu modülde türev kavramını derinlemesine inceleyeceğiz ve türevin geometrik anlamını, teğet eğimi hesaplamasını öğreneceksiniz.
 
 ---
 
-## 2. Örnek: f(x) = x² için Türev
-- f(x + h) = (x + h)² = x² + 2xh + h²
-- f'(x) = lim(h→0) [(x² + 2xh + h² - x²) / h] = lim(h→0) [2x + h] = **2x**
+## 📊 Türev (Derivative)
 
-## 3. Türevin Yorumu
-- f'(1) = 2 → x = 1 noktasındaki eğim 2
-- f'(0) = 0 → minimum nokta
-- f'(-1) = -2 → x = -1 noktasında negatif eğim
+Fonksiyonun bir noktadaki türevi, o noktadan geçen teğetin **eğimini** verir.
+Bu eğim, iki nokta arasındaki ortalama değişim oranının, bir noktaya (h → 0) limitidir.
 
-## 4. Türev Alma Kuralları
+Fonksiyonda iki nokta alınır:
 
-### a. Sabit Fonksiyon
-- f(x) = c ⇒ f'(x) = 0
+x ve x + h
 
-### b. Polinomlar
-- f(x) = xⁿ ⇒ f'(x) = n·xⁿ⁻¹
-- Örnek: f(x) = -x² + 3x ⇒ f'(x) = -2x + 3
+Bu iki nokta arasındaki ortalama değişim oranı:
+![Görsel](assets/images/ortalama-degisim.jpg)
 
-### c. Üstel Fonksiyonlar
-- f(x) = eˣ ⇒ f'(x) = eˣ
-- Tanım üzerinden:  
-eˣ⁺ʰ - eˣ = eˣ(eʰ - 1)  
-lim(h→0) (eʰ - 1)/h = 1 ⇒ f'(x) = eˣ
+h → 0 olduğunda bu oran, o noktadaki anlık değişimi yani türevi verir:
+![Görsel](assets/images/turev.jpg)
 
-### d. Toplam/Türev Toplamı
-- f(x) = u(x) + v(x) ⇒ f'(x) = u'(x) + v'(x)
+# FONKSİYONUN TÜREVİ
 
-## 5. Türevin Uygulamaları
-- Eğimin pozitif/negatif/0 olması, fonksiyonun artan/azalan/sabit olduğu anlamına gelir.
-- Maksimum ve minimum noktalar türev = 0 olduğu yerlerde olabilir.
+Aşağıdaki örneği inceleyelim:
+![Görsel](assets/images/turev-ornek.jpg)
 
-# 📘 Türev Kuralları: Çarpım ve Zincir Kuralı
+Fonksiyonun grafiğini çizelim:
 
-## ✅ 1. Çarpım Kuralı (Product Rule)
+![Görsel](assets/images/turev-grafik.png)
 
-İki fonksiyonun çarpımının türevi şu şekilde alınır:
-(f(x) · g(x))' = f'(x) · g(x) + f(x) · g'(x)
+x=1 için eğim: 2
 
-## 🔁 2. Zincir Kuralı (Chain Rule)
+x=−1 için eğim: -2
 
-İç içe geçmiş fonksiyonlarda (bileşik fonksiyonlarda) türev alınırken kullanılır.
+x=0 için eğim: 0 (minimum nokta)
 
-(f(g(x)))' = f'(g(x)) · g'(x)
+Grafiğe baktığımızda, x arttıkça türev (eğim) de artmış, grafik daha dik hale gelmiş.
+
+# Üstel Fonksiyonun Türevi
+
+![Görsel](assets/images/ustel-turev.jpg)
+
+![Görsel](assets/images/ustel-grafik.png)
+
+Bu fonksiyon sıfıra asla ulaşmaz; x azaldıkça y eksenine yaklaşır ama değmez
+
+x=0 için: türev = 1
+
+x=1 için: türev = e
+
+x=−1 için: türev = 1/e
+
+Yani fonksiyonun herhangi bir noktasındaki eğim (türev), o noktadaki y değeriyle aynıdır.
+
+# Sabit Fonksiyonun Türevi
+
+f(x) = 2 fonksiyonunun türevini hesaplayalım.
+Öncelikle türev formulünü hatırlayalım:
+![Görsel](assets/images/turev.jpg)
+
+Burada hem f(x+h) hem de f(x) sabit olarak 2 olduğu için:
+(2 - 2)/h = 0/h = 0
+
+Yani limit de 0 olur.
+
+![Görsel](assets/images/sabit-grafik.png)

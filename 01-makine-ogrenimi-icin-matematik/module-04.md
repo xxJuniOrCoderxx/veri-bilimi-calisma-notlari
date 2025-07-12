@@ -1,116 +1,76 @@
-# 📘 Türev Kuralları: Çarpım Kuralı (Product Rule)
+# 🔗 Modül 4: Türev Kuralları (Çarpım, Bölüm, Zincir)
 
-## 🧠 Tanım
-
-İki fonksiyonun çarpımının türevi şu şekilde hesaplanır:
-
-> **(f(x) · g(x))' = f(x) · g'(x) + f'(x) · g(x)**
-
-Bu kural, iki fonksiyonun çarpımı söz konusu olduğunda türevi daha kolay ve sistematik şekilde alabilmemizi sağlar.
+Bu modülde türev kurallarını, çarpım ve bölüm kurallarını, zincir kuralını detaylı olarak öğreneceksiniz.
 
 ---
 
-## 🧪 Örnek Üzerinden Anlatım
+## ⚡ TÜREV KURALLARI
 
-### Fonksiyonlar:
+### Çarpım Kuralı
 
-- **f(x) = x² - 2**
-- **g(x) = x² + x**
+(f⋅g)′= f ⋅ g ′ + f ′ ⋅ g
 
-Çarpım fonksiyonunu tanımlayalım:
+- İlk fonksiyonu aynen yaz, ikinci fonksiyonun türevini al → 𝑓⋅𝑔′
 
-```math
-h(x) = f(x) · g(x)
-     = (x² - 2)(x² + x)
-# ⚙️ Sabit Katsayı Kuralı (Constant Multiple Rule)
+- Sonra ilk fonksiyonun türevini al, ikinci fonksiyonu aynen yaz → 𝑓′⋅𝑔
 
-## 📘 Tanım
+- Sonra bu iki ifadeyi topla
 
-Bir fonksiyon sabit bir sayı ile çarpılmışsa, türevi alırken bu sabiti dışarı alabiliriz:
+### Uygulama Örneği
 
-> **(c · f(x))' = c · f '(x)**
+𝑓(𝑥)= 𝑥^2 − 2 ⇒ 𝑓′(𝑥) = 2𝑥
 
-Bu kural, aslında çarpım kuralından (product rule) türetilebilir.
+𝑔(𝑥)= 𝑥^2 + 𝑥 ⇒ 𝑔 ′(𝑥) = 2𝑥 + 1
 
----
+Uygularsak:
 
-## 🔍 Neden Bu Kural Doğrudur?
+ℎ′(𝑥)= (𝑥^2 −2) (2𝑥 + 1) + (2𝑥) (𝑥^2 + 𝑥)
 
-Product rule'a göre:
+ℎ′(𝑥)= 4𝑥^3 + 3𝑥^2 − 4𝑥 − 2
 
-> **(a · f(x))' = a · f '(x) + f(x) · (a)'**
+### Sabit Sayı ile Fonksiyonun Türevi
 
-Ama sabitin türevi sıfırdır, yani **(a)' = 0**, bu nedenle:
+Eğer elimizde bir **sabit sayı ile çarpılmış bir fonksiyon varsa**, bu ifadenin türevi yalnızca:
 
-> **(a · f(x))' = a · f '(x)**
+SABİT x FONKSİYONUN TÜREVİ
 
----
+Bu sonuç çarpımın türevinden çıkar. Sabitin türevi c'=0 olduğundan, ilk terim yok olur
 
-## 🧪 Örnekler
+(c⋅ f(x))′= c' ⋅ f(x) + c ⋅ f'(x) = c . f'(x)
 
-### Örnek 1:
+ÖRNEKLER:
 
-**f(x) = 3 · e^x**
+1- 3.e^x = 3.e^x
 
-```math
-f '(x) = 3 · (e^x)' = 3e^x
+2- (4x^2)' = 8x
 
-# ➗ Bölüm Kuralı (Quotient Rule)
+## Bölüm Kuralı
 
-## 📘 Tanım
+(N/D)' = (DN' - ND') / D^2
 
-Eğer elimizde iki fonksiyonun bölümü varsa:
+(x^2 - 3x) / (x^2 + 4) fonksiyonunun türevini alalım
 
-> **h(x) = f(x) / g(x)**
+[ (x^2 + 4) (x^2 - 3x)' - (x^2 -3x)(x^2 +4)' ] / (x^2 + 4)^2
 
-Türevi şu şekilde alınır:
+[ (x^2 +4)(2x - 3) - (x^2 - 3x) (2x) ] / (x^2 +4)^2
 
-> **h '(x) = [g(x) · f '(x) – f(x) · g '(x)] / [g(x)]²**
+= [ 3x^2 + 8x - 12 ] / (x^2+4)^2
 
-> 💡 Kuralı hatırlamak için:
-> **"Alt çarpı türev üst, eksi üst çarpı türev alt, bölü altın karesi"**
+## Zincir Kuralı (Chain Rule)
 
----
+Eğer bir fonksiyonun tamamı bir kuvvete sahipse, bu durumda zincir kuralı kullanılır.
 
-## 🧪 Örnek
+![Görsel](assets/images/zincir-kurali.jpg)
 
-Fonksiyonumuz şu olsun:
+### Zincir Kuralı ve Çarpım Kuralı
 
-> **h(x) = (x² – 3x) / (x² + 4)**
+![Görsel](assets/images/zincir_kurali-carpim.jpg)
 
-### 1️⃣ Adım: Tanımlı parçaları belirleyelim:
+## Neden Türev Alıyoruz ?
 
-- **f(x) = x² – 3x → f '(x) = 2x – 3**
-- **g(x) = x² + 4 → g '(x) = 2x**
+- Bir fonksiyonun maksimum veya minimum yaptığı noktaları bulmak için türev kullanılır.
+  Çünkü bu ekstremum noktalarında fonksiyonun eğimi sıfır olur, yani:
 
----
+  f'(x) = 0
 
-### 2️⃣ Adım: Quotient Rule formülünü uygulayalım:
-
-```math
-h '(x) = [(x² + 4)(2x – 3) – (x² – 3x)(2x)] / (x² + 4)²
-
-# 🔗 Zincir Kuralı (Chain Rule)
-
-## 📘 Tanım
-
-Eğer bir fonksiyon başka bir fonksiyonun içinde tanımlanmışsa ve bir üst sayıya sahipse, türevi alırken **zincir kuralı (chain rule)** kullanılır.
-
-> **f(x) = [u(x)]ⁿ ⇒ f '(x) = n · [u(x)]ⁿ⁻¹ · u '(x)**
-
-- **u(x)**: iç fonksiyon
-- **n**: dıştaki kuvvet
-- **u '(x)**: iç fonksiyonun türevi
-
----
-
-## 🔍 Basit Örnek
-
-Verilen fonksiyon:
-
-> **f(x) = (6x + 4)^5**
-
-Türevi:
-
-```math
-f '(x) = 5 · (6x + 4)^4 · 6 = 30 · (6x + 4)^4
+- Grafik üzerinde fonksiyonun arttığı (türev > 0) veya azaldığı (türev < 0) yerleri analiz etmek için kullanılır.

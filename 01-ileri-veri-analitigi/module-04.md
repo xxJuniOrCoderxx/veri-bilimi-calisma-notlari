@@ -23,7 +23,7 @@ Veri analitiği süreci genellikle aşağıdaki altı temel aşamadan oluşan bi
 Bu çerçeve birçok proje için faydalıdır; ancak büyük veri setlerinde daha fazla esneklik gerekebilir.
 
 PACE, "Google Advanced Data Analytics" programı için veri uzmanlarının katkı ve geri bildirimleriyle geliştirilmiş bir çerçevedir.
-![](pace.png)
+![PACE Framework](assets/images/pace.png)
 
 **Amaç:** Projelere rehberlik edecek basit ama etkili bir yapı sunmaktır.
 
@@ -44,7 +44,7 @@ Yani PACE, her ne kadar sıralı gibi görünse de, iletişim akışı sayesinde
 
 # İletişimin Temel Unsurları
 
-![](iletisim.png)
+![İletişim](assets/images/iletisim.png)
 
 | **Unsur**              | **Tanım**                                    | **Dikkat Edilmesi Gerekenler**                                                              |
 | ---------------------- | -------------------------------------------- | ------------------------------------------------------------------------------------------- |

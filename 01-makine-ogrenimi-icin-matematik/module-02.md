@@ -1,105 +1,103 @@
+# 🧮 Modül 2: Türev ve Uygulamaları
 
-# 🧠 Proof by Induction (İndüksiyonla İspat)
-
-## 🧩 Tanım
-Bir ifadenin **bütün doğal sayılar için geçerli olduğunu** ispatlamak amacıyla kullanılan matematiksel tekniktir.
+Bu modülde matematiksel indüksiyon, limitler ve türev kavramlarını öğreneceksiniz. Türevin geometrik ve fiziksel anlamını keşfedeceksiniz.
 
 ---
 
-## 🔁 Adımlar
+## 🔄 Matematiksel İndüksiyon Nedir?
 
-### 1. **Base Case (Temel Durum)**  
-İspatlanan ifadenin küçük bir başlangıç değeri (genelde `n = 1` ya da `n = 0`) için doğru olduğunu göster.
+Matematiksel indüksiyon, sonsuz sayıda durumun geçerli olduğunu göstermek için kullanılan bir ispat yöntemidir. Genellikle n doğal sayılarını içeren formüllerde veya dizilerde kullanılır.
 
-### 2. **Induction Step (İndüksiyon Adımı)**  
-Şunu varsay:  
-İfade `n = k` için doğru.  
-→ **Induction Hypothesis** denir.
+İki Temel Adımı Vardır:
 
-Bu varsayımla, ifadenin `n = k + 1` için de doğru olduğunu göster.  
-Bu adım genellikle cebirsel işlemler ve sadeleştirme gerektirir.
+- **Başlangıç Durumu (Base Case)**: İspat etmek istediğimiz formülün en küçük değer (genelde n=0 ya da n=1) için doğru olduğunu gösteririz.
+- **İndüksiyon Adımı**: n=k için ifadenin doğru olduğunu varsayarız (indüksiyon varsayımı).
+  Sonrasında bu varsayımı kullanarak, n=k+1 için de doğru olduğunu gösteririz.
 
----
+### Örnek (Tümevarım Yöntemi)
 
-## 📌 Örnek:  
-```math```
-∑_{i=1}^{n} [1 / (i(i+1))] = n / (n + 1)
-# 📉 Limits (Limit Kavramı)
+![Görsel](assets/images/Induksiyon.jpg)
 
-## 🧠 Limit Nedir?
-Bir fonksiyonun, belirli bir değere **yaklaştıkça** çıktısının neye yaklaştığını gösterir. Örneğin:
+# Sonsuzda Limit (Limits at Infinity)
 
-- `1/n` ifadesinde `n → ∞` olduğunda:  
-  **Limit = 0**  
-  Çünkü `n` büyüdükçe `1/n` sıfıra yaklaşır (ama asla tam 0 olmaz).
+Teorik olarak bir sayıyı sürekli ikiye bölsek bile tam sıfıra asla ulaşamayız ama çok yaklaşabiliriz. İşte limit burda devreye girer.
 
----
+Mesela 1/ n ifadesine bakalım. n büyüdükçe (1000, 1.000.000 gibi), bu ifade sıfıra yaklaşır ama asla sıfır olmaz.
 
-## 🔁 ∞'de Limitler (Limits at Infinity)
+Matematiksel olarak :
 
-### 📌 Temel Kurallar:
+![Görsel](assets/images/limit1.jpg)
 
-- **Üst (pay) daha hızlı büyüyorsa → ∞**  
-  Örnek: `x³ / x` → ∞
+Çünkü:
+n çok büyük seçilirse, sonuç sıfıra istediğimiz kadar yaklaşır. Ama hiçbir zaman sıfır olmaz.
+​
 
-- **Alt (payda) daha hızlı büyüyorsa → 0**  
-  Örnek: `x / x²` = `1/x` → 0
+# ​Limitte Sonsuza Gidiş
 
-- **Üst ve alt aynı derecedeyse → Katsayıların oranı**  
-  Örnek:  
-  ```math
-  lim(x→∞) (2x² - 100) / (3x² + 100) = 2 / 3
+Eğer sonsuza kadar gidebiliyorsam, istediğim kadar küçük bir değere ulaşabilirim. Bu yüzden buna sonsuzda limit deriz.
 
-# 🔁 Limits: Right, Left, and Infinite
+### Örneklerle Sonsuzda Limit
 
-## ✳️ 1. Tek Taraflı Limitler (One-Sided Limits)
-- **Limit from the left:** `lim(x→a⁻) f(x)`
-- **Limit from the right:** `lim(x→a⁺) f(x)`
-- Eğer `lim(x→a⁻) ≠ lim(x→a⁺)` ise:
-  - **Limit exists?** ❌ **Yok**
-  - Fonksiyon tanımlı olabilir ama limit tanımsız olur.
+![Görsel](assets/images/limit.jpg)
 
-## 🧮 Örnek:
-Grafikte `f(x)`:
-- Soldan 1'e yaklaşınca → `1`
-- Sağdan 1'e yaklaşınca → `2`
-- Sonuç: `lim(x→1) f(x)` **yok** (çünkü sağ ve sol limit farklı)
+### **Genel kuralımız şöyledir:**
 
----
+| Üstteki terim | Alttaki terim | Limit sonucu  |
+| ------------- | ------------- | ------------- |
+| Daha büyük    | Daha küçük    | Sonsuz (∞)    |
+| Daha küçük    | Daha büyük    | 0             |
+| Aynı derece   | Aynı derece   | Katsayı oranı |
 
-## 🔄 2. Sonsuza Giderken Limit (Limits at Infinity)
-- `f(x) = 1/x`
-  - `lim(x→∞) 1/x = 0`
-  - `lim(x→−∞) 1/x = 0`
-- Ama: `lim(x→0⁺) 1/x = +∞`, `lim(x→0⁻) 1/x = −∞`  
-  → **Limit yok (sonsuzluk)**
+​
 
----
+# Belirli Bir Noktada Limit
 
-## ❗ Limitin Olmadığı Durumlar
-1. Sağ ve sol limit **eşit değilse**  
-2. Fonksiyon değeri **sonsuzsa (∞ veya -∞)**  
-3. Fonksiyon **tanımsızsa** (örneğin 1/0 gibi)
+### Parçalı Fonksiyonlarda Limit
 
-# 🔗 Continuity (Süreklilik)
+![Görsel](assets/images/parcali.png)
 
-## ✅ Sürekli Fonksiyon Nedir?
-Bir fonksiyon **sürekli** ise:
-- Grafiğini çizerken kalemi kaldırmana gerek yoktur.
-- Yani grafik üzerinde **kopma, atlama ya da delik** yoktur.
+Örneğin bu grafiğimizde **x=1** için fonksiyonun sağdan ve soldan limitlerine baktığımızda farklı değerler olduğu için burda **LİMİT YOKTUR.**
+Soldan gelirken değer → 1
 
-## 🔍 Süreklilik Şartları
-Bir fonksiyon `f(x)` noktası olan `x = a`'da sürekli ise:
-1. `f(a)` **tanımlı** olmalı
-2. `lim(x→a⁻) f(x)` ve `lim(x→a⁺) f(x)` **mevcut** ve **eşit** olmalı
-3. Bu limit değeri **f(a)**'ya **eşit** olmalı
+Sağdan gelirken değer → 2
 
-## ❌ Süreksizlik (Discontinuity) Türleri
-- **Jump discontinuity (atlama):** Sağ ve sol limit farklı → örn: `lim(x→1⁻) ≠ lim(x→1⁺)`
-- **Hole (delik):** Limit var ama `f(a)` tanımsız ya da farklı → grafik üzerinde boşluk
-- **Asymptotic:** Örn: `f(x) = 1/x` → `x = 0`'da tanımsız (ama tanımlı olduğu yerde süreklidir)
+Ama fonksiyonun değeri
+f(1)=2
 
-## 📌 Not:
-- Bir fonksiyonun **tüm tanım aralığında sürekli olması**, o fonksiyonun **sürekli fonksiyon** olduğunu gösterir.
-- Örn: `1/x` fonksiyonu, `x ≠ 0` için sürekli ama `x = 0`'da tanımsızdır.
+Farklı bir noktaya bakalım. Örneğin **x=2** için sağdan ve soldan geldiğimizde aynı değere, 1 değerine ulaşıyoruz. Sağ ve sol limitler eşit olduğundan burada **LİMİT VARDIR.**
 
+### Sonsuza Giden Limitler
+
+![Görsel](assets/images/fonk-graf.png)
+
+x sonsuza gittiğinde **(x -> ∞):**
+
+- sağdan ve soldan baktığımızda limit 0 olur. Burda **LİMİT VARDIR.**
+
+Ama x sıfıra yaklaşırken **(x -> 0):**
+
+- Sağdan baktığımızda limit +∞ 'a gider
+- Soldan baktığımızda limit -∞ 'a gider
+  Eşit olmadığından burda **LİMİT YOKTUR**
+
+### Limitin mevcut olmaması iki şekilde olabilir:
+
+- Sağ ve sol limitler eşit değilse → limit yoktur.
+
+- Fonksiyon sonsuza gidiyorsa veya tanımsızsa → limit yoktur.
+
+# Fonksiyonlarda Süreklilik
+
+Eğer grafiği çizerken kalemi kaldırmadan çizebiliyorsak o noktada süreklilik vardır
+
+Grafikte bir atlama (jump) varsa → süreksizlik vardır.
+
+Fonksiyonun bir noktada değeri yoksa veya delik (hole) varsa → süreksizlik vardır.
+
+### Süreklilik için Gerekli Koşullar
+
+| Açıklama                                                            |
+| ------------------------------------------------------------------- |
+| Fonksiyonun o noktadaki değeri var olmalı.                          |
+| Grafikte sağdan ve soldan yaklaşınca aynı değere ulaşılıyor olmalı. |
+| Limit değeri ile fonksiyonun değeri eşit olmalı.                    |

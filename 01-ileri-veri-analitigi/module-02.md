@@ -15,7 +15,7 @@ Veri kariyerleri genelde iki temel alana ayrılır:
 - **Teknik Roller**
 - **Stratejik Roller**
 
-![Veri Kariyer Alanları](veri-kariyer-alanlari.png)
+![Veri Kariyer Alanları](assets/images/veri-kariyer-alanlari.png)
 
 ## Veri Uzmanlarının Farklı Sektörlerdeki Rolü
 
@@ -62,7 +62,7 @@ Aynı zamanda veri analitiği becerilerini geliştirmek ve topluma katkı sağla
 ### Kişilerarası (Interpersonal) Beceriler
 
 Özellikle global ve ekip temelli çalışmalarda kritik önemdedir. İyi bir veri analisti, iyi bir iletişimci olmalıdır. Aşağıda Veri Süreci Döngüsü’nde de görüldüğü üzere bu sürecin tamamında yer alan temel unsur: **iletişim**.
-![Veri Süreci Döngüsü](resim2.png)
+![Veri Süreci Döngüsü](assets/images/resim2.png)
 
 ## Etkin Dinleme (Active Listening)
 

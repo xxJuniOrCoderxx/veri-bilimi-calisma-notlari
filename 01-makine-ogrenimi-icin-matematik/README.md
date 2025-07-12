@@ -1,76 +1,77 @@
-# 01-Makine Öğrenimi için Matematik
+# Calculus and Linear Algebra
 
-Bu klasör, **Makine Öğrenimi** algoritmalarını derinlemesine anlamak ve etkili bir şekilde uygulayabilmek için gerekli olan temel matematiksel kavramları içermektedir. Makine öğrenimi sadece kod yazmaktan ibaret değildir; altında yatan matematiksel prensipleri kavramak, algoritmaların nasıl çalıştığını anlamak, performanslarını optimize etmek ve karşılaşılan sorunlara çözüm üretmek için kritik öneme sahiptir.
-
----
-
-## 📊 İçerik Yapısı
-
-### Temel Modüller
-- **module-01.md** - Lineer Cebir Temelleri
-- **module-02.md** - Kalkülüs ve Türev Uygulamaları
-- **module-03.md** - İstatistik ve Olasılık
-- **module-04.md** - Optimizasyon Yöntemleri
-- **module-05.md** - Matris Ayrıştırma ve PCA
-- **module-06.md** - İleri Matematik Uygulamaları
-
-### Özel Bölümler
-- **calculus-and-linear-algebra/** - Detaylı matematik içerikleri
-  - Diferansiyel hesap uygulamaları
-  - Lineer cebir detayları
-  - Görsel matematik açıklamaları
-
-### Destek Materyalleri
-- **assets/images/** - Matematiksel görseller ve grafikler
+Bu bölüm, makine öğrenimi ve veri bilimi için gerekli olan kalkülüs ve lineer cebir konularını detaylı bir şekilde ele almaktadır. Teorik kavramlardan pratik uygulamalara kadar geniş bir yelpazede içerik sunmaktadır.
 
 ---
 
-## 🎯 Amaç
+## 📐 İçindekiler
 
-Bu bölümün temel amacı, makine öğrenimi yolculuğunuzda size sağlam bir matematiksel temel sunmaktır:
-
-* **Temel Kavramları Pekişirme:** Lise ve üniversite düzeyinde edinilmiş matematik bilgilerini makine öğrenimi perspektifinden yeniden ele almak ve pekiştirmek.
-* **Algoritma Anlayışı:** Lineer cebir, türev, integral ve olasılık gibi matematiksel araçların makine öğrenimi algoritmalarında nasıl kullanıldığını açıklamak.
-* **Problem Çözme Yeteneği:** Matematiksel düşünme becerilerini geliştirerek, daha karmaşık makine öğrenimi problemlerine analitik yaklaşımlar geliştirmeye yardımcı olmak.
-* **Derinlemesine Öğrenme Hazırlığı:** İleri düzey makine öğrenimi ve derin öğrenme konularına geçiş için gerekli ön bilgileri sağlamak.
-
----
-
-## İçerik
-
-Bu klasör, aşağıdaki ana matematiksel konuları kapsamaktadır. Her bir konu, detaylı notlar, örnekler ve uygulamalarla desteklenmiştir. Örnek içerikler:
-
-* **Lineer Cebir:**
-    * Vektörler ve Matrisler
-    * Matris İşlemleri (Toplama, Çarpma)
-    * Determinant, Ters Matris
-    * Özdeğerler ve Özvektörler
-    * Temel Bileşen Analizi (PCA) gibi uygulamalar
-* **Kalkülüs (Türev ve İntegral):**
-    * Fonksiyonlar ve Limitler
-    * Türev Kuralları ve Zincir Kuralı
-    * Kısmi Türevler ve Gradyan
-    * Gradyan İnişi (Gradient Descent) gibi optimizasyon algoritmaları
-    * İntegral ve Uygulamaları
-* **İstatistik ve Olasılık:**
-    * Temel Olasılık Kavramları
-    * Olasılık Dağılımları (Normal, Binom, Poisson vb.)
-    * Beklenen Değer ve Varyans
-    * Bayes Teoremi
-    * Hipotez Testleri ve Güven Aralıkları
-    * Regresyon ve Sınıflandırma algoritmalarındaki istatistiksel temeller
+### Modüller
+- **module-01.md** - Fonksiyonlar ve Limitler
+- **module-02.md** - Matematiksel İndüksiyon ve Türev Temelleri
+- **module-03.md** - Türev ve Diferansiyel Hesap
+- **module-04.md** - Türev Kuralları (Çarpım, Bölüm, Zincir)
+- **module-05.md** - Fonksiyon Analizi ve Grafik Çizimi
 
 ---
 
-## Nasıl Çalışılır?
+## 🎯 Öğrenme Hedefleri
 
-Bu bölümdeki materyallerden en iyi şekilde faydalanmak için aşağıdaki yaklaşımları benimsemenizi öneririz:
+Bu bölümde şu konularda yetkinlik kazanacaksınız:
 
-1.  **Sıralı İlerleme:** Konular genellikle birbiri üzerine inşa edildiği için sırayla ilerlemek kavramsal bütünlüğü sağlayacaktır.
-2.  **Uygulamalı Örnekler:** Teorik bilgilerin yanı sıra, sunulan kod örneklerini ve problemleri kendiniz çözmeye çalışın.
-3.  **Bol Pratik:** Matematiksel kavramlar pratikle pekişir. Düzenli olarak alıştırma yapın ve farklı kaynaklardan ek problemler çözün.
-4.  **Sorular Sorun:** Anlamadığınız veya takıldığınız noktalarda çalışma grubumuzun iletişim kanallarını kullanarak soru sormaktan çekinmeyin.
+- **Diferansiyel Hesap:** Türev alma teknikleri ve optimizasyon
+- **İntegral Hesap:** Eğri altı alan hesabı ve uygulamalar
+- **Lineer Cebir:** Vektörler, matrisler ve dönüşümler
+- **Makine Öğrenimi Bağlantıları:** Matematiksel kavramların ML'deki yeri
 
 ---
 
-Birlikte öğrenerek matematik temelimizi güçlendirelim ve makine öğrenimi dünyasında daha yetkin hale gelelim!
+## 📊 Görsel Destekli Öğrenme
+
+Bu bölüm zengin görsel içeriklerle desteklenmiştir (`assets/images/` klasöründe):
+
+### Fonksiyon Grafikleri
+- Temel fonksiyon türleri
+- Parçalı fonksiyonlar
+- Üstel ve logaritmik fonksiyonlar
+
+### Türev Uygulamaları
+- Türev grafikleri
+- Zincir kuralı örnekleri
+- Optimizasyon problemleri
+
+### Limit ve Süreklilik
+- Limit kavramı görselleri
+- Süreklilik örnekleri
+- Ortalama değişim oranı
+
+---
+
+## 🧮 Pratik Uygulamalar
+
+Her modül şu unsurları içerir:
+
+- **Teorik Açıklamalar:** Kavramların matematiksel temelleri
+- **Görsel Örnekler:** Grafik ve diyagramlarla desteklenmiş açıklamalar
+- **Çözümlü Problemler:** Adım adım çözüm teknikleri
+- **ML Bağlantıları:** Makine öğrenimindeki uygulamalar
+
+---
+
+## 🔗 İlişkili Konular
+
+Bu bölüm şu konularla bağlantılıdır:
+
+- Gradyan descent algoritmaları
+- Principal Component Analysis (PCA)
+- Neural network backpropagation
+- Support Vector Machines (SVM)
+
+---
+
+## 📈 İlerleme Önerisi
+
+1. **Temel Kavramlar:** Fonksiyonlar ve limitlerle başlayın
+2. **Türev Uygulamaları:** Optimizasyon tekniklerini öğrenin
+3. **Lineer Cebir:** Matris işlemlerini kavrayın
+4. **Entegrasyon:** Tüm kavramları birleştirin

@@ -29,18 +29,11 @@ Repository içeriği, konulara göre düzenli bir şekilde ayrılmıştır. Her 
 │   └── 📁 assets/images/ → Görsel destekler
 │
 ├── 📚 01-makine-ogrenimi-icin-matematik/
-│   ├── 📖 module-01.md → Lineer Cebir Temelleri
-│   ├── 📖 module-02.md → Kalkülüs ve Türev
-│   ├── 📖 module-03.md → İstatistik ve Olasılık
-│   ├── 📖 module-04.md → Optimizasyon Yöntemleri
-│   ├── 📖 module-05.md → Matris Ayrıştırma
-│   ├── 📖 module-06.md → İleri Matematik
-│   ├── 📁 calculus-and-linear-algebra/
-│   │   ├── 📖 module-01.md → Fonksiyonlar ve Limitler
-│   │   ├── 📖 module-02.md → Türev Uygulamaları
-│   │   ├── 📖 module-03.md → İntegral Hesabı
-│   │   ├── 📖 module-04.md → Lineer Cebir Detayları
-│   │   └── 📖 module-05.md → Matris İşlemleri
+│   ├── 📖 module-01.md → Fonksiyonlar ve Limitler
+│   ├── 📖 module-02.md → Matematiksel İndüksiyon ve Türev Temelleri
+│   ├── 📖 module-03.md → Türev ve Diferansiyel Hesap
+│   ├── 📖 module-04.md → Türev Kuralları (Çarpım, Bölüm, Zincir)
+│   ├── 📖 module-05.md → Fonksiyon Analizi ve Grafik Çizimi
 │   └── 📁 assets/images/ → Matematiksel görseller
 │
 └── 📋 Proje yönetim dosyaları (README, LICENSE, vb.)

@@ -16,9 +16,9 @@ Bu modülde veri bilimi ve veri analitiği alanlarının temellerini, farklılı
 
 Veri Bilimi ve Veri Analitiği şirketlere fayda sağlayacak içgörüler üretmeyi ortak amaç edinir ve genellikle aynı araçları ve programlama dillerini kullanırlar. Projeler karmaşıklaştıkça veri analistleri ve veri bilimciler iş birliği içinde hareket eder. Sorumlulukları ise şirketin kaynaklarına, bütçesine ve sektöre göre değişebilir. Bu benzerlikler nedeniyle iki unvan birbirinin yerine kullanılabilir ve bu durum iş ilanlarına da yansımıştır.
 
-## VERİ UZMANLARI
+## 👥 VERİ UZMANLARI
 
-![Veri uzmanı](resim1.png)
+![Veri uzmanı](assets/images/resim1.png)
 
 "Veri uzmanı" hem veri bilimcisini hem de analisti kapsayan genel bir terim olarak kullanılmaktadır. "Veri analitiği uzmanı" daha çok analiz odaklı işlerde çalışanları belirtmek için kullanılıyor. "Veri kariyeri alanı" ise tüm bu meslekleri kapsayan şemsiye bir ifade olarak karşımıza çıkmaktadır. Bu terimlerin amacı, veriyle ilgili iş unvanlarını mümkün olduğunca kapsayıcı ve düzenli bir şekilde sınıflandırmayı sağlamaktır.
 Veri uzmanları, farklı sektörlerde çeşitli sorumluluklar üstlenebilir. Aynı unvana sahip kişiler farklı kurumlarda farklı görevler yapabilir. Bu nedenle, "veri kariyeri alanı", veri bilimi becerilerine sahip kişilere sunulan tüm kariyer ve iş fırsatlarını kapsayan genel bir terim olarak kullanılır.
