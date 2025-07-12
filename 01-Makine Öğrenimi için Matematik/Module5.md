@@ -8,7 +8,7 @@ Bir fonksiyonun grafiğini çizerken **türevini** kullanarak:
 - Kritik noktaları nasıl belirleyeceğini öğreniyoruz.
 
 ---
-# 📘 İkinci Türev ve Fonksiyonun Eğriliği
+## 📘 İkinci Türev ve Fonksiyonun Eğriliği
 
 ## 🔁 Türev Bir Fonksiyondur
 

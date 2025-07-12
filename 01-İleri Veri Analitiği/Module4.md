@@ -14,10 +14,10 @@
 - Proje kapsamı ve yol haritası belirlenir.
 - Bilgi ihtiyaçları tanımlanır, yaratıcı stratejiler oluşturulur.
 - **Görevler:**
-  - İş verisini araştır
-  - Proje kapsamını tanımla
-  - İş akışı geliştir
-  - Paydaş ihtiyaçlarını değerlendir
+   - İş verisini araştır
+   - Proje kapsamını tanımla
+   - İş akışı geliştir
+   - Paydaş ihtiyaçlarını değerlendir
 
 ### 🔍 Analyze (Analiz Et)
 - Veriler toplanır ve ilk kez etkileşim sağlanır.

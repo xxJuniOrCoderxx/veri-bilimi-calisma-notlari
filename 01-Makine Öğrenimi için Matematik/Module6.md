@@ -13,7 +13,7 @@
 
 - Bir fonksiyonun **tepe noktalarında (max/min)** türevi sıfır olur.
   
-```math
+```math```
 f'(x) = 0 → \text{kritik nokta (candidate for max/min)}
 
 # 🔄 Rates of Change (Değişim Hızı)

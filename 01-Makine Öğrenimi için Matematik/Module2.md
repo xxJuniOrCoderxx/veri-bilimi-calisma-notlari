@@ -22,7 +22,7 @@ Bu adım genellikle cebirsel işlemler ve sadeleştirme gerektirir.
 ---
 
 ## 📌 Örnek:  
-```math
+```math```
 ∑_{i=1}^{n} [1 / (i(i+1))] = n / (n + 1)
 # 📉 Limits (Limit Kavramı)
 
