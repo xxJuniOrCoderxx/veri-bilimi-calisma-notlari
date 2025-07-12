@@ -16,7 +16,7 @@ Matematiksel indüksiyon, sonsuz sayıda durumun geçerli olduğunu göstermek i
 
 ### Örnek (Tümevarım Yöntemi)
 
-![Görsel](assets/images/Induksiyon.jpg)
+![Görsel](../assets/images/Induksiyon.jpg)
 
 # Sonsuzda Limit (Limits at Infinity)
 
@@ -26,7 +26,7 @@ Mesela 1/ n ifadesine bakalım. n büyüdükçe (1000, 1.000.000 gibi), bu ifade
 
 Matematiksel olarak :
 
-![Görsel](assets/images/limit1.jpg)
+![Görsel](../assets/images/limit1.jpg)
 
 Çünkü:
 n çok büyük seçilirse, sonuç sıfıra istediğimiz kadar yaklaşır. Ama hiçbir zaman sıfır olmaz.
@@ -38,7 +38,7 @@ Eğer sonsuza kadar gidebiliyorsam, istediğim kadar küçük bir değere ulaşa
 
 ### Örneklerle Sonsuzda Limit
 
-![Görsel](assets/images/limit.jpg)
+![Görsel](../assets/images/limit.jpg)
 
 ### **Genel kuralımız şöyledir:**
 
@@ -54,7 +54,7 @@ Eğer sonsuza kadar gidebiliyorsam, istediğim kadar küçük bir değere ulaşa
 
 ### Parçalı Fonksiyonlarda Limit
 
-![Görsel](assets/images/parcali.png)
+![Görsel](../assets/images/parcali.png)
 
 Örneğin bu grafiğimizde **x=1** için fonksiyonun sağdan ve soldan limitlerine baktığımızda farklı değerler olduğu için burda **LİMİT YOKTUR.**
 Soldan gelirken değer → 1
@@ -68,7 +68,7 @@ Farklı bir noktaya bakalım. Örneğin **x=2** için sağdan ve soldan geldiği
 
 ### Sonsuza Giden Limitler
 
-![Görsel](assets/images/fonk-graf.png)
+![Görsel](../assets/images/fonk-graf.png)
 
 x sonsuza gittiğinde **(x -> ∞):**
 

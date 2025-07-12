@@ -12,7 +12,7 @@ Fonksiyon (f), bir girdiyi (x) alır ve bir çıkış (y) üretir.
 - Aynı y değerini farklı x'lerde almak sorun değildir.  
    Ancak **aynı x için birden çok y varsa** → **Fonksiyon değildir.**
   Örneğin aşağıdaki eğri bir **fonksiyon değildir:**
-  ![no-function](assets/images/no-function.png)yon Nedir?
+  ![no-function](../assets/images/no-function.png)yon Nedir?
 
 Fonksiyon (f), bir girdiyi (x) alır ve bir çıkış (y) üretir.
 
@@ -20,7 +20,7 @@ Fonksiyon (f), bir girdiyi (x) alır ve bir çıkış (y) üretir.
 - Aynı y değerini farklı x’lerde almak sorun değildir.  
    Ancak **aynı x için birden çok y varsa** → **Fonksiyon değildir.**
   Örneğin aşağıdaki eğri bir **fonksiyon değildir:**
-  ![no-function](assets/images/no-function.png)
+  ![no-function](../assets/images/no-function.png)
 
 Bir fonksiyonun temel tanımı:
 
@@ -36,7 +36,7 @@ Bu fonksiyon bir paraboldür.
 - f(-1) = (-1)² + 1 = 2
 - f(2) = 2² + 1 = 5
 
-![function](assets/images/function.png)
+![function](../assets/images/function.png)
 
 ## Tanım Kümesi (Domain) ve Değer Kümesi (Range)
 
@@ -75,7 +75,7 @@ f(x) = {
 }
 
 Bu fonksiyonun grafiğini çizersek:
-![Piecewise-function](assets/images/Piecewise-Functions.png)
+![Piecewise-function](../assets/images/Piecewise-Functions.png)
 
 x² + 1 kısmı yalnızca x > 0 için geçerlidir. Bu yüzden 0 noktasında açık daire ile başlar.
 
@@ -182,7 +182,7 @@ Bir sayının üssünü bulmak için kullanılan matematiksel ifadedir.
 
 ### Temel Logaritma Kuralları
 
-![Logaritma](assets/images/logarithm.png)
+![Logaritma](../assets/images/logarithm.png)
 
 ## Logaritmaların Uygulamaları
 
@@ -194,4 +194,4 @@ Bir sayının üssünü bulmak için kullanılan matematiksel ifadedir.
 | Yatırım ve Faiz    | Sürekli faiz artışı       | Faiz oranı ve süre hesaplamasında |
 | Radyoaktif Bozunma | Maddenin zamanla azalması | Azalma oranı **k** bulunurken     |
 
-![Logaritma uygulamaları](assets/images/Applications_of_Logarithms.png)
+![Logaritma uygulamaları](../assets/images/Applications_of_Logarithms.png)

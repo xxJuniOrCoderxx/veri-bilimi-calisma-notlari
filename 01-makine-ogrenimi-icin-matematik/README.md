@@ -7,11 +7,16 @@ Bu bölüm, makine öğrenimi ve veri bilimi için gerekli olan kalkülüs ve li
 ## 📐 İçindekiler
 
 ### Modüller
-- **module-01.md** - Fonksiyonlar ve Limitler
-- **module-02.md** - Matematiksel İndüksiyon ve Türev Temelleri
-- **module-03.md** - Türev ve Diferansiyel Hesap
-- **module-04.md** - Türev Kuralları (Çarpım, Bölüm, Zincir)
-- **module-05.md** - Fonksiyon Analizi ve Grafik Çizimi
+### Ana Bölüm
+- **differential-calculus-for-data-science/** - Detaylı diferansiyel hesap içerikleri
+  - module-01.md → Fonksiyonlar ve Limitler
+  - module-02.md → Matematiksel İndüksiyon ve Türev Temelleri
+  - module-03.md → Türev ve Diferansiyel Hesap
+  - module-04.md → Türev Kuralları (Çarpım, Bölüm, Zincir)
+  - module-05.md → Fonksiyon Analizi ve Grafik Çizimi
+
+### Destek Materyalleri
+- **assets/images/** - Matematiksel görseller ve grafikler
 
 ---
 

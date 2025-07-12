@@ -60,11 +60,11 @@ Bu sonuç çarpımın türevinden çıkar. Sabitin türevi c'=0 olduğundan, ilk
 
 Eğer bir fonksiyonun tamamı bir kuvvete sahipse, bu durumda zincir kuralı kullanılır.
 
-![Görsel](assets/images/zincir-kurali.jpg)
+![Görsel](../assets/images/zincir-kurali.jpg)
 
 ### Zincir Kuralı ve Çarpım Kuralı
 
-![Görsel](assets/images/zincir_kurali-carpim.jpg)
+![Görsel](../assets/images/zincir_kurali-carpim.jpg)
 
 ## Neden Türev Alıyoruz ?
 

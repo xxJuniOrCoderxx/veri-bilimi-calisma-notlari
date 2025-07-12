@@ -14,7 +14,7 @@ Türev negatifse: Fonksiyon aşağı doğru gidiyordur (grafik azalıyordur).
 
 Türev sıfırsa: Fonksiyonun eğimi sıfırdır, yani o noktada yatay bir teğet vardır. Bu nokta maksimum veya minimum olabilir.
 
-![Görsel](assets/images/turev-ile-grafik-ciz.png)
+![Görsel](../assets/images/turev-ile-grafik-ciz.png)
 
 Fonksiyon:
 
@@ -42,7 +42,7 @@ f''(x)= 6x - 6 = 6(x - 1)
 
 Grafiklerden biri f(x), diğeri f’(x) olduğunda, türevin pozitif olduğu yerlerde f(x) artar, negatif olduğu yerlerde azalır. Eğimin 0 olduğu noktalarda ise tepe veya çukur noktalar oluşur.
 
-![Görsel](assets/images/fonksiyon-turev-grafik.png)
+![Görsel](../assets/images/fonksiyon-turev-grafik.png)
 
 | Aralık    | f’(x) Durumu        | f(x) Davranışı   |
 | --------- | ------------------- | ---------------- |
@@ -52,7 +52,7 @@ Grafiklerden biri f(x), diğeri f’(x) olduğunda, türevin pozitif olduğu yer
 
 ## Karmaşık Fonksiyonun Grafiğini Çizme
 
-![Görsel](assets/images/karmasik-fonksiyon.png)
+![Görsel](../assets/images/karmasik-fonksiyon.png)
 
 ### Fonksiyonun Tanım ve İşaret Tablosu
 
