@@ -1,1 +1,0 @@
-"# Google Advanced DA Notlarç" 
