@@ -9,7 +9,7 @@ Bu iki kavram temelde birbirinden farklı anlamlara gelir fakat sektörde uzmanl
 ------------------------------------------------------------------------------------------------------------
 | **Veri Bilimi (Data Science)** | **Veri Analitiği (Data Analytics)** |
 |-------------------------------|--------------------------------------|
-| Verilerle ilgili hangi soruların sorulması gerektiğine odaklanan geniş kapsamlı içgörüler üretir. | Sorulan sorulara yanıt bulmaya odaklanır. |
+| Veriler doğrultusunda hangi soruların sorulması gerektiğine odaklanır. | Sorulan sorulara yanıt bulmaya odaklanır. |
 | Gelecekle ilgili tahminler yapmak için gelişmiş teknikler kullanarak bilinmeyenle yüzleşir. | Mevcut sorulara dayanarak hemen uygulanabilir içgörüler belirler. |
 | “Ne olacak?” ve “X olayını nasıl gerçekleştirebiliriz?” gibi soruları yanıtlamayı hedefler. | “Ne oldu?” ve “Neden oldu?” gibi soruları yanıtlamayı hedefler. |
 
