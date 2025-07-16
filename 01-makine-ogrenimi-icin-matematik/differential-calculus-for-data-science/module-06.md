@@ -44,10 +44,14 @@ V(x) = x(10−2x) (15−2x)
 
 Elimizde iki kritik nokta var:
 
-x ≈ 1.96 , x ≈ 6.37
+x ≈ 1.96 , x ≈ 6.37. Bu noktalar, türevin sıfır olduğu yerlerdir ve şu şekilde hesaplanır:
 
-Bu iki noktada fonksiyonun türevi sıfır. Hangisinin maksimum, hangisinin minimum olduğunu anlamak için **İkinci Türev Yöntemi (Second Derivative Test)** kullanırız.
+- Fonksiyonun türevi: V′(x) = 150 − 100x + 24x²
+- Kritik noktaları bulmak için V′(x) = 0 denklemini çözeriz:
+  - 150 − 100x + 24x² = 0
+  - Bu denklemi çözerek yaklaşık olarak x ≈ 1.96 ve x ≈ 6.37 değerlerini elde ederiz.
 
+Hangisinin maksimum, hangisinin minimum olduğunu anlamak için **İkinci Türev Yöntemi (Second Derivative Test)** kullanırız.
 V′′(x) = −100 + 24x
 
 V′′(1.96)<0 olduğundan bu nokta iç bükeydir (concave down) → Maksimum noktadır.
