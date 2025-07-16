@@ -51,6 +51,43 @@ x ≈ 1.96 , x ≈ 6.37. Bu noktalar, türevin sıfır olduğu yerlerdir ve şu 
   - 150 − 100x + 24x² = 0
   - Bu denklemi çözerek yaklaşık olarak x ≈ 1.96 ve x ≈ 6.37 değerlerini elde ederiz.
 
+İlk olarak, V(x) fonksiyonunun türevini alalım. V(x) = x(10−2x)(15−2x) olduğundan, türev alırken çarpım kuralını kullanmamız gerekiyor:
+
+V′(x) = d/dx [x(10−2x)(15−2x)]
+
+Çarpım kuralını uygulayarak:
+
+V′(x) = (10−2x)(15−2x) + x[d/dx((10−2x)(15−2x))]
+
+İkinci terimin türevini alırken yine çarpım kuralını kullanıyoruz:
+
+d/dx[(10−2x)(15−2x)] = (10−2x)d/dx(15−2x) + (15−2x)d/dx(10−2x)
+
+d/dx(15−2x) = −2 ve d/dx(10−2x) = −2 olduğundan:
+
+d/dx[(10−2x)(15−2x)] = (10−2x)(−2) + (15−2x)(−2)
+
+= −2(10−2x) − 2(15−2x)
+
+= −20 + 4x − 30 + 4x
+
+= −50 + 8x
+
+Şimdi bunu V′(x) formülüne geri koyuyoruz:
+
+V′(x) = (10−2x)(15−2x) + x(−50 + 8x)
+
+= 150 − 20x − 30x + 4x² − 50x + 8x²
+
+= 12x² − 100x + 150
+
+Şimdi ikinci türevi alıyoruz:
+
+V′′(x) = d/dx[12x² − 100x + 150]
+
+= 24x − 100
+
+Böylece ikinci türev formülümüz:
 Hangisinin maksimum, hangisinin minimum olduğunu anlamak için **İkinci Türev Yöntemi (Second Derivative Test)** kullanırız.
 V′′(x) = −100 + 24x
 
