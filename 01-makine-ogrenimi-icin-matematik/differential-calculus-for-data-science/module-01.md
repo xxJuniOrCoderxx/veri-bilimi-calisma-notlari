@@ -12,14 +12,7 @@ Fonksiyon (f), bir girdiyi (x) alır ve bir çıkış (y) üretir.
 - Aynı y değerini farklı x'lerde almak sorun değildir.  
    Ancak **aynı x için birden çok y varsa** → **Fonksiyon değildir.**
   Örneğin aşağıdaki eğri bir **fonksiyon değildir:**
-  ![no-function](../assets/images/no-function.png)yon Nedir?
 
-Fonksiyon (f), bir girdiyi (x) alır ve bir çıkış (y) üretir.
-
-- Her x için **yalnızca bir y değeri** vardır → bu bir fonksiyondur.
-- Aynı y değerini farklı x’lerde almak sorun değildir.  
-   Ancak **aynı x için birden çok y varsa** → **Fonksiyon değildir.**
-  Örneğin aşağıdaki eğri bir **fonksiyon değildir:**
   ![no-function](../assets/images/no-function.png)
 
 Bir fonksiyonun temel tanımı:
