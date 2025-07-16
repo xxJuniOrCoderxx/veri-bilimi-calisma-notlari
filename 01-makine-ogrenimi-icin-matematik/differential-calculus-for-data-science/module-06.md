@@ -39,7 +39,7 @@ Bunların hepsi, türevin işareti ve sıfır olduğu noktalarla bulunabilir:
 ### İkinci Türev Testi (Second Derivative Test)
 
 Yukarıda incelediğimiz örneği tekrar ele alalım:
-
+Bu problemde, V(x) fonksiyonu açık kutunun hacmini temsil eder. Hacim, kutunun taban alanı ile yüksekliğinin çarpımı olarak hesaplanır.
 V(x) = x(10−2x) (15−2x)
 
 Elimizde iki kritik nokta var:
