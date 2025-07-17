@@ -51,9 +51,9 @@ Veri sahibinin özel verilerinin veri aktarımı esnasında kötü niyetli kişi
 
 Veri uzmanları, kullanıcıları ve verilerini korumak için ek önlemler alabilmektedirler. Örneğin, **veri toplulaştırma (data aggregation)**, çok sayıda kullanıcıya ait bilgilerin özet veya toplamlar şeklinde toplanıp birleştirilmesi sürecidir. Verilerin toplulaştırılması, veri setlerinde yer alan bilgilerin gruplar halinde gösterilmesini sağlar. Bu yöntem, diğer anonimleştirme teknikleriyle birlikte kullanıldığında, veri profesyonelleri veri gizliliği ve anonimlik standartlarına uygunluğu güvence altına alabilir. Telefon numarası, isim, plaka, kimlik numarası, IP adresi, sağlık kayıtları, email adresi, fotoğraflar, hesap numaraları gibi pek çok veri sıklıkla anonimleştirilmektedir. 
 
-## Veri Sorumluluğu (Data Stewardship)
+## Veri Yönetimi (Data Stewardship)
 
-Tüm veri uzmanlarının verinin kalitesi, uyumluluğu, erişilebilirliği ve güvenliğinden sorumlu olduğunu artık biliyoruz. Veri sorumluluğu da bu verinin erişilebilirlik, kullanılabilirlik ve güvenliğinden sorumlu olmayı içerir ve tüm veri uzmanlarının sorumluluğu içerisinde sayılır.
+Tüm veri uzmanlarının verinin kalitesi, uyumluluğu, erişilebilirliği ve güvenliğinden sorumlu olduğunu artık biliyoruz. Veri yönetimi de bu verinin erişilebilirlik, kullanılabilirlik ve güvenliğinden sorumlu olmayı içerir ve tüm veri uzmanlarının sorumluluğu içerisinde sayılır.
 
 ### Mahremiyete Özen Göster
 
@@ -67,7 +67,7 @@ Küresel pazarda alınan kararlar, farklı kültürlerde farklı şekillerde yan
 
 ### Önyargı (Bias) Üretmekten ve Pekiştirmekten Kaçının
 
-Veri toplamanın insanlar tarafından yapıldığını ve bu verilerin farklı perspektiflerde, inançlarda ve tecrübelerde olan kişileri kapsadığını unutmamalıyız. Bu ve bunun gibi diğer önyargılar veriyi ve sonuçları etkileyebileceği gibi alınan kararları da etkileyebilmektedir. 
+Veri toplama ve yorumlama süreçleri, insan kaynaklı önyargılardan etkilenebilir ve bu durum, analiz sonuçlarıyla birlikte alınacak kararları da etkileyebilir. Açıkça görülebilir önyargılara karşı dikkatli olmak, gizli önyargıların fark edilmesinin zor olduğunu bilerek detaylı analizler yapmak, verinin temsil ettiği kitlenin geneliyle uyumlu olup olmadığına bakmak, her veri içgörüsünün birden fazla şekilde yorumlanabileceğini göz önünde bulundurmak ve analiz yapılmadan önce erken karar vermekten kaçınmak önyargı üretmeye karşı alabileceğimiz önlemlerden bazılarıdır.
 
 ### Kapsayıcılığı Göz Önünde Bulundurun
 
