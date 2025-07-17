@@ -113,9 +113,19 @@ Hesap verebilirliği artırmanın yollarından biri, iş akışınız boyunca il
 
 *Sunacağımız bilginin diğerleri için değerli olup olmadığını belirledikten sonra sunmalıyız.*
 
-## RACI
+## RACI Matrisi
 
-....
+Şirkerlerin rolleri ve sorumlulukları organize etmek için kullandığı yollardan bir tanesidir. RACI matrisi sayesinde paydaşlar, projeye dahil olma hiyerarşisini daha iyi anlarlar.
+
+**Responsible (Sorumlu):** Bu roldeki ekip üyeleri, bir proje kapsamındaki bir görevi tamamlamakla doğrudan ilgili olan gerekli işi yapmaktan veya kararları almaktan doğrudan sorumludur. Görevden sorumlu birden fazla rol veya grup olabilir; bu da sorumlulukların birden fazla sınıflandırma tarafından ortaklaşa üstlenildiği anlamına gelir.
+
+**Accountable (Hesap Veren):** Hesap verebilir rolü atanan kişilere "sorumlu" olanların yaptığı işi onaylama görevi verilir. Genel bir kural olarak, bu rolde genellikle tek bir kişi bulunur; bu kişi genellikle bir yönetici veya proje lideridir.
+
+**Consulted (Danışılan):** Bu rol, bir göreve uzmanlığıyla katkıda bulunan kişilere verilir. "Sorumlu" ve "danışılan" olarak atananlar arasında net ve açık bir iletişim hattı olmalıdır. Bu rolde birden fazla kişi olabilir. Çoğu durumda, bunlara konu uzmanı denir.
+
+**Informed (Bilgilendirilen):** Bu roldeki kişilerin süreç hakkında sürekli güncel tutulması gerekir. Genellikle yüksek seviyedeki liderlere verilir. Belirli görevlerin nasıl gerçekleştirildiğine ilişkin ayrıntılardan ziyade projelerden elde edilen içgörüleri anlamalarını sağlamalıyız.
+
+<img width="693" height="335" alt="image" src="https://github.com/user-attachments/assets/d0462434-9e44-471b-9cfd-9028eb0f1487" />
 
 ## Günümüzde Kullandığımız ve Gelecekte Kullanacağımız Araçlar
 
