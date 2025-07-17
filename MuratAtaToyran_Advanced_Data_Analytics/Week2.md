@@ -129,7 +129,14 @@ Hesap verebilirliği artırmanın yollarından biri, iş akışınız boyunca il
 
 ## Günümüzde Kullandığımız ve Gelecekte Kullanacağımız Araçlar
 
-__Tablo__
+| Araç               | Tanım                                                                 | Örnekler                                                                 | İlgili Yetkinlikler                                                                 |
+|------------------------|-----------------------------------------------------------------------|----------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
+| E-tablolar             | Verilerin girilip hesaplamalar için kullanılabileceği dijital tablolar | - Google Sheets<br>- Microsoft Excel                                                   | - Veri girişi<br>- Matematiksel hesaplamalar<br>- Veri kümelerini yönetme<br>- Görev otomasyonu<br>- Veri işleme<br>- Veri analizi |
+| Veritabanları          | Bilgisayar sisteminde depolanan veri koleksiyonu                      | - Google Cloud<br>- CloudSQL<br>- Oracle<br>- Microsoft SQL Server                    | - Veritabanı tasarımı<br>- Veri depolama yönetimi<br>- Veri bütünlüğü              |
+| Programlama dilleri    | Bilgisayarlara komut vermek için kullanılan sözcük ve sembol sistemleri | - SQL<br>- R<br>- Python<br>- Java<br>- C++                                           | - Bilgisayar sistemleriyle iletişim kurma<br>- Komut yazma ve girme<br>- Veri kümelerini yönetme<br>- Veri işleme<br>- Veri analizi |
+| Veri görselleştirme    | Verilerin görsel olarak sunulması                                     | - Tableau<br>- Matplotlib<br>- Seaborn<br>- Google Charts<br>- InfoGram<br>- ChartBlocks | - Veri içgörülerini iletme<br>- Etkileyici görseller tasarlama<br>- Temel metrikleri belirleme |
+| Panolar (Dashboards)   | Gerçek zamanlı verileri izleyen araçlar                               | - Tableau<br>- LookerStudio<br>- Microsoft PowerBI                                    | - Veri içgörülerini iletme<br>- Gerçek zamanlı verileri izleme<br>- Veri görselleştirmeleri geliştirme<br>- Filtreler ve özel hesaplamalar tasarlama |
+
 
 Eş-zamanlı içgörüleri sunmak ve fazla zaman harcayan veri temizleme gibi süreçleri otomatize etmek için kullanılan yapay zekayı ve veriler arasındaki desenleri ortaya çıkarmak için kullanılan makine öğrenmesini birlikte kullanarak gelecekte otomasyon ve içgörü oluşturma süreçlerini önemli ölçüde hızlandırabiliriz. 
 
