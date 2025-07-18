@@ -8,7 +8,7 @@ Bu uygulama sırasında, veri uzmanları verileri tanıyarak nasıl kullanacakla
 
 ### 2. Yapılandırma (Structuring)
 
-Yapılandırma, ham verileri alıp daha kolay görselleştirilebilecek, açıklanabilecek veya modellenebilecek şekilde düzenleme veya dönüştürme sürecidir. Yapılandırma, veri kümesinde halihazırda bulunan verilere göre veri sütunlarını kategorilere ayırma ve düzenleme anlamına gelir.
+Yapılandırma, ham verileri alıp daha kolay görselleştirilebilecek, açıklanabilecek veya modellenebilecek şekilde düzenleme veya dönüştürme sürecidir. Yapılandırma, veri kümesinde halihazırda bulunan verilere göre veri sütunlarını kategorilere ayırma ve düzenleme anlamına gelir. Mevcut verilere dayalı olarak hesaplamalar yapıp bunu yeni bir sütun olarak eklemek de "yapılandırma" olarak adlandırılır.
 
 ### 3. Veri Temizleme (Data Cleaning)
 
@@ -24,7 +24,7 @@ Doğrulama, verilerin tutarlı ve yüksek kalitede olduğunu doğrulama sürecin
 
 ### 6. Sunum (Presenting)
 
-Sunum, temizlenmiş veri kümenizi veya veri görselleştirmelerinizi analiz veya daha fazla modelleme için başkalarının kullanımına sunmak anlamına gelir. Başka bir deyişle, EDA aracılığıyla öğrendiklerinizi paylaşmak ve geri bildirim istemektir. Sunumun her zaman EDA sürecinin sonunda geldiğini düşünebilirsiniz. Ancak sunum, EDA'nın herhangi bir aşamasında yapılabilir. Veri görselleştirmeleri yalnızca sunum pratiğine özgü değildir. EDA boyunca kullanılmalıdırlar. Verileri anlamanıza ve başkalarına eğilimleri ve içgörüleri göstermenize yardımcı olurlar.
+Sunum, temizlenmiş veri kümenizi veya veri görselleştirmelerinizi analiz veya daha fazla modelleme için başkalarının kullanımına sunmak anlamına gelir. Başka bir deyişle, EDA aracılığıyla öğrendiklerinizi paylaşmak ve geri bildirim istemektir. Sunumun her zaman EDA sürecinin sonunda geldiğini düşünebilirsiniz. Ancak sunum, EDA'nın herhangi bir aşamasında yapılabilir. Veri görselleştirmeleri yalnızca "sunum"a özgü değildir. EDA boyunca kullanılmalıdırlar. Verileri anlamanıza ve başkalarına eğilimleri ve içgörüleri göstermenize yardımcı olurlar. Görselleştirmelerin yanı sıra temiz bir veri kümesi oluşturmak da "sunum" olarak değerlendirilir.
 
 ---------------------------------------------------------
 
