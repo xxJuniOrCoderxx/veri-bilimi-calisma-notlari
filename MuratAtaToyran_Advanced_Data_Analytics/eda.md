@@ -1,6 +1,6 @@
 ## Altı EDA Uygulaması
 
-<img width="815" height="492" alt="image" src="https://github.com/user-attachments/assets/f01b7c60-42dd-4bdc-80b9-0e6b530cc5e2" />
+<img width="407" height="246" alt="image" src="https://github.com/user-attachments/assets/f01b7c60-42dd-4bdc-80b9-0e6b530cc5e2" />
 
 ### 1. Keşfetmek (Discovering)
 
