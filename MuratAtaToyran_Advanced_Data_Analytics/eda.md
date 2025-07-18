@@ -10,8 +10,6 @@ Bu uygulama sırasında, veri uzmanları verileri tanıyarak nasıl kullanacakla
 
 Yapılandırma, ham verileri alıp daha kolay görselleştirilebilecek, açıklanabilecek veya modellenebilecek şekilde düzenleme veya dönüştürme sürecidir. Yapılandırma, veri kümesinde halihazırda bulunan verilere göre veri sütunlarını kategorilere ayırma ve düzenleme anlamına gelir.
 
-![896656_broom_brush_clean_dust_stick_icon](https://github.com/user-attachments/assets/aa6c0f40-9feb-45c0-9afc-0decdee7d482)
-
 ### 3. Veri Temizleme (Data Cleaning)
 
 Temizleme, verilerinizi bozabilecek veya daha az kullanışlı hale getirebilecek hataları giderme işlemidir. Eksik değerler, yazım hataları, yinelenen girişler veya aşırı uç değerler, veri kümesi temizliği sırasında ele alınması gereken oldukça yaygın sorunlardır.
