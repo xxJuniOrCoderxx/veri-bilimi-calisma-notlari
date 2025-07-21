@@ -6,7 +6,15 @@ Bu modülde matematiksel fonksiyonların temellerini, tanım ve değer kümeleri
 
 ## 🔢 Fonksiyon Nedir?
 
-Fonksiyon (f), bir girdiyi (x) alır ve bir çıkış (y) üretir.
+Bir fonksiyon, gerçek dünyadan elde edilmiş değerler(değişkenler) arasındaki ilişkinin matematiksel modelidir. 
+
+Örnek : Varsayalım A bitkisine günlük olarak santimetre cinsinden yerden yüksekliğinin (sayısal değerinin) yarısı kadar mililitre su verilmesi gerekiyor olsun.  İlgili durum matematiksel olarak aşağıdaki şekilde modellenebilir. Ve bu sayede model tasarlanacak otomatik sulama sisteminde kullanılabilir. 
+x: A bitkisinin cm cinsinden yerden yüksekliğinin sayısal değeri. 
+y: mm cinsinden verilmesi gereken su miktarı.
+
+$y\ =\ x\ /\ 2\ $
+
+$f\left(x\right)=x/2 $
 
 - Her x için **yalnızca bir y değeri** vardır → bu bir fonksiyondur.
 - Aynı y değerini farklı x'lerde almak sorun değildir.  
