@@ -18,7 +18,12 @@ $y\ =\ x\ /\ 2\ $
 
 $f\left(x\right)=x/2 $
 
+İlgili modelin grafiği çizilecek olursa;
+
+<img src="../assets/images/graph_x_2.png" width="500">
+
 Bir fonksiyonun temel tanımı aşağıdaki şekilde özetlenebilir:
+
 Girdi alır → İşlem yapar → Tek bir çıktı üretir.
 
 ![functiondef](../assets/images/fonksiyon_tanim.png)
