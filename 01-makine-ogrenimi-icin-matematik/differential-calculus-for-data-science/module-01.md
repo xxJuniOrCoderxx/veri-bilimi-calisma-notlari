@@ -6,18 +6,27 @@ Bu modülde matematiksel fonksiyonların temellerini, tanım ve değer kümeleri
 
 ## 🔢 Fonksiyon Nedir?
 
-Fonksiyon (f), bir girdiyi (x) alır ve bir çıkış (y) üretir.
+Bir fonksiyon, gerçek dünyadan elde edilmiş değerler(değişkenler) arasındaki ilişkinin matematiksel modelidir. 
 
-- Her x için **yalnızca bir y değeri** vardır → bu bir fonksiyondur.
-- Aynı y değerini farklı x'lerde almak sorun değildir.  
-   Ancak **aynı x için birden çok y varsa** → **Fonksiyon değildir.**
-  Örneğin aşağıdaki eğri bir **fonksiyon değildir:**
+Örnek : Varsayalım A bitkisine günlük olarak santimetre cinsinden yerden yüksekliğinin (sayısal değerinin) yarısı kadar mililitre su verilmesi gerekiyor olsun.  İlgili durum matematiksel olarak aşağıdaki şekilde modellenebilir. Ve bu sayede model tasarlanacak otomatik sulama sisteminde kullanılabilir. 
 
-  ![no-function](../assets/images/no-function.png)
+x: A bitkisinin cm cinsinden yerden yüksekliğinin sayısal değeri. 
 
-Bir fonksiyonun temel tanımı:
+y: mm cinsinden verilmesi gereken su miktarı.
+
+$y\ =\ x\ /\ 2\ $
+
+$f\left(x\right)=x/2 $
+
+İlgili modelin grafiği çizilecek olursa;
+
+<img src="../assets/images/graph_x_2.png" width="500">
+
+Bir fonksiyonun temel tanımı aşağıdaki şekilde özetlenebilir:
 
 Girdi alır → İşlem yapar → Tek bir çıktı üretir.
+
+![functiondef](../assets/images/fonksiyon_tanim.png)
 
 Örneğin:  
  f(x) = x² + 1
@@ -31,15 +40,23 @@ Bu fonksiyon bir paraboldür.
 
 ![function](../assets/images/function.png)
 
-## Tanım Kümesi (Domain) ve Değer Kümesi (Range)
 
-### Domain (Tanım Kümesi):
+İki küme arasındaki ilişki yani değerleri birbirlerine bağlayan bağıntı üzerinde düşünebilmek, konuşabilmek için iki temel kavramın bilinmesi gerekir;
 
-Fonksiyonda x yerine yazılmasına izin verilen tüm değerler tanım kümesini oluşturur.
+- __Tanım Kümesi (Domain):__ Girdi kümesini yani bağımsız değişkenlerin kümesini ifade eder. 
 
-### Range (Değer Kümesi):
+- __Değer Kümesi (Range)__: Girdi kümesindeki elemanların matematiksel model ile elde edilen çıktı değerlerinin yer aldığı kümedir.
 
-Fonksiyon kutusundan çıkabilecek tüm olası sonuçlar değer kümesini oluşturur.
+İki küme arasındaki bir ilişkinin(bağıntının) fonksiyon olarak kabul edilebilmesi için bazı özel şartları sağlaması gerekir. 
+1.	Tanım kümesinde yer alan her bir elemanın değer kümesinde bir karşılığı, değeri bulunmalıdır. 
+2.	Tanım kümesinde yer alan değerler için değer kümesinde bir den fazla karşılık, değer bulunmamalıdır. 
+
+*Örneğin aşağıda görülen grafik bir fonksiyona ait değildir.*
+
+<img src="../assets/images/no-function.png" width="600" height="600">
+
+>__*Not:*__
+İki değişken arasındaki ilişkiyi modelleyen bir bağıntının fonksiyon olmaması onu matematiksel açıdan değersiz kılmaz ancak bizi fonksiyonlar üzerinde tanımlı matematiksel yaklaşımları kullanabilme lüksünden mahrum bırakır. 
 
 ### f(x) = 1 / x fonksiyonunun tanım ve değer kümesini inceleyelim.
 
@@ -78,11 +95,34 @@ Bu fonksiyon **süreksizdir** çünkü iki parça x = 0 noktasında birleşmez.
 
 ## Bir Matematiksel İfadeye Neler Yapabiliriz?
 
-| İşlem                                 | Amaç                                     | Örnek                     |
-| ------------------------------------- | ---------------------------------------- | ------------------------- |
-| **1 ile çarpmak**                     | Biçimi değiştirmek ama değeri korumak    | 1/2 \* 3/3                |
-| **0 eklemek**                         | Değeri değiştirmeden denklemi düzenlemek | x - 2 + 2 = 6 + 2 → x = 8 |
-| **Aynı şeyi iki tarafa da uygulamak** | Eşitliği koruyarak çözüm yapmak          | 3x = 6 ise x = 6 / 3 = 2  |
+- Çarpma işleminde bir (1) etkisiz elemandır. Dolayısıyla bir ifadeyi bir (1) ile çarpmak onun temsil ettiği değer üzerinde herhangi bir değişikliğe neden olmaz. Aşağıdaki örneği inceleyiniz. 1/2 ve 3/6 ifadelerinin her ikisinin de bir bütünün yarısını temsil eden sayısal değerlerdir.
+
+  $\frac{1}{2}\times\ \frac{3}{3}=\ \frac{3}{6}$
+
+- Bir eşitliğin her iki tarafında aynı işlemin uygulanması o eşitliği etkilemeyecektir. Sadece aynı eşitliğin başka bir biçimini hatta bazı durumlarda daha sade bir biçimini elde etmenizi sağlayacaktır. Aşağıdaki örneği inceleyiniz. 
+
+  $x+5=7\$
+
+  $x+5-5\ =7-5\ $
+
+  $x=2$
+
+- Bir ifadeye aynı şeyin eklenip çıkarılması yani sıfır eklenmesi o ifadenin değerini değiştirmez. Yaygın uygulamalarından bir tanesi bir ifadenin sadeleştirmelerde kullanılabilmesi için farklı biçimde ifadesinin sağlanmasıdır. Bir başka yaygın uygulama ise bir ifadenin çarpanlarına ayrılabilmesi için terim eklenip çıkarılmasıdır. Aşağıdaki örnekleri inceleyiniz.
+
+  __(Örnek 1)__
+
+  ${\ x}^2+2x\ =\ {\ x}^2+2x+1-1={\ \left(x+1\right)}^2-1$
+
+  __(Örnek 2)__
+
+  ${\ x}^4+\ x^2\ +1={\ x}^4+\ x^2\ +1+\ x^2-\ x^2\ $
+  
+  ${\ x}^4+\ x^2\ +1={\ x}^4+\ 2x^2\ +1\ -\ x^2$
+  
+  ${\ x}^4+\ x^2\ +1={(x^2\ +1)}^2\ -\ x^2$
+  
+  ${\ x}^4+\ x^2\ +1=(x^2-x\ +1)(x^2+x\ +1)$
+
 
 ## İki Terimli İfadeleri (Binomları) Çarpma
 
