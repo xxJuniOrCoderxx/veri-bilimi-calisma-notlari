@@ -110,9 +110,11 @@ Bu fonksiyon **süreksizdir** çünkü iki parça x = 0 noktasında birleşmez.
 - Bir ifadeye aynı şeyin eklenip çıkarılması yani sıfır eklenmesi o ifadenin değerini değiştirmez. Yaygın uygulamalarından bir tanesi bir ifadenin sadeleştirmelerde kullanılabilmesi için farklı biçimde ifadesinin sağlanmasıdır. Bir başka yaygın uygulama ise bir ifadenin çarpanlarına ayrılabilmesi için terim eklenip çıkarılmasıdır. Aşağıdaki örnekleri inceleyiniz.
 
   __(Örnek 1)__
+
   ${\ x}^2+2x\ =\ {\ x}^2+2x+1-1={\ \left(x+1\right)}^2-1$
 
   __(Örnek 2)__
+
   ${\ x}^4+\ x^2\ +1={\ x}^4+\ x^2\ +1+\ x^2-\ x^2\ $
   
   ${\ x}^4+\ x^2\ +1={\ x}^4+\ 2x^2\ +1\ -\ x^2$
