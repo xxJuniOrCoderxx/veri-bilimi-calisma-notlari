@@ -20,6 +20,8 @@ Matematiksel indüksiyon, sonsuz sayıda durumun geçerli olduğunu göstermek i
 
 # Sonsuzda Limit (Limits at Infinity)
 
+Bazı durumlarda gözlemlemek istediğimiz şeye (olay, obje, …) ulaşmamız mümkün değildir. Ancak, yapabileceğimiz bir şey vardır; olabildiğinde yakınlaşarak yani sınırlarda gezerek onun hakkında bir fikir sahibi olmak. İşte limit kavramı bu yaklaşımın matematiksel halidir, denilebilir.  
+
 Teorik olarak bir sayıyı sürekli ikiye bölsek bile tam sıfıra asla ulaşamayız ama çok yaklaşabiliriz. İşte limit burda devreye girer.
 
 Mesela 1/ n ifadesine bakalım. n büyüdükçe (1000, 1.000.000 gibi), bu ifade sıfıra yaklaşır ama asla sıfır olmaz.
@@ -51,6 +53,12 @@ Eğer sonsuza kadar gidebiliyorsam, istediğim kadar küçük bir değere ulaşa
 ​
 
 # Belirli Bir Noktada Limit
+
+Bir f fonksiyonun x=a noktasında sağdan (sağdan limit) ve soldan (soldan limit) yaklaşıldığında bir değer elde edilebiliyor ve değerler birbirine eşit ise ilgili noktada limit vardır, elde edilen değere eşittir. 
+
+$$
+\lim_{x\rightarrow a}{f\left(x\right)}=L
+$$
 
 ### Parçalı Fonksiyonlarda Limit
 
@@ -88,11 +96,11 @@ Ama x sıfıra yaklaşırken **(x -> 0):**
 
 # Fonksiyonlarda Süreklilik
 
-Eğer grafiği çizerken kalemi kaldırmadan çizebiliyorsak o noktada süreklilik vardır
+Bir fonksiyonun limiti ile o noktada elde edilen görüntü değeri birbirlerine eşit ise fonksiyon o noktada süreklidir. Bir başka bakış açısıyla eğer fonksiyonun grafiğini çizerken kalemi kaldırmadan çizebiliyorsak o noktada süreklilik vardır
 
-Grafikte bir atlama (jump) varsa → süreksizlik vardır.
+- Grafikte bir atlama (jump) varsa → süreksizlik vardır.
 
-Fonksiyonun bir noktada değeri yoksa veya delik (hole) varsa → süreksizlik vardır.
+- Fonksiyonun bir noktada değeri yoksa veya delik (hole) varsa → süreksizlik vardır.
 
 ### Süreklilik için Gerekli Koşullar
 
