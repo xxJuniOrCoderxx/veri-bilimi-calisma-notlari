@@ -1,7 +1,7 @@
 $$
 \begin{align*}
-e^x   &= 5 \quad \text{ise} \quad x = \ln(5) \\
-2^x   &= 8 \quad \text{ise} \quad x = \log_2(8) = 3 \\
+e^x   = 5 \quad \text{ise} \quad x = \ln(5) \\
+2^x   = 8 \quad \text{ise} \quad x = \log_2(8) = 3 \\
 \log_b b    &= 1 \\
 \log_b 1    &= 0 \\
 \log_b b^k  &= k \\
