@@ -37,6 +37,89 @@ $$
 m =\ f(x_0)'\ = \lim_{h\rightarrow 0}{\frac{f(x_0+h\ )-f(x_0)}{h}}
 $$
 
+Örnek ile daha iyi anlamaya çalışalım. 
+
+__Örnek:__ Ahmet’in çizgisel bir yolda bulunduğu konum(x), zamanın(t) karesine bağlı olarak elde ediliyor olsun. Matematiksel olarak modelleyecek olursak ilgili model ve fonksiyon aşağıdaki şekilde olacaktır. 
+
+$x\ ={\ t}^2$
+
+$f(t)\ =\ {\ t}^2$
+
+Ahmet’in hızını, yani saniyede aldığı mesafe değerinin 0, 1 ve 2. saniyelerdeki anlık değişimini bulalım. 
+
+- $x_0=0\$ için;
+
+  $x_1=0+h$ yani $x_1=h$ olur.
+  
+  $y_0=f(0)$ olur.
+  
+  $y_1=f(0+h\ )$ yani $y_1=f(h\ )$ olur.
+  
+  Yerlerine yazılarak çözüm gerçekleştirilirse $f(0)' = 0$ olarak bulunur.
+  
+  $f(0)'\ =\lim_{h\rightarrow 0}{\frac{f(h\ )-f(0)}{h}}$
+  
+  $f(0)'\ =\lim_{h\rightarrow 0}{\frac{{\ h}^2-{\ 0}^2}{h}}$
+  
+  $f(0)'\ =\lim_{h\rightarrow 0}{\frac{{\ h}^2}{h}}$
+  
+  $f(0)'\ =\lim_{h\rightarrow 0}{\ \ h}$
+  
+  $f(0)'\ =0$
+  
+
+- $x_0=1\$ için;
+  
+  $x_1=1+h$ olur.
+  
+  $y_0=f(1)$ olur.
+  
+  $y_1=f(1+h\ )$ olur.
+  
+  Yerlerine yazılarak çözüm gerçekleştirilirse $f(1)' = 2$ olarak bulunur.
+  
+  $f(1)'\ =\lim_{h\rightarrow 0}{\frac{f(1+h\ )-f(1)}{h}}$
+  
+  $f(1)'\ =\lim_{h\rightarrow 0}{\frac{(1+{\ h)}^2-{\ 1}^2}{h}}$
+  
+  $f(1)'\ =\lim_{h\rightarrow 0}{\frac{{\ 1+2h\ +h}^2-1}{h}}$
+  
+  $f(1)'\ =\lim_{h\rightarrow 0}{\ \ \frac{{\ 2h\ +h}^2}{h}\ }$
+  
+  $f(1)'\ =\lim_{h\rightarrow 0}{\ \ \frac{{\ 2h\ +h}^2}{h}\ }$
+  
+  $f(1)'\ =\lim_{h\rightarrow 0}{\ \ \frac{h(2+h)}{h}\ }$
+  
+  $f(1)'\ =\lim_{h\rightarrow 0}{\ \ (2+h)}$
+  
+  $f(1)'\ =2$
+
+- $x_0=2\$ için;
+  
+  $x_1=2+h olur.
+  
+  $y_0=f(2) olur.
+  
+  $y_1=f(2+h\ ) olur.
+  
+  $Yerlerine yazılarak çözüm gerçekleştirilirse $f(2)' = 4$ olarak bulunur.
+  
+  $f(2)'\ =\lim_{h\rightarrow 0}{\frac{f(2+h\ )-f(2)}{h}}$
+  
+  $f(2)'\ =\lim_{h\rightarrow 0}{\frac{(2+{\ h)}^2-{\ 2}^2}{h}}$
+  
+  $f(2)'\ =\lim_{h\rightarrow 0}{\frac{{\ 4+4h\ +h}^2-4}{h}}$
+  
+  $f(2)'\ =\lim_{h\rightarrow 0}{\ \ \frac{{\ 4h\ +h}^2}{h}\ }$
+  
+  $f(2)'\ =\lim_{h\rightarrow 0}{\ \ \frac{h(4+h)}{h}\ }$
+  
+  $f(2)'\ =\lim_{h\rightarrow 0}{\ \ (4+h)}$
+  
+  $f(2)'\ =4$
+
+Peki herhangi bir x noktası için ilgili fonksiyonun türevini genel bir hale dönüştürebilir miyiz? Deneyelim...
+
 # FONKSİYONUN TÜREVİ
 
 Aşağıdaki örneği inceleyelim:
