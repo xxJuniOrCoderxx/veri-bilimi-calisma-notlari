@@ -96,11 +96,11 @@ Ahmet’in hızını, yani saniyede aldığı mesafe değerinin 0, 1 ve 2. saniy
 
 - $x_0=2\$ için;
   
-  $x_1=2+h olur.
+  $x_1=2+h$ olur.
   
-  $y_0=f(2) olur.
+  $y_0=f(2)$ olur.
   
-  $y_1=f(2+h\ ) olur.
+  $y_1=f(2+h\)$ olur.
   
   $Yerlerine yazılarak çözüm gerçekleştirilirse $f(2)' = 4$ olarak bulunur.
   
