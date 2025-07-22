@@ -120,14 +120,25 @@ Ahmet’in hızını, yani saniyede aldığı mesafe değerinin 0, 1 ve 2. saniy
 
 Peki herhangi bir x noktası için ilgili fonksiyonun türevini genel bir hale dönüştürebilir miyiz? Deneyelim...
 
-# FONKSİYONUN TÜREVİ
+## FONKSİYONUN TÜREVİ
 
-Aşağıdaki örneği inceleyelim:
-![Görsel](../assets/images/turev-ornek.jpg)
+ $f(x)\ =\ {\ x}^2$ fonksiyonunun türevini alalım.
 
-Fonksiyonun grafiğini çizelim:
+ $f(x+h)\ =\ {(\ x+h)}^2\ =\ {\ x}^2+\ 2xh\ +\ {\ h}^2$
 
-![Görsel](../assets/images/turev-grafik.png)
+Türevin limit tanımıyla ilerleyelim. Ve bulduğumuz ifadeyi yerine yazalım. 
+
+ $f(x)\prime=\lim_{h\rightarrow 0}{\frac{f(x+h\ )-f(x)}{h}} $
+
+ $f(x)\prime=\lim_{h\rightarrow 0}{\frac{{\ x}^2+\ 2xh\ +\ {\ h}^2-{\ x}^2}{h}}\ =\ \frac{\ 2xh\ +\ {\ h}^2}{h} $
+
+ $f(x)\prime=\lim_{h\rightarrow 0}{\ 2x\ +\ h}\ $ 
+
+ $f(x)\prime\ =2x\ $ 
+
+Fonksiyonun grafiğini çizelim.
+
+<img src="../assets/images/turev-grafik.png" width="600">
 
 x=1 için eğim: 2
 
