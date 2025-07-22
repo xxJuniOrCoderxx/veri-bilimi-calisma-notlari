@@ -1,7 +1,7 @@
 $$
 \begin{align*}
-\mathrm{e}^x &= 5& & ise & &x = \ln(5) \\
-2^x &= 8& & ise & &x = \log_2(8) = 3 \\
+\mathrm{e}^x &= 5& ise & &x = \ln(5) \\
+2^x &= 8& ise & &x = \log_2(8) = 3 \\
 \log_b b &= 1 \\
 \log_b 1 &= 0 \\
 \log_b b^k &= k \\
