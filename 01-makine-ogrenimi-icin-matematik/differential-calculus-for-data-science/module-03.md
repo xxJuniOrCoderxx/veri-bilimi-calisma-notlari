@@ -180,11 +180,12 @@ Yani fonksiyonun herhangi bir noktasındaki eğim (türev), o noktadaki y değer
 
 f(x) = 2 fonksiyonunun türevini hesaplayalım.
 Öncelikle türev formulünü hatırlayalım:
-![Görsel](../assets/images/turev.jpg)
+$f(x)\prime=\lim_{h\rightarrow 0}{\frac{f(x+h\ )-f(x)}{h}} $
 
 Burada hem f(x+h) hem de f(x) sabit olarak 2 olduğu için:
 (2 - 2)/h = 0/h = 0
 
 Yani limit de 0 olur.
 
-![Görsel](../assets/images/sabit-grafik.png)
+<img src="../assets/images/sabit-grafik.png" width="600">
+
