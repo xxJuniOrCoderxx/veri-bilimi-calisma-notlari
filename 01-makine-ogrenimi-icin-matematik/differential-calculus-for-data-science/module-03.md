@@ -150,9 +150,21 @@ Grafiğe baktığımızda, x arttıkça türev (eğim) de artmış, grafik daha 
 
 # Üstel Fonksiyonun Türevi
 
-![Görsel](../assets/images/ustel-turev.jpg)
+$f(x)\ =\ e^x$ fonksiyonunun türevini hesaplayalım. fonksiyonunun türevini hesaplayalım. Türevin tanımını hatırlayalım ve fonksiyonumuza göre gerekli düzenlemeleri gerçekleştirelim. 
 
-![Görsel](../assets/images/ustel-grafik.png)
+$f(x)\prime=\lim_{h\rightarrow 0}{\frac{f(x+h\ )-f(x)}{h}} $
+
+$f(x+h)\ =e^{x+h} ve  f(x)\ =\ e^x$
+
+$f(x)\prime=\lim_{h\rightarrow 0}{\frac{e^{x+h}\ -e^x}{h}\ =\ }\lim_{h\rightarrow 0}{\frac{e^x.e^h\ -e^x}{h}\ =\ e^x\lim_{h\rightarrow 0}{\frac{e^h\ -\ 1}{h}\ \ }\ }$      
+
+Varsayım olarak $\lim_{h\rightarrow 0}{\frac{e^h\ -\ 1}{h}\ \ }\ =\ 1  dir.$ 
+
+$f(x)\prime=\ e^x$  olarak bulunur. 
+
+Yani bu fonksiyonun türevi kendisine eşittir. 
+
+<img src="../assets/images/ustel-grafik.png" width="600">
 
 Bu fonksiyon sıfıra asla ulaşmaz; x azaldıkça y eksenine yaklaşır ama değmez
 
