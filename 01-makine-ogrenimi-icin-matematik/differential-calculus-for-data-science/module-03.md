@@ -12,7 +12,7 @@ $$
 eğim (m) = \ \frac{{y_1-\ y}_0}{{x_1-\ x}_0}
 $$
 
-Yukarıdaki eğim denkleminden de görülebileceği gibi herhangi bir doğruyu tanımlayabilmek, onun eğimini hesaplayabilmek için en az iki noktaya ihtiyacımız vardır. Peki nasıl yapacağız da tek bir noktadan yararlanarak o noktadan çizilen teğet doğrusunun eğimini hesaplayabileceğiz. __*“limit”*__ yaklaşımı tam olarak burada devreye girmektedir. 
+Yukarıdaki eğim denkleminden de görülebileceği gibi herhangi bir doğruyu tanımlayabilmek, onun eğimini hesaplayabilmek için en az iki noktaya ihtiyacımız vardır. Peki nasıl yapacağız da tek bir noktadan yararlanarak o noktadaki anlık değişim oranını yani çizilen teğet doğrusunun eğimini hesaplayabileceğiz. __*“limit”*__ yaklaşımı tam olarak burada devreye girmektedir. 
 Anlık değişim oranını merak ettiğimiz bir $x_0$ noktası ve yardımcı olması için $x_1$ noktamız olsun…
 
 $x_0$: eğimini merak ettiğimiz fonksiyon girdi noktası olsun. 
