@@ -167,7 +167,7 @@ $x^3 + (x^2 \cdot y + 2x^2 \cdot y) + (2x \cdot y^2 + x \cdot y^2) + y^3 = x^3 +
 | 3      | 1 3 3 1            |
 | 4      | 1 4 6 4 1          |
 
-_Örnek:_ $(x + y)^4 = x^4 + 4x^3*y + 6x^2*y^2 + 4x\*y^3 + y^4$
+_Örnek:_ $$(x + y)^4 = x^4 + 4x^3*y + 6x^2*y^2 + 4x\*y^3 + y^4$$
 
 ## Paydayı Rasyonelleştirme
 
