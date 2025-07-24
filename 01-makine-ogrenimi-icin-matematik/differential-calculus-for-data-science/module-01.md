@@ -124,41 +124,33 @@ Bu fonksiyon **süreksizdir** çünkü iki parça x = 0 noktasında birleşmez.
   ${\ x}^4+\ x^2\ +1=(x^2-x\ +1)(x^2+x\ +1)$
 
 
-## İki Terimli İfadeleri (Binomları) Çarpma
+## İkinci Dereceden Binom Açılımı
 
 (x+2)(x+2)=
 
-- x \* x = x^2
+- x \* x = $x^2$
 - x \* 2 = 2x
 - 2 \* x = 2x
 - 2 \* 2 = 4
 
 Toplayalım:
 
-x^2 + 2x + 2x + 4 = x^2 + 4x + 4
+$x^2 + 2x + 2x + 4 = x^2 + 4x + 4$
 
-## Üç Terimli ile Binom Çarpımı
+## Üçüncü Dereceden Binom Açılımı
 
-(x + y)^3 =
+$(x + y)^3 = (x + y)(x + y)(x + y) = (x^2 + 2xy + y^2)(x + y)$
 
-(x + y)^3 = (x + y)(x + y)(x + y)
-
-(x^2 + 2xy + y^2)(x + y)
-
-- x^2 \* x = x^3
-- x^2 \* y = x^2y
-- 2xy \* x = 2x^2y
-- 2xy \* y = 2xy^2
-- y^2 \* x = xy^2
-- y^2 \* y = y^3
+- $x^2 \cdot x = x^3$
+- $x^2 \cdot y = x^2 \cdot y$
+- $2xy \cdot x = 2x^2 \cdot y$
+- $2xy \cdot y = 2xy^2$
+- $y^2 \cdot x = xy^2$
+- $y^2 \cdot y = y^3$
 
 Hepsini toplayalım:
 
-x^3 + x^2y + 2x^2y + 2xy^2 + xy^2 + y^3
-
-Benzer terimleri gruplayalım:
-
-x^3 + 3x^2y + 3xy^2 + y^3
+$x^3 + (x^2 \cdot y + 2x^2 \cdot y) + (2x \cdot y^2 + x \cdot y^2) + y^3 = x^3 + 3x^2 \cdot y + 3x \cdot y^2 + y^3$
 
 ## Pascal Üçgeni ile Hızlı Açılım
 
@@ -175,7 +167,9 @@ x^3 + 3x^2y + 3xy^2 + y^3
 | 3      | 1 3 3 1            |
 | 4      | 1 4 6 4 1          |
 
-örnek: (x + y)^4 = x^4 + 4x^3*y + 6x^2*y^2 + 4x\*y^3 + y^4
+***Örnek:***
+
+$(x + y)^4 = x^4 + 4x^3 \cdot y + 6x^2 \cdot y^2 + 4x \cdot y^3 + y^4$
 
 ## Paydayı Rasyonelleştirme
 
