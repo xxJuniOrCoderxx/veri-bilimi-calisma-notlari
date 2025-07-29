@@ -1,23 +1,25 @@
-## Matris Temelleri
+## Matrisin Temel İşlemleri
 
-**Matris Toplama:** Toplama yapılacak iki matrisin de aynı $m \times n$ boyutlarında olması gerekir. Karşılıklı gelen $x_{ij}$ değerleri toplanır. 
+**Matris Toplama:** İki matrisin toplanabilmesi için boyutlarının aynı, yani her ikisinin de $m \times n$ boyutlarında olması gerekir. Toplama işlemi, karşılıklı gelen elemanların ($x_{ij}$) toplanmasıyla gerçekleştirilir. 
 
-**Matris Skalerle Çarpma (Scale):** Matrisin tüm değerleri skalerle çarpılır.
+**Matris Skalerle Çarpma (Scale):** Bir matrisin tüm elemanları, sabit bir skaler sayı ile çarpılır. Bu işlem, matrisin boyutunu değiştirmez.
 
-**Matris Çarpımı:** $A_{m \times n}$ ve $B_{n \times p}$ matrislerinin çarpımı için A matrisinin satırı ile B matrisinin sütunlarını çarpım-toplam yaparız.
+**Matris Çarpımı:** $A_{m \times n}$ ve $B_{n \times p}$ boyutlarında iki matrisin çarpımı, $A$ matrisinin satırları ile $B$ matrisinin sütunlarının skaler çarpım-toplamı alınarak elde edilir.
 
-**Birim Matris:** $I_{ii}$ değerleri 1, diğerleri 0 olan matris.
+**Birim Matris:** Diagonal (köşegen) elemanları 1, diğer tüm elemanları 0 olan kare matrise birim matris ($I$) denir. $I_{ii} = 1$ ve $I_{ij} = 0$ (i ≠ j).
 
-**Matrisin Tersi:** $A$ matrisi için $A^{-1}$ matrisi ters matristir. Bu yüzden $A \cdot A^{-1} = A^{-1} \cdot A = I$ olur. 
+**Matrisin Tersi:** Kare bir matris olan $A$'nın tersi $A^{-1}$ ile gösterilir ve şu özelliği sağlar: $A \cdot A^{-1} = A^{-1} \cdot A = I$ 
 
-## Lineer Denklemlerin Matris Çözümü
+## Lineer Denklem Sistemlerinin Matrisle Gösterimi ve Çözümü
+
+Verilen lineer denklem sistemi:
 
 ```
 1x + 2y - 3z = 0
 4x + 5y - 7z = 2
 6x + 8y - 9z = 5
 ```
-Yukarıdaki lineer denklem sisteminin matris formunda ifade edilmiş versiyonu aşağıdaki gibi $A \cdot x = b$ formatında olur:
+Bu sistem, matris formunda $A \cdot x = b$ biçiminde gösterilir:
 
 $$
 \begin{align*}
@@ -40,9 +42,9 @@ z
 \end{align*}
 $$
 
-### Peki Bu Eşitliği Nasıl Çözeriz?
+### Çözüm Yöntemi
 
-Burada arttırılmış matris (augmented matrix) formatına getirmeliyiz. Örneğimiz için aşağıdaki gibi olur:
+Bu sistemin çözümü için genişletilmiş matris (augmented matrix) kullanılır:
 
 $$
 \begin{bmatrix}
@@ -52,9 +54,15 @@ $$
 \end{bmatrix}
 $$
 
-Bu matrise satırları değiştirme, satırı sıfır olmayan bir sabitle çarpma ve satırlardan birinin katını diğer satıra ekleme gibi işlemler yaptıktan sonra $a_{ii}$ değerleri dışındaki değerleri 0 yapmaya çalışırız. Örneğimizin cevabının x=1, y=1, z=1 olduğunu rahatlıkla görebilirsiniz. 
+Bu matrise, Gauss-Jordan eliminasyonuna benzer biçimde satır işlemleri uygulanır:
 
-**Not:** Lineer denklem sistemlerinin ya hiç çözümü yok, ya bir çözümü var ya da sonsuz çözümü vardır. 
+- Satırların yer değiştirilmesi
+- Satırların bir sabit ile çarpılması
+- Satırların birbirinin katlarıyla toplanması
+
+-> Amaç, matrisin köşegenindeki elemanlar dışındaki tüm değerleri sıfırlamaktır. Örnekteki sistemin çözümü $x=1$, $y=1$, $z=1$ olarak bulunur.
+
+📌 **Not:** Bir lineer denklem sisteminin ya hiç çözümü yoktur, ya bir tekil (tek) çözümü vardır ya da sonsuz sayıda çözüm içerir.
 
 ## Vektörler
 
@@ -62,7 +70,11 @@ Satır vektörleri ve sütun vektörleri olmak üzere iki tane vektör çeşidi 
 
 ### Lineer Kombinasyonlar
 
-Verilen $v_1, v_2, ..., v_n$ vektörleri ve $y$ vektörü için $y = c_1 \cdot v_1 + c_2 \cdot v_2 + ... + c_n \cdot v_n$ eşitliğini sağlayan $c$ değerlerine lineer kombinasyon denir.
+Bir $y$ vektörünün, verilen $v_1, v_2, ..., v_n$ vektörlerinin doğrusal birleşimi (lineer kombinasyonu) şu şekilde ifade edilmektedir:
+
+$y = c_1 \cdot v_1 + c_2 \cdot v_2 + ... + c_n \cdot v_n$ 
+
+Burada $c_1, c_2, ..., c_n$ bilgileri `lineer kombinasyon katsayıları` olarak tanımlanmaktadır.
 
 ***Örnek:***
 $$
@@ -90,9 +102,7 @@ y =
 \end{align*}
 $$
 
-vektörleri için öyle $c$ değerleri bulun ki $y = c_1 \cdot v_1 + c_2 \cdot v_2 + ... + c_n \cdot v_n$ denklemini sağlasın, yani $y$ vektörü $v$ vektörleri cinsinden yazılabilsin. Kaç tane $c$ kombinasyonları bulunabilir?
-
-Öncelikle bu eşitliği lineer denklem sistemine dönüştürürüz:
+Bu durumda:
 
 $$
 1c_1 + 2c_2 = 7 \\
@@ -100,7 +110,7 @@ $$
 6c_1 + 8c_2 = 3
 $$
 
-Sonra denklemi aşağıdaki formatta yazarız:
+verilen sistem, aşağıdaki genişletilmiş matris ile ifade edilmekte;
 
 $$
 \begin{bmatrix}
@@ -108,31 +118,25 @@ v_1 & v_2 & | & y
 \end{bmatrix}
 $$
 
-Daha sonra bu matris formunu çözüp $c$ değerlerini buluruz.
+ardından bu matris formunu çözümleyerek $c$ değerleri bulunmaktadır.
 
 ### Genişletme (Span)
 
-$y$ ve $v_1, v_2, ..., v_n$ vektörleri verilsin. Eğer $y = c_1 \cdot v_1 + c_2 \cdot v_2 + ... + c_n \cdot v_n$ eşitliğini sağlayan $c$ değerleri bulunabiliyorsa $y$ vektörü, _Span_{$v_1, v_2, ..., v_n$} içindedir. Yani $v$ vektörlerini kullanarak $y$ vektörünü elde edebilmekteyiz.
+Bir $y$  vektörü, $v_1, v_2, ..., v_n$ vektörlerinin lineer kombinasyonu şeklinde yazılabiliyorsa, yani $y = c_1 \cdot v_1 + c_2 \cdot v_2 + ... + c_n \cdot v_n$ eşitliğini sağlayan skaler $c$ değerleri bulunabiliyorsa; bu durumda $y$ vektörü, _Span_{$v_1, v_2, ..., v_n$} kümesi içerisinde yer alır. Başka bir deyişle, $y$ vektörü $v$ vektörlerinin lineer birleşimi ile elde edebilmektedir.
 
 ### Lineer Bağımsızlık
 
-$c_1 \cdot v_1 + c_2 \cdot v_2 + ... + c_n \cdot v_n = 0$ denklemi verilsin. Eğer sadece tüm $c$ değerleri 0 olduğu durumda doğruysa vektörler lineer bağımsızdır. Eğer $c$ değerleri için 0'dan farklı bir çözüm varsa o zaman lineer bağımlıdır.  
+Eğer 
+
+$c_1 \cdot v_1 + c_2 \cdot v_2 + ... + c_n \cdot v_n = 0$ 
+
+denkleminde yalnızca $c_1 = c_2 = \cdots = c_n = 0$ çözümü varsa, vektörler lineer bağımsızdır. Bu koşul sağlanmıyorsa, vektörler lineer bağımlıdır.
 
 ## Determinant
 
-Matrisin karakteristiği hakkında çok fazla şey söyleyen, belli hesaplamalar sonucu bulunan sayıdır.
+Bir matrisin determinantı, matrisin çeşitli özellikleri hakkında bilgi veren skaler bir değerdir.
 
-### 2x2 matris için determinant hesaplama
-Aşağıdaki gibi bir matris verilsin:
-
-$$
-\begin{bmatrix}
-a & b \\
-c & d
-\end{bmatrix}
-$$
-
-Bu matrisin determinantını şu şekilde hesaplayabiliriz:
+### 2×2 Matrisin Determinantının Hesaplanması
 
 $$
 \begin{align*}
@@ -161,17 +165,14 @@ $$
 \end{align*}
 $$
 
-### 3x3 matris için determinant hesaplama
+### 3×3 Matrisin Determinantının Hesaplanması
 
-2x2'ye benzer ama biraz daha karmaşık. 
-1. adım: Satırlardan veya sütunlardan bir tanesini seçin. determinantını hesaplayacağımız 3x3 matrisin adı X olsun.
-2. adım: Seçtiğiniz bu satır (veya sütun) üzerindeki değerlerin her biri için bulunduğu satır ve sütundaki değerleri çıkararak yeni 2x2'lik matris oluşturup determinantını alın. i satırının j sütunu için oluşturulan bu yeni matrise $A_{ij}$ diyelim.
-3. adım: Seçtiğimiz satırdaki tüm değerler için  $$(-1)^{i+j} \cdot det(A_{ij}) \cdot X_{ij}$$ hesaplayıp bu değerleri topladığımızda 3x3 matrisiçin determinantı elde etmiş oluruz.
+Adımlar:
 
-Örnek:
+1. $X$ olarak tanımlanan 3x3 matrisin, herhangi bir satırı veya sütunu seçilir. 
+2. Seçilen bu satır (veya sütun) üzerindeki değerlerin her biri için bulunduğu satır ve sütundaki değerleri çıkararak yeni 2x2'lik matris kalacak şekilde oluşan yeni yapının determinantı alınır. i satırının j sütunu için oluşturulan bu yeni matris $A_{ij}$ formatında oluşur.
+3. Seçilen satırdaki tüm değerler için  $$(-1)^{i+j} \cdot det(A_{ij}) \cdot X_{ij}$$ hesaplanır ve bu değerleri toplandığında $X$ matrisi için determinant hesaplanmış olur.
 
-
-..........
 
 ## Özdeğer ve Özvektör (Eigenvalue/Eigenvector)
 
@@ -184,9 +185,9 @@ A - \lambda \cdot I
 \end{align*}
 $$
 
-eşitliğini sağlayan $\lambda$ değerlerine **özdeğer** denir.
+eşitliğini sağlayan $\lambda$ değerleri **özdeğer** olarak tanımlanmaktadır.
 
-Örneğin:
+Örnek:
 
 $$
 \begin{bmatrix}
@@ -195,7 +196,9 @@ $$
 \end{bmatrix}
 $$
 
-matrisi için özdeğerler _7_ ve _-4_ olur. Fark edileceği üzere $$A - \lambda \cdot I$$ matrisinde özdeğerlerden birini yerine koyduğumuzda iki sütun da birbirinin katı olur. Yani sütunları vektör olarak ele alırsak vektörlerin doğrultuları aynı olur. Bu sütunlardan birisini birinci özvektör olarak düşünebiliriz. Diğeri özdeğer için de aynısını yaptığımızda diğer özvektörü bulmuş oluruz. **Ama bu yalnızca 2 × 2 matrisleri için geçerlidir.** _(Hemen alttaki ['Ekleme'](https://github.com/xxJuniOrCoderxx/veri-bilimi-calisma-notlari/blob/main/MuratAtaToyran_Expressway_to_Data_Science_Essential_Math/Essential_Linear_Algebra/readme.md#ekleme) kısmına bakın)_ Bu $\lambda$ değerlerini koyduktan sonra bulacağımız iki matris aşağıdaki gibidir:
+matrisi için özdeğerler _7_ ve _-4_ olur. Burada $$A - \lambda \cdot I$$ matrisinde özdeğerlerden biri, diğerinin yerine konulduğunda sütunlar birbirinin katı formunda olur. Başka bir deyişle, sütunlar vektör olarak değerlendirildiğinde; vektörlerin doğrultuları aynı olur.
+
+Bu matris için özdeğerlerden biri yerine konulduğunda, $A - \lambda I$ ifadesiyle elde edilen matrisin sütunları lineer bağımlı hâle gelmektedir. Bu sütunlardan biri, ilgili özdeğere karşılık gelen özvektörün doğrultusunu temsil edebilir. Benzer şekilde, diğer özdeğer için aynı işlem uygulanarak ikinci özvektör elde edilebilir; ancak **bu durum yalnızca 2 × 2 matrisler için geçerlidir.** _(Aşağıdkai ['Ekleme'](https://github.com/xxJuniOrCoderxx/veri-bilimi-calisma-notlari/blob/main/MuratAtaToyran_Expressway_to_Data_Science_Essential_Math/Essential_Linear_Algebra/readme.md#ekleme) kısmına bakınız)_ Bu özdeğerler $\lambda$ yerine konulduğunda elde edilen iki matris aşağıda gösterilmiştir:
 
 $$
 \begin{align*}
@@ -211,7 +214,7 @@ $$
 \end{align*}
 $$
 
-Buradan da özvektörler aşağıdaki gibi olur:
+Buradan da özvektörler aşağıdaki gibi elde edilir:
 
 $$
 \begin{align*}
@@ -227,7 +230,7 @@ $$
 \end{align*}
 $$
 
-------------------------------
+-------------------------------------
 #### *Ekleme:*
 Ama bu yapı 3x3 matrislerde sağlanmıyor. Aşağıdaki örneğe bakın:
 
@@ -264,7 +267,8 @@ $$
 $$
 
 -------------------------------------
-Bir matris için verilen vektörün özvektör olup olmadığını $$A \cdot v = \lambda \cdot v$$ formülüyle de hesaplayabiliriz. Örneğimize bakarsak:
+
+Bir matris için verilen vektörün; özvektör olup olmadığı $$A \cdot v = \lambda \cdot v$$ formülüyle de hesaplanabilmektedir. Örneğin:
 
 $$
 \begin{align*}
@@ -286,17 +290,26 @@ $$
 \end{align*}
 $$
 
-Özdeğeri bilinen bir matrisin özvektörünü bulmak için $$[A - \lambda \cdot I] \cdot v = 0$$ eşitliğini sağlayan vektörü lineer denklemlerin matrislerle çözümü sayesinde bulabiliriz.
+Özdeğeri bilinen bir matrisin özvektörünü bulmak için, 
 
+$$[A - \lambda \cdot I] \cdot v = 0$$ 
 
-Burada ilginç bir şey var ki üstteki örnekte baktığımız özvektörü oluşturmak için 7 özdeğerini kullandık ama bu denklemde eşitliği -4 özdeğeri sağlıyor. Aynısını diğer vektörle deneseydik bu denklemde bu sefer 7 özdeğerini kullanmış olacaktık. Değinmek istedim _(_ $$A \cdot v = \lambda \cdot v$$ _kısmından bahsediyorum ama işlerin biraz farklı olduğunu üstte eklemiş olduğum ['Ekleme'](https://github.com/xxJuniOrCoderxx/veri-bilimi-calisma-notlari/blob/main/MuratAtaToyran_Expressway_to_Data_Science_Essential_Math/Essential_Linear_Algebra/readme.md#ekleme) kısmında anlattım)_. Ayrıca konuyla ilgilenenler [şu videoya](https://www.youtube.com/watch?v=1sDBruay100) da göz atabilir.
+eşitliğini sağlayan $v$ vektörü, lineer denklem sistemlerinin matris temelli çözümleri aracılığıyla elde edilebilir.
+Dikkat çekici bir durum ise, önceki örnekte özvektörlerden birinin oluşturulmasında $\lambda = 7$ özdeğeri üzerinden işlem yapılmış olmasına rağmen,
+
+$$A \cdot v = \lambda \cdot v$$ 
+
+eşitliğini bu özvektör için $\lambda = -4$ değeri sağlamaktadır. Benzer şekilde, diğer özvektör için bu denklem $\lambda = 7$ ile sağlanırdı.
+Bu farklılık, özvektörlerin her özdeğere özgü olduğunu ve doğru eşleşmenin yalnızca ilgili özdeğerle yapılması gerektiğini göstermektedir. Konuyla ilgili detaylı açıklama, yukarıda belirtilen ['Ekleme'](https://github.com/xxJuniOrCoderxx/veri-bilimi-calisma-notlari/blob/main/MuratAtaToyran_Expressway_to_Data_Science_Essential_Math/Essential_Linear_Algebra/readme.md#ekleme) bölümünde sunulmuştur. Ayrıca, konuya ilgi duyanlar [bu videoyu](https://www.youtube.com/watch?v=1sDBruay100) da inceleyebilir.
 
 Ayrıca aşağıdaki yöntemi de inceleyebilirsiniz:
 ![image](https://github.com/user-attachments/assets/4927bbec-3aba-4726-8147-b4f895c8923d)
 
-## Transpoz ve İç çarpım(Inner Product/Dot Product)
+## Transpoz ve İç Çarpım (Inner Product/Dot Product)
 
-Aşağıdaki A matrisine göz atalım:
+- Bir matrisin transpozesini elde etmek için satırlar sütun, sütunlar ise satır olarak yeniden yazılır. Diğer bir ifadeyle, matrisin sol üst köşesi sabit kalacak şekilde elemanlar simetrik olarak yer değiştirir. Bu işlem sonucunda elde edilen matris, $A^T$ biçiminde gösterilir:
+
+Örneğin $A$: 
 
 $$
 \begin{bmatrix}
@@ -305,7 +318,7 @@ $$
 \end{bmatrix}
 $$
 
-Bu matrisi transpoze etmek için satırları sütun, sütunları satır gibi yazarız. Diğer bir deyişle sol üst köşe sabit olacak şekilde matrisi ters yüz ederiz. Yani yukarıdaki matrisin transpozu aşağıdaki gibi olur ve $A^T$ diye gösterilir.
+buna göre $A^T$: 
 
 $$
 \begin{bmatrix}
@@ -315,7 +328,7 @@ $$
 \end{bmatrix}
 $$
 
-İç çaprım da iki vektörün aynı değerlerinin çarpım-toplamının yapıldığı işlemdir. Yani:
+- İç çarpım işlemi iki vektörün aynı konumdaki bileşenlerinin çarpılıp toplanmasıyla elde edilir. Örneğin:
 
 $$
 \begin{align*}
@@ -335,7 +348,7 @@ $$
 \end{align*}
 $$
 
-İç çarpımı ilk vektörün transpozu ile ikinci vektörün matris çarpımı şeklinde de düşünebiliriz. Yani:
+İç çarpım işlemi, ilk vektörün transpozu ile ikinci vektörün matris çarpımı biçiminde de ifade edilebilir:
 
 $$
 \begin{align*}
@@ -355,9 +368,9 @@ $$
 \end{align*}
 $$
 
-## Vektörün Normu(Uzunluğu)
+## Vektörün Normu (Uzunluğu)
 
-Vektörün uzunluğu, vektörün kendisiyle iç çarpımının kareköküdür. Mesela A matrisi aşağıdaki gibi olsun:
+Bir vektörün normu, yani uzunluğu, vektörün kendisiyle iç çarpımının karekökü alınarak bulunur. Örneğin aşağıdaki vektör ele alındığında:
 
 $$
 \begin{bmatrix}
@@ -367,7 +380,7 @@ $$
 \end{bmatrix}
 $$
 
-Bunun uzunluğu aşağıdaki gibi olur:
+Normu şu şekilde hesaplanır:
 
 $$
 \begin{align*}
@@ -379,17 +392,17 @@ A
 \end{align*}
 $$
 
-***Not:*** Vektörle aynı doğrultuda birim vektör oluşturmak için vektörün kendisini vektörün uzunluğuna böleriz. Yani: 
+📌 **Not:** Bir vektörle aynı doğrultuda ancak birim uzunlukta (normu 1 olan) bir vektör elde etmek için, vektörün her bir bileşeni kendi normuna bölünür:
 
 $$\frac{A}{\begin{Vmatrix}
 A
 \end{Vmatrix}}$$ 
 
-şeklinde birim vektör olmuş olur.
+Bu işlem sonucunda elde edilen vektör, ilgili birim vektördür.
 
 ## İki Vektör Arasındaki Uzaklık
 
-İki vektör arasındaki uzaklığı bulmak için iki vektörün farkının normunu alırız. Yani:
+İki vektör arasındaki Öklidyen uzaklık:
 
 $$
 \begin{align*}
@@ -413,15 +426,17 @@ $$
 7  \\
 5 
 \end{bmatrix}
-&arasındaki&uzaklık& \sqrt{(-1)^2 + 4^2} =\sqrt{17} & olur.
+&arasındaki&uzaklık& \sqrt{(-1)^2 + 4^2} =\sqrt{17} & şeklinde bulunur.
 \end{align*}
 $$
 
-## Dik Vektörler(Orthogonal Vectors)
+## Dik Vektörler (Orthogonal Vectors)
 
-1. Eğer u ve v vektörleri dikse iç çarpımları 0 olur.
-2. Eğer u ve v vektörleri dikse $$norm(u+v)^2=norm(u)^2+norm(v)^2$$ olur.
-3. 2 ve 3 boyutlu uzayda u ve v vektörlerinin iç çarpımları, vektörlerin normlarının çarpımının aralarındaki açının kosinüsüyle çarpımıdır.
+1. Eğer $u$ ve $v$ vektörleri dik ise iç çarpımları 0 olur.
+2. Eğer $u$ ve $v$ vektörleri dik ise $$norm(u+v)^2=norm(u)^2+norm(v)^2$$ olur.
+3. İki vektörün iç çarpımı, normlarının çarpımı ile aralarındaki açının kosinüsünün çarpımına eşittir.
+
+$u \cdot v = ||u|| \cdot ||v|| \cdot cos(θ)$
 
 ## Dik Yansıtmalar(Orthogonal Projections)
 
@@ -429,9 +444,9 @@ _y vektörünün u vektörü üzerine yansıtılması örneğini aşağıda gör
 
 ![IMG_1899](https://github.com/user-attachments/assets/d10b2a54-b46a-4321-847e-ead8893a5069)
 
-## En Küçük Kareler Metodu
+## En Küçük Kareler Yöntemi (Least Squares Method)
 
-$A \cdot x = b$ lineer denklem sisteminde çözümü bulunmayan matrisler için en küçük kareler metodunu kullanırız. Mantığı eşitliğin her iki tarafını sol taraftan önce $A^T$ ile daha sonra $(A^T \cdot A)^{-1}$ ile çarpma sonucunda $x = (A^T \cdot A)^{-1} \cdot A^T \cdot b$ eşitliğini elde etmemize dayanır. Bu, yaklaşık bir çözüm verecektir.
+$A \cdot x = b$ lineer denklem sisteminde çözümü bulunmayan matrisler için en küçük kareler metodunu kullanılmaktadır. Mantığı eşitliğin her iki tarafını sol taraftan önce $A^T$ ile daha sonra $(A^T \cdot A)^{-1}$ ile çarpma sonucunda $x = (A^T \cdot A)^{-1} \cdot A^T \cdot b$ eşitliğinin elde edilmesine dayanmaktadır. Bu hesaplama, yaklaşık bir çözüm sunmaktadır.
 
 _Örnek:_
 
