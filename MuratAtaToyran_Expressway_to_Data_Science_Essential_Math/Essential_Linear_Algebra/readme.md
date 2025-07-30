@@ -8,6 +8,8 @@
 
 **Birim Matris:** $I_{ii}$ değerleri 1, diğerleri 0 olan matris.
 
+**Matrisin Tersi:** $A$ matrisi için $A^{-1}$ matrisi ters matristir. Bu yüzden $A \cdot A^{-1} = A^{-1} \cdot A = I$ olur. 
+
 ## Lineer Denklemlerin Matris Çözümü
 
 ```
@@ -54,9 +56,67 @@ Bu matrise satırları değiştirme, satırı sıfır olmayan bir sabitle çarpm
 
 **Not:** Lineer denklem sistemlerinin ya hiç çözümü yok, ya bir çözümü var ya da sonsuz çözümü vardır. 
 
-## Modül 3
+## Vektörler
 
-...coming soon...
+Satır vektörleri ve sütun vektörleri olmak üzere iki tane vektör çeşidi vardır. Sütun vektörleri $(m \times 1)$ formatındadır, satır vektörleri ise $(1 \times n)$ formatındadır.
+
+### Lineer Kombinasyonlar
+
+Verilen $v_1, v_2, ..., v_n$ vektörleri ve $y$ vektörü için $y = c_1 \cdot v_1 + c_2 \cdot v_2 + ... + c_n \cdot v_n$ eşitliğini sağlayan $c$ değerlerine lineer kombinasyon denir.
+
+***Örnek:***
+$$
+\begin{align*}
+v_1 =
+\begin{bmatrix}
+1\\
+4\\
+6
+\end{bmatrix}
+&  &
+v_2 =
+\begin{bmatrix}
+2\\
+5\\
+8
+\end{bmatrix}
+& &ve& &
+y =
+\begin{bmatrix}
+7\\
+4\\
+3
+\end{bmatrix}
+\end{align*}
+$$
+
+vektörleri için öyle $c$ değerleri bulun ki $y = c_1 \cdot v_1 + c_2 \cdot v_2 + ... + c_n \cdot v_n$ denklemini sağlasın, yani $y$ vektörü $v$ vektörleri cinsinden yazılabilsin. Kaç tane $c$ kombinasyonları bulunabilir?
+
+Öncelikle bu eşitliği lineer denklem sistemine dönüştürürüz:
+
+$$
+1c_1 + 2c_2 = 7 \\
+4c_1 + 5c_2 = 4 \\
+6c_1 + 8c_2 = 3
+$$
+
+Sonra denklemi aşağıdaki formatta yazarız:
+
+$$
+\begin{bmatrix}
+v_1 & v_2 & | & y
+\end{bmatrix}
+$$
+
+Daha sonra bu matris formunu çözüp $c$ değerlerini buluruz.
+
+### Genişletme (Span)
+
+$y$ ve $v_1, v_2, ..., v_n$ vektörleri verilsin. Eğer $y = c_1 \cdot v_1 + c_2 \cdot v_2 + ... + c_n \cdot v_n$ eşitliğini sağlayan $c$ değerleri bulunabiliyorsa $y$ vektörü, _Span_{$v_1, v_2, ..., v_n$} içindedir. Yani $v$ vektörlerini kullanarak $y$ vektörünü elde edebilmekteyiz.
+
+### Lineer Bağımsızlık
+
+$c_1 \cdot v_1 + c_2 \cdot v_2 + ... + c_n \cdot v_n = 0$ denklemi verilsin. Eğer sadece tüm $c$ değerleri 0 olduğu durumda doğruysa vektörler lineer bağımsızdır. Eğer $c$ değerleri için 0'dan farklı bir çözüm varsa o zaman lineer bağımlıdır.  
 
 ## Determinant
 
@@ -229,7 +289,7 @@ $$
 Özdeğeri bilinen bir matrisin özvektörünü bulmak için $$[A - \lambda \cdot I] \cdot v = 0$$ eşitliğini sağlayan vektörü lineer denklemlerin matrislerle çözümü sayesinde bulabiliriz.
 
 
-😂Burada ilginç bir şey var ki üstteki örnekte baktığımız özvektörü oluşturmak için 7 özdeğerini kullandık ama bu denklemde eşitliği -4 özdeğeri sağlıyor. Aynısını diğer vektörle deneseydik bu denklemde bu sefer 7 özdeğerini kullanmış olacaktık. Değinmek istedim _(_ $$A \cdot v = \lambda \cdot v$$ _kısmından bahsediyorum ama işlerin biraz farklı olduğunu üstte eklemiş olduğum ['Ekleme'](https://github.com/xxJuniOrCoderxx/veri-bilimi-calisma-notlari/blob/main/MuratAtaToyran_Expressway_to_Data_Science_Essential_Math/Essential_Linear_Algebra/readme.md#ekleme) kısmında anlattım)_.😂 Ayrıca konuyla ilgilenenler [şu videoya](https://www.youtube.com/watch?v=1sDBruay100) da göz atabilir.
+Burada ilginç bir şey var ki üstteki örnekte baktığımız özvektörü oluşturmak için 7 özdeğerini kullandık ama bu denklemde eşitliği -4 özdeğeri sağlıyor. Aynısını diğer vektörle deneseydik bu denklemde bu sefer 7 özdeğerini kullanmış olacaktık. Değinmek istedim _(_ $$A \cdot v = \lambda \cdot v$$ _kısmından bahsediyorum ama işlerin biraz farklı olduğunu üstte eklemiş olduğum ['Ekleme'](https://github.com/xxJuniOrCoderxx/veri-bilimi-calisma-notlari/blob/main/MuratAtaToyran_Expressway_to_Data_Science_Essential_Math/Essential_Linear_Algebra/readme.md#ekleme) kısmında anlattım)_. Ayrıca konuyla ilgilenenler [şu videoya](https://www.youtube.com/watch?v=1sDBruay100) da göz atabilir.
 
 Ayrıca aşağıdaki yöntemi de inceleyebilirsiniz:
 ![image](https://github.com/user-attachments/assets/4927bbec-3aba-4726-8147-b4f895c8923d)
