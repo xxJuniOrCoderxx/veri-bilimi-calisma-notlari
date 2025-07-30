@@ -76,7 +76,8 @@ $y = c_1 \cdot v_1 + c_2 \cdot v_2 + ... + c_n \cdot v_n$
 
 Burada $c_1, c_2, ..., c_n$ bilgileri `lineer kombinasyon katsayıları` olarak tanımlanmaktadır.
 
-***Örnek:***
+**Örnek:**
+
 $$
 \begin{align*}
 v_1 =
